@@ -2,4 +2,4 @@
 .env.*
 *.pem
 .DS_Store
-DAILY-SUMMARY.md
+/DAILY-SUMMARY.md
