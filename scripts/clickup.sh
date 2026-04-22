@@ -35,7 +35,8 @@ if [[ -z "${CLICKUP_API_KEY:-}" || -z "${CLICKUP_WORKSPACE_ID:-}" || -z "${CLICK
   exit 0
 fi
 
-payload="$(python -c "
+PY="$(command -v python3 || command -v python)"
+payload="$("$PY" -c "
 import json, sys
 print(json.dumps({'type': 'message', 'content': sys.argv[1], 'content_format': 'text/md'}))
 " "$msg")"
