@@ -21,6 +21,17 @@ LOG="$LOG_DIR/$(date +%Y-%m-%d)_${ROUTINE}.log"
 # Make sure claude + node are on PATH when launched by cron (cron has a minimal PATH).
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
+# Load credentials into the process env so wrappers AND the prompt's env-var check
+# both see them. The routine prompt says "NO .env", which was written for the
+# Claude cloud environment where secrets are injected by the platform — on this
+# VPS the platform is us, and we keep secrets in .env (gitignored).
+if [[ -f "$ROOT/.env" ]]; then
+  set -a
+  # shellcheck disable=SC1091
+  source "$ROOT/.env"
+  set +a
+fi
+
 {
   echo "=================================================="
   echo "Routine: $ROUTINE"
