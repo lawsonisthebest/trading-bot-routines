@@ -108,3 +108,12 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 **TRADE — conditional.** Target 2 positions (AXP + LMT) if both beat estimates and open constructively. Wait 15-30 min after open to confirm direction and VWAP hold. Size $20K each ($40K total = 40% deployed). 10% trailing stop on each. If futures remain weak at open, default to HOLD and reassess at 9:45 ET.
+
+### Afternoon Addendum (Midday Scan — 2026-04-23)
+- **No positions entered this morning.** Market-open routine confirmed HOLD (weak open, market -0.12% at midday).
+- **AXP**: Beat — EPS $4.28 vs $4.06 est (+$0.22), rev $18.91B vs $18.80B est. Stock ~$329.87, -0.55% — muted reaction; broader market drag. Thesis intact but no clean entry above VWAP materialised.
+- **LMT**: Miss — EPS $6.44 vs $6.77 est (-$0.33), rev $18.02B vs $18.43B est; FCF turned -$291M vs +$955M prior year. Stock -5%. Thesis broken: cost overruns + negative FCF = avoid entirely. Removed from watchlist.
+- **Market**: S&P 500 -0.12%, Dow -0.36%, Nasdaq -0.26% pulling back from 7,137 ATH. Iran ceasefire stalling; Hormuz ship seizures ongoing — risk-off bias persisting.
+- **FCX**: Reports after close today. Watch for beat (75% historical rate) → potential entry tomorrow AM if gap-up holds. Materials sector still #1 YTD.
+- **Tomorrow watch-list**: FCX (post-earnings gap); AXP on any pullback toward $320-325 support if market stabilises.
+- **Account**: $100,000 cash, 0 positions. Staying flat into close; no forced entries.
