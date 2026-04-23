@@ -68,3 +68,39 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 **HOLD — account unfunded, $0 capital. No trades possible today. Monitor GEV for post-gap pullback entry tomorrow. Fund account ASAP.**
+
+---
+
+## 2026-04-23 — Pre-market Research
+
+### Account
+- **API STATUS: 403 — Host not in allowlist (IP restricted)**; cannot pull live data
+- Last known (Apr 22): Equity $0, Cash $0, Buying power $0, Daytrade count 0
+- Positions: none | Orders: none
+- **ACTION: Verify account funding manually; add server IP to Alpaca allowlist**
+
+### Market Context
+- WTI: ~$94.06/bbl (+1.18%) | Brent: ~$102.96/bbl — Hormuz disruption risk sustained ([OilPrice.com](https://oilprice.com/), [TradingEconomics](https://tradingeconomics.com/commodity/brent-crude-oil))
+- S&P 500: closed 7,137.90 (+1.05% Apr 22); premarket Apr 23 flat-to-positive; risk-on from ceasefire extension ([CNBC](https://www.cnbc.com/2026/04/21/stock-market-today-live-updates.html), [Schwab](https://www.schwab.com/learn/story/stock-market-update-open))
+- VIX: ~18.92 (Apr 22 close) — below 20, fear moderating ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- Today's catalysts: Q1 earnings season peak (~166 reports today); S&P Global Mfg + Services PMI release; Initial Jobless Claims; geopolitical risk-on from Iran ceasefire extension ([Catacal](https://www.catacal.com/), [STL.News](https://www.stl.news/stock-market-today-wednesday-april-22-2026/))
+- Earnings before open: HON (Honeywell), LMT (Lockheed Martin), AXP (American Express), NEE (NextEra Energy), TMO (Thermo Fisher), UNP (Union Pacific) ([EarningsWhispers](https://www.earningswhispers.com/calendar/20260423/3))
+- Earnings after close: FCX (Freeport-McMoRan), INTC, GILD, NEM, CMCSA, BX
+- Economic calendar: Initial Claims + S&P Global PMI (Mfg + Services) — no CPI/FOMC today ([BLS](https://www.bls.gov/schedule/news_release/current_year.asp), [DataSetIQ](https://www.datasetiq.com/economic-calendar))
+- Sector momentum: Industrials (XLI) + Energy (XLE) leading; Materials (XLB) strong; Tech rebounding +11% MTD on AI capex theme ([Motley Fool](https://www.fool.com/investing/2026/04/22/etf-trouncing-sp-500-in-2026-outperform-schd/))
+
+### Trade Ideas
+1. **GEV** (GE Vernova) — Blowout Q1: EPS $17.44, rev $9.3B both beat; FY26 rev raised to $44.5-45.5B; orders +71% YoY; AI data center demand explosive. Gapped +12% Apr 22 to record highs — DO NOT chase. Watch pullback/consolidation to $390-400; entry $395, stop $360 (-8.9%), target $450+ (~2.1:1 R:R). Industrials in momentum. ([Seeking Alpha](https://seekingalpha.com/article/4892855-ge-vernova-stock-blowout-q1-raised-guidance-and-hiking-my-target), [StockTwits](https://stocktwits.com/news-articles/markets/equity/ge-vernova-stock-record-high-guidance-pricing-power-q2/cZBBMmsReGv))
+2. **FCX** (Freeport-McMoRan) — Reports after close today; Q1 EPS est $0.47 (+95.8% YoY); up +3.9% premarket on copper/risk-on. Materials sector top YTD momentum. 27 analyst Buys, 0 Sells. Prior quarter beat by 65%. Entry post-earnings on confirmed beat + guidance, stop -10%, target +20%. RISK: move already pricing in beat — earnings-day gap risk. ([Quiver Quant](https://www.quiverquant.com/news/Freeport-McMoRan+jumps+3.9%25+as+copper-linked+optimism+builds+ahead+of+earnings), [Meyka](https://meyka.com/blog/fcx-earnings-preview-freeport-mcmoran-q2-2026-on-april-23-2204/))
+3. **HON** (Honeywell) — Reports before open today; Industrials sector momentum; diversified industrial + aerospace. Watch opening reaction; entry only on beat + positive guidance with clean setup, stop -8%, target +15%+ (1.9:1). Lower conviction — watch don't pre-buy.
+
+### Risk Factors
+- **Alpaca API IP restriction** — cannot execute or monitor trades until resolved
+- Account still unconfirmed funded — may still be at $0
+- FCX/GEV moves already partially priced in; chasing gaps violates strategy
+- Oil elevated ($94 WTI) — reversal risk if ceasefire holds firm
+- 166 earnings reports today → elevated intraday volatility
+- PMI miss would hit industrials + risk sentiment hard
+
+### Decision
+**HOLD — Alpaca API inaccessible (IP restriction). Cannot confirm account funded or place orders. No trades today. Watchlist: GEV pullback to $390-400, FCX post-earnings reaction. Resolve IP allowlist issue before next session.**
