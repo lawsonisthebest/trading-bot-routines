@@ -117,3 +117,43 @@ TRADE or HOLD (default HOLD if no edge)
 - **FCX**: Reports after close today. Watch for beat (75% historical rate) → potential entry tomorrow AM if gap-up holds. Materials sector still #1 YTD.
 - **Tomorrow watch-list**: FCX (post-earnings gap); AXP on any pullback toward $320-325 support if market stabilises.
 - **Account**: $100,000 cash, 0 positions. Staying flat into close; no forced entries.
+
+---
+
+## 2026-04-24 — Pre-market Research
+
+### Account
+- Equity: $100,000
+- Cash: $100,000 (100% — 0 positions)
+- Buying power: $200,000 (2× margin — do NOT use)
+- Daytrade count: 0
+- Open orders: none
+- Trades this week: 0 of 3 allowed
+
+### Market Context
+- WTI: ~$97/bbl (+1.9%) | Brent: ~$107/bbl (+2.2%) — 5th consecutive up day; Israel-Lebanon ceasefire extension but oil remains bid on residual Hormuz risk ([CNBC](https://www.cnbc.com/2026/04/24/oil-price-wti-brent-after-israel-lebanon-ceasefire-extension.html); [Oneindia](https://www.oneindia.com/india/crude-oil-rates-today-april-24-2026-brent-crude-crosses-105-per-barrel-check-latest-prices-of-w-8067951.html))
+- S&P 500 futures: +0.10% (7,151) — mildly positive; no strong directional conviction ([Investing.com](https://www.investing.com/indices/us-spx-500-futures))
+- VIX: ~19.0 premarket (closed 4/23 at 19.31) — moderate fear, sub-20 ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- Today's catalysts: Advance Durable Goods 8:30 AM ET; University of Michigan Consumer Sentiment (final) 10:00 AM ET; AI theme sustaining broad earnings beats; geopolitical premium persisting ([Trading Economics](https://tradingeconomics.com/calendar))
+- Earnings before open: **PG** beat (EPS $1.99 vs $1.90 est, rev $22.4B vs $22.18B est, +2.09% premarket); also CHTR, HCA, NSC, SLB ([Earnings Whispers](https://www.earningswhispers.com/calendar/20260424/3); [GuruFocus](https://www.gurufocus.com/news/8814259/upcoming-earnings-reports-procter-gamble-pg-and-more))
+- **FCX AH (4/23):** Beat — EPS $0.57 vs $0.46 est (+24%), rev $6.23B vs $5.73B est. BUT stock -12% premarket to ~$61.67 from $70.36 close. Grasberg copper sales collapsed (82M → 82M lbs vs 290M lbs YoY); full-year guidance cut. Thesis broken. ([Investing.com](https://www.investing.com/news/transcripts/earnings-call-transcript-freeportmcmoran-q1-2026-beats-estimates-but-stock-drops-93CH-4633421); [GuruFocus](https://www.gurufocus.com/news/8813473/freeportmcmoran-fcx-reports-strong-q1-2026-earnings-driven-by-metal-prices))
+- **AXP premarket:** ~$358 (-0.95%); significant repricing from 4/23 close of ~$329.87 — possible continued reaction to 4/23 earnings beat ([Nasdaq](https://www.nasdaq.com/market-activity/stocks/axp/pre-market))
+- Sector momentum: Leading — Materials (XLB +22% YTD), Energy (XLE), Industrials (XLI), Consumer Staples (XLP) | Improving — Utilities (XLU), Real Estate (XLRE) | Lagging — Tech (XLK), Comms (XLC), Discretionary (XLY) ([Investing.com](https://www.investing.com/analysis/sector-rotation-a-guide-to-the-sp-500-momentum-status-200675903))
+
+### Trade Ideas
+1. **PG** (Procter & Gamble) — EPS beat ($1.99 vs $1.90), rev beat ($22.4B vs $22.18B), +2.09% premarket. Consumer Staples in leading sector. Defensive quality + restructuring (7,000 role cuts → margin expansion). Entry above VWAP after open, stop 10% trail, target +15% ($191). Size: $20K. R:R ~1.5:1. **Lower conviction** — modest beat, no outsized catalyst; it's Friday.
+2. **Energy name (DVN or EOG)** — Oil WTI $97 / Brent $107 (5-day run, Hormuz premium intact). Energy sector in momentum. Entry on any intraday dip after open. Stop 10% trail. Risk: oil rally stretched, reversal possible on any ceasefire news. **Lower conviction — chasing a 5-day run.**
+3. **AXP watch** — If premarket $358 holds and confirms above $355 VWAP after open, Financials improving. Beat on EPS/rev 4/23 now repricing higher. Stop 10% trail (~$322), target $400+ (2.1:1 R:R, Size $20K). Sector (XLF) remains lagging overall — **conditional / lower priority**.
+
+### Risk Factors
+- FCX -12% on guidance cut despite earnings beat — punishes our primary materials watchlist name; thesis broken for FCX
+- It's Friday — weekend geopolitical risk (Iran/Hormuz binary); avoid initiating new positions into close
+- Oil 5-day rally is stretched; energy longs vulnerable to reversal on any peace progress
+- Durable Goods (8:30 AM) could disappoint and drag futures lower
+- AXP premarket spike from $329 → $358 (if real) is +8.5% — do not chase; wait for VWAP confirmation
+- 0% deployed entering week 2 — discipline says wait for conviction, not force entries to hit 75-85% target
+
+### Decision
+**HOLD.** No high-conviction setup today. FCX (primary watchlist) is broken on guidance cut. PG beat is modest and Friday carries weekend risk. Oil stretched after 5 consecutive up days. AXP needs VWAP confirmation and Financials sector is lagging. Preserve 100% cash over weekend. Full 3-trade budget intact for next week — patience > activity.
+
+---
