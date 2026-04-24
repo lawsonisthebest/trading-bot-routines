@@ -46,15 +46,21 @@ in TRADING-STRATEGY.md, TAKE THE TRADE. Do not wait for perfect tape. Do not
 require all four conditions. Silence/inaction on a qualified setup is a bug,
 not a feature.
 
-STEP 4 — Execute the buys (market orders, day TIF):
-  bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy","type":"market","time_in_force":"day"}'
+STEP 4 — Execute the buys.
+  EQUITY / ETF (market orders, day TIF):
+    bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy","type":"market","time_in_force":"day"}'
+  CRYPTO (market orders, GTC only — no day TIF for crypto):
+    bash scripts/alpaca.sh order '{"symbol":"BTC/USD","qty":"0.01","side":"buy","type":"market","time_in_force":"gtc"}'
 Wait for fill confirmation before placing the stop.
 
-STEP 5 — Immediately place 10% trailing stop GTC for each new position:
-  bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'
-If Alpaca rejects with PDT error, fall back to fixed stop 10% below entry:
-  bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
-If also blocked, queue the stop in TRADE-LOG as "PDT-blocked, set tomorrow AM".
+STEP 5 — Place the stop.
+  EQUITY / ETF — 10% trailing stop GTC:
+    bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'
+  If Alpaca rejects with PDT error, fall back to fixed stop 10% below entry:
+    bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
+  CRYPTO — fixed stop-loss at 15% below entry (no trailing for crypto on Alpaca):
+    bash scripts/alpaca.sh order '{"symbol":"BTC/USD","qty":"0.01","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
+If all stops blocked, queue in TRADE-LOG as "stop-blocked, retry next run".
 
 STEP 6 — Append each trade to memory/TRADE-LOG.md (matching existing format):
 Date, ticker, side, shares, entry price, stop level, thesis, target, R:R.

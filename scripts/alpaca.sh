@@ -17,6 +17,7 @@ fi
 
 API="${ALPACA_ENDPOINT:-https://api.alpaca.markets/v2}"
 DATA="${ALPACA_DATA_ENDPOINT:-https://data.alpaca.markets/v2}"
+CRYPTO_DATA="${ALPACA_CRYPTO_DATA_ENDPOINT:-https://data.alpaca.markets/v1beta3/crypto/us}"
 H_KEY="APCA-API-KEY-ID: $ALPACA_API_KEY"
 H_SEC="APCA-API-SECRET-KEY: $ALPACA_SECRET_KEY"
 
@@ -37,6 +38,31 @@ case "$cmd" in
   quote)
     sym="${1:?usage: quote SYM}"
     curl -fsS -H "$H_KEY" -H "$H_SEC" "$DATA/stocks/$sym/quotes/latest"
+    ;;
+  crypto-quote)
+    # Usage: crypto-quote BTC/USD   (URL-encodes the slash)
+    sym="${1:?usage: crypto-quote SYM (e.g. BTC/USD)}"
+    enc="${sym//\//%2F}"
+    curl -fsS -H "$H_KEY" -H "$H_SEC" "$CRYPTO_DATA/latest/quotes?symbols=$enc"
+    ;;
+  crypto-bars)
+    # Usage: crypto-bars BTC/USD 1Day 5
+    sym="${1:?usage: crypto-bars SYM timeframe limit}"
+    tf="${2:-1Day}"; limit="${3:-10}"
+    enc="${sym//\//%2F}"
+    curl -fsS -H "$H_KEY" -H "$H_SEC" "$CRYPTO_DATA/bars?symbols=$enc&timeframe=$tf&limit=$limit"
+    ;;
+  assets)
+    # List tradable assets; filter with optional asset_class (us_equity|crypto)
+    cls="${1:-}"
+    if [[ -n "$cls" ]]; then
+      curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/assets?status=active&asset_class=$cls"
+    else
+      curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/assets?status=active"
+    fi
+    ;;
+  clock)
+    curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/clock"
     ;;
   orders)
     status="${1:-open}"
@@ -62,7 +88,7 @@ case "$cmd" in
     curl -fsS -H "$H_KEY" -H "$H_SEC" -X DELETE "$API/positions"
     ;;
   *)
-    echo "Usage: bash scripts/alpaca.sh <account|positions|position|quote|orders|order|cancel|cancel-all|close|close-all> [args]" >&2
+    echo "Usage: bash scripts/alpaca.sh <account|positions|position|quote|crypto-quote|crypto-bars|assets|clock|orders|order|cancel|cancel-all|close|close-all> [args]" >&2
     exit 1
     ;;
 esac
