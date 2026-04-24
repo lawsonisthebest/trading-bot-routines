@@ -117,3 +117,47 @@ TRADE or HOLD (default HOLD if no edge)
 - **FCX**: Reports after close today. Watch for beat (75% historical rate) → potential entry tomorrow AM if gap-up holds. Materials sector still #1 YTD.
 - **Tomorrow watch-list**: FCX (post-earnings gap); AXP on any pullback toward $320-325 support if market stabilises.
 - **Account**: $100,000 cash, 0 positions. Staying flat into close; no forced entries.
+
+---
+
+## 2026-04-24 — Pre-market Research
+
+### Account
+- Equity: ~$100,000 (last known — Alpaca API blocked, IP not in allowlist)
+- Cash: ~$100,000 (100%, 0 positions)
+- Buying power: ~$200,000 (do NOT use margin)
+- Daytrade count: 0
+- Positions: none
+- Open orders: none
+- **NOTE:** Alpaca API returning 403 "Host not in allowlist" — live account pull unavailable this session. All figures from Apr 23 EOD snapshot.
+- Trades this week: 0 of 3 allowed
+
+### Market Context
+- WTI: $96.17/bbl (+0.32%) | Brent: $105.73/bbl (+0.63%) — Iran declares Hormuz "completely open"; Israel-Lebanon 10-day ceasefire → geopolitical risk bid deflating ([CNBC](https://www.cnbc.com/2026/04/24/oil-price-wti-brent-after-israel-lebanon-ceasefire-extension.html))
+- S&P 500 futures: 7,141.75 (-0.02%) — essentially flat, quiet Friday open expected ([CNBC Pre-Markets](https://www.cnbc.com/pre-markets/))
+- VIX: 19.02 (+0.53%) — sub-20, moderate fear; closed Apr 23 at 19.31 ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- Today's catalysts: Iran Hormuz fully open + Israel-Lebanon ceasefire → positive macro but oil premium fading; PG slight beat/revenue miss, stock -1.67%; NSC reports 8:30 AM ET (not yet out); FCX down 8-12% premarket on Grasberg guidance cut ([Benzinga](https://www.benzinga.com/markets/earnings/26/04/52014838/freeport-mcmoran-slashes-outlook-on-grasberg-delay-stock-sinks))
+- Earnings before open (Apr 24): PG (EPS $1.88 vs $1.86 est — slight beat; Rev $22.21B vs $22.30B est — miss; -1.67%), HCA, SLB, CHTR ([Earnings Whispers](https://www.earningswhispers.com/calendar/20260424/1))
+- Earnings at open: NSC (8:30 AM ET call; est. $2.57 EPS / $3.13B rev; 75% historical beat rate) ([Meyka](https://meyka.com/blog/nsc-earnings-preview-norfolk-southern-q1-2026-on-april-24-2304/))
+- Economic calendar: UMich Consumer Sentiment Final (minor); Japan inflation. No CPI/FOMC/NFP today. ([BEA](https://www.bea.gov/news/schedule))
+- Sector momentum: Materials (XLB) and Energy (XLE) leading YTD; Industrials (XLI) 3rd; Tech (XLK) recovering MTD ([Seeking Alpha](https://seekingalpha.com/article/4860124-materials-energy-stocks-take-early-lead-2026))
+- **FCX post-close Apr 23**: EPS $0.61 vs $0.46 est (big beat); Rev $6.23B vs $5.81B est (big beat); BUT cut 2026 copper guidance 3.4B→3.1B lbs, gold 800K→650K oz; Grasberg Block Cave ≤60% capacity through mid-2027 → stock -8 to -12% premarket (~$61-62) ([GuruFocus](https://www.gurufocus.com/news/8812362/freeport-mcmoran-fcx-earnings-beat-expectations-but-shares-drop-on-sales-forecast-cut)) ([Investing.com](https://www.investing.com/news/company-news/freeport-q1-2026-slides-strong-earnings-overshadowed-by-grasberg-delays-93CH-4633482))
+
+### Trade Ideas
+1. **NSC** (Norfolk Southern) — Q1 reports 8:30 AM ET; Industrials sector 3rd YTD; 75% historical beat rate; est. $2.57 EPS / $3.13B rev. IF beats AND opens cleanly above VWAP with volume → entry after 15-min confirmation. Size $20,000. Stop: 10% trailing GTC. Target: +20% (2:1 R:R). Risk: Friday entry = weekend gap exposure; rail freight sensitive to broader economy. Catalyst intact only if beat + guidance holds.
+2. **AXP** (American Express) — Beat estimates Apr 23 (EPS $4.28 vs $4.06, Rev $18.91B vs $18.80B). Thesis intact, stock at $329 support zone. IF market holds flat-to-up and AXP reclaims VWAP above $330 → entry. Size $20,000. Stop: 10% trailing. Target: $395+ (+20%, 2:1 R:R). Week 2 still has 0 trades — room to enter. Lower urgency; better entry next week if market confirms.
+3. ~~FCX~~ — **AVOID.** Guidance cut (Grasberg) is a broken thesis; forward copper/gold volumes impaired through mid-2027. -8 to -12% gap would hit stop immediately. Remove from active watchlist; reassess if Grasberg issue resolved.
+
+### Risk Factors
+- FCX — key watchlist name is damaged; gap-down confirms no entry
+- Iran/Hormuz now "open" → oil premium fading; Energy (XLE) longs face headwind
+- Friday = weekend gap risk on any new position; size conservatively or defer to Monday
+- Alpaca API IP-blocked — manual execution required if trade taken; verify access before order
+- PG -1.67% on earnings (revenue miss) → consumer staples weakness; not our sector but signals cautious tape
+- 0 of 3 trades used this week — budget preserved; no pressure to force entries
+- NSC result not yet out — conviction low until 8:30 AM ET confirmed beat
+
+### Decision
+**HOLD.** FCX thesis broken — do not enter on gap-down. Oil bid fading (Hormuz open). Futures flat. Friday gap risk argues against new entries. **Conditional watch:** NSC at 8:30 AM — if beats cleanly and opens strong above VWAP, evaluate for entry but given Friday risk default to adding to Monday watchlist. AXP remains valid thesis; revisit Monday if market stable. 0/3 trades this week preserved for next week.
+
+---
