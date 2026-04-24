@@ -25,6 +25,7 @@ IMPORTANT — PERSISTENCE:
 
 STEP 1 — Read memory for context:
 - memory/TRADING-STRATEGY.md
+- memory/WATCHLIST.md  (universe of instruments to scan)
 - tail of memory/TRADE-LOG.md
 - tail of memory/RESEARCH-LOG.md
 
@@ -35,15 +36,37 @@ STEP 2 — Pull live account state:
 
 STEP 3 — Research market context using the native WebSearch tool. Run one
 WebSearch call per query and capture a citation (URL) for every claim
-you add to the log:
+you add to the log.
+
+A. MACRO CONTEXT (always run these):
 - "WTI and Brent oil price right now"
 - "S&P 500 futures premarket today"
+- "Nasdaq 100 futures premarket today"
 - "VIX level today"
-- "Top stock market catalysts today $DATE"
-- "Earnings reports today before market open"
+- "10-year Treasury yield today"
+- "US Dollar Index DXY today"
+- "Bitcoin price today" (macro risk-on/off signal even if not trading)
 - "Economic calendar today CPI PPI FOMC jobs data"
-- "S&P 500 sector momentum YTD"
-- News on any currently-held ticker
+
+B. BROAD MARKET SCAN (always run these — this is the wide net):
+- "Top stock market gainers premarket today"
+- "Top stock market losers premarket today"
+- "Most active stocks premarket today unusual volume"
+- "Earnings reports today before market open beat estimates"
+- "Earnings reports after close yesterday biggest reactions"
+- "Top stock market catalysts today $DATE"
+- "S&P 500 sector momentum this week"
+- "Nasdaq 100 biggest movers today"
+
+C. WATCHLIST CHECK (targeted):
+- News on any currently-held ticker (per positions list)
+- Any WATCHLIST.md ticker mentioned in gainers/losers/unusual volume results
+- Sector ETF leadership: which of XLK/XLF/XLE/XLV/XLI/XLY/XLP/XLB/XLRE/XLU/XLC
+  is leading / lagging this week
+
+The goal is breadth: 3-5 trade ideas should emerge from the INTERSECTION of
+WATCHLIST universe + today's catalysts/momentum. Do not limit yourself to
+only what earnings-calendar sites mention.
 
 STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
