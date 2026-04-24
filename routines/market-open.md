@@ -35,10 +35,16 @@ STEP 2 — Re-validate with live data:
 STEP 3 — Hard-check rules BEFORE every order. Skip any trade that fails
 and log the reason:
 - Total positions after trade <= 6
-- Trades this week <= 3
-- Position cost <= 20% of equity
+- Trades this week <= 5
+- Position cost <= 20% of equity (default to 15% sizing unless high-conviction)
 - Catalyst documented in today's RESEARCH-LOG
 - daytrade_count leaves room (PDT: 3/5 rolling business days)
+- Time is >= 8:35 AM CT (avoid first 5 min only)
+
+BIAS: If the hard-check passes AND the setup meets 3 of 4 entry-checklist items
+in TRADING-STRATEGY.md, TAKE THE TRADE. Do not wait for perfect tape. Do not
+require all four conditions. Silence/inaction on a qualified setup is a bug,
+not a feature.
 
 STEP 4 — Execute the buys (market orders, day TIF):
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy","type":"market","time_in_force":"day"}'
@@ -53,8 +59,11 @@ If also blocked, queue the stop in TRADE-LOG as "PDT-blocked, set tomorrow AM".
 STEP 6 — Append each trade to memory/TRADE-LOG.md (matching existing format):
 Date, ticker, side, shares, entry price, stop level, thesis, target, R:R.
 
-STEP 7 — Notification: only if a trade was placed.
-  bash scripts/clickup.sh "<tickers, shares, fill prices, one-line why>"
+STEP 7 — Heartbeat notification (ALWAYS send — trade OR no-trade):
+  If trades fired:
+    bash scripts/clickup.sh "market-open $DATE: <tickers, shares, fill prices, one-line why>"
+  If no trades:
+    bash scripts/clickup.sh "market-open $DATE: no entries — <one-line reason> | watching: <tickers for midday re-check>"
 
 STEP 8 — COMMIT AND PUSH (mandatory if any trades executed):
   git add memory/TRADE-LOG.md

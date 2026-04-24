@@ -48,12 +48,14 @@ you add to the log:
 STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
 - Market context (oil, indices, VIX, today's releases)
-- 2-3 actionable trade ideas WITH catalyst + entry/stop/target
+- 3-5 actionable trade ideas WITH catalyst + entry/stop/target (aim for 3+, not fewer)
 - Risk factors for the day
-- Decision: trade or HOLD (default HOLD — patience > activity)
+- Decision: DEFAULT TO TRADE if >= 1 idea passes 3 of 4 entry-checklist items in
+  TRADING-STRATEGY.md. HOLD only on: VIX > 30, futures down > 1.5%, max
+  positions reached, max weekly trades reached, or zero valid setups.
 
-STEP 5 — Notification: silent unless urgent.
-  bash scripts/clickup.sh "<one line>"
+STEP 5 — Heartbeat notification (ALWAYS send, even on HOLD days):
+  bash scripts/clickup.sh "pre-market $DATE: <equity> | <N> ideas | <TRADE|HOLD> — <one-line reason>"
 
 STEP 6 — COMMIT AND PUSH (mandatory):
   git add memory/RESEARCH-LOG.md

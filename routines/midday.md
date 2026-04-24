@@ -19,7 +19,7 @@ IMPORTANT — ENVIRONMENT VARIABLES:
 
 IMPORTANT — PERSISTENCE:
 - Fresh clone. File changes VANISH unless committed and pushed.
-  MUST commit and push at STEP 8.
+  MUST commit and push at STEP 9.
 
 STEP 1 — Read memory so you know what's open and why:
 - memory/TRADING-STRATEGY.md (exit rules)
@@ -45,14 +45,24 @@ Never tighten within 3% of current price. Never move a stop down.
 STEP 5 — Thesis check. If a thesis broke intraday, cut the position even
 if not at -7% yet. Document reasoning in TRADE-LOG.
 
-STEP 6 — Optional intraday research via the native WebSearch tool if
+STEP 6 — LATE ENTRY scan. If this morning's market-open did NOT fire a
+trade, re-check today's RESEARCH-LOG ideas against current quotes. If a
+setup still passes the entry checklist (3 of 4), and the buy-side gate is
+still clean (positions, weekly count, PDT), take it now as a midday entry.
+Same order flow as market-open STEPS 4-5 (buy + trailing stop). Log the
+entry with note "midday entry — missed at open".
+
+STEP 7 — Optional intraday research via the native WebSearch tool if
 something is moving sharply with no obvious cause. Append afternoon
 addendum to RESEARCH-LOG.
 
-STEP 7 — Notification: only if action was taken.
-  bash scripts/clickup.sh "<action summary>"
+STEP 8 — Heartbeat notification (ALWAYS send, even on no-action days):
+  If actions taken:
+    bash scripts/clickup.sh "midday $DATE: <action summary>"
+  If no actions:
+    bash scripts/clickup.sh "midday $DATE: heartbeat — <N> positions, portfolio \$X, no changes. Next check: 3pm daily-summary."
 
-STEP 8 — COMMIT AND PUSH (if any memory files changed):
+STEP 9 — COMMIT AND PUSH (if any memory files changed):
   git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md
   git commit -m "midday scan $DATE"
   git push origin main
