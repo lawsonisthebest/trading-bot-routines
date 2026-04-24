@@ -156,4 +156,14 @@ TRADE or HOLD (default HOLD if no edge)
 ### Decision
 **HOLD.** No high-conviction setup today. FCX (primary watchlist) is broken on guidance cut. PG beat is modest and Friday carries weekend risk. Oil stretched after 5 consecutive up days. AXP needs VWAP confirmation and Financials sector is lagging. Preserve 100% cash over weekend. Full 3-trade budget intact for next week — patience > activity.
 
+### Afternoon Addendum (Midday Scan — 2026-04-24)
+- **No positions entered.** Pre-market was deliberate HOLD (not a missed fill); no midday entry triggered.
+- **Market surge intraday**: S&P 500 +0.68%, Nasdaq +1.5% — DOJ dropped Powell investigation → risk-on rally. Intel +23.2%, AMD +13.9%, QCOM +10.3%. Tech names not in today's RESEARCH-LOG; chasing a 20%+ move violates discipline.
+- **Oil reversing**: WTI pulling back on Israel-Lebanon 3-week ceasefire extension. Energy thesis (DVN/EOG) further weakened — 5-day run now hitting supply-side headwind. DVN ~$47.61 (flat/mixed).
+- **AXP**: Now ~$314 (below $329.87 4/23 close, -4.7%) despite earnings beat. Premarket $358 quote appears to have been erroneous or gap filled quickly. Financials thesis broken for now — remove from near-term watch.
+- **PG**: ~$145.71 (+1.67%) — holding modest post-earnings bid. Low conviction; not chasing on a Friday.
+- **UMich Consumer Sentiment (final)**: 49.8 — record low. Macro headwind for consumer discretionary and financials.
+- **Next week watch**: Tech momentum (semiconductors leading) — NVDA, AMD, QCOM worth adding to watchlist for Monday pre-market if Nasdaq holds. Sector rotation toward tech is the new setup to track.
+- **Account**: $100,000 cash, 0 positions. Flat into weekend. Trades this week: 0 of 3.
+
 ---
