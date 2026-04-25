@@ -35,16 +35,21 @@ STEP 2 — Re-validate with live data:
 STEP 3 — Hard-check rules BEFORE every order. Skip any trade that fails
 and log the reason:
 - Total positions after trade <= 6
-- Trades this week <= 5
+- Trades this week <= 8
 - Position cost <= 20% of equity (default to 15% sizing unless high-conviction)
 - Catalyst documented in today's RESEARCH-LOG
 - daytrade_count leaves room (PDT: 3/5 rolling business days)
 - Time is >= 8:35 AM CT (avoid first 5 min only)
 
-BIAS: If the hard-check passes AND the setup meets 3 of 4 entry-checklist items
-in TRADING-STRATEGY.md, TAKE THE TRADE. Do not wait for perfect tape. Do not
-require all four conditions. Silence/inaction on a qualified setup is a bug,
-not a feature.
+BIAS: If the hard-check passes AND the setup meets 2 of 4 entry-checklist
+items, TAKE THE TRADE. NOW. Do not wait for perfect tape, do not require
+sector to be leading, do not "monitor for confirmation," do not "reassess
+in 15 minutes." The next scan fires in 30 minutes anyway — deferring inside
+a single routine wastes a scan slot.
+
+Inaction on a qualified setup is a bug, not prudence. Zero-trade days when
+qualified setups existed will be flagged in the weekly review as a strategy
+failure. Be willing to be wrong — a -7% stop loss is the cost of business.
 
 STEP 4 — Execute the buys.
   EQUITY / ETF (market orders, day TIF):

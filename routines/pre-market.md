@@ -73,9 +73,11 @@ STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Market context (oil, indices, VIX, today's releases)
 - 3-5 actionable trade ideas WITH catalyst + entry/stop/target (aim for 3+, not fewer)
 - Risk factors for the day
-- Decision: DEFAULT TO TRADE if >= 1 idea passes 3 of 4 entry-checklist items in
-  TRADING-STRATEGY.md. HOLD only on: VIX > 30, futures down > 1.5%, max
-  positions reached, max weekly trades reached, or zero valid setups.
+- Decision: DEFAULT TO TRADE. HOLD only when ALL of these are true: VIX > 35,
+  futures down > 2%, OR max positions reached, OR truly zero qualified
+  setups across the entire watchlist (which almost never happens — if you
+  think this is the case, you didn't scan hard enough).
+- A setup is qualified if 2 of 4 entry-checklist items pass.
 
 STEP 5 — Heartbeat notification (ALWAYS send, even on HOLD days):
   bash scripts/clickup.sh "pre-market $DATE: <equity> | <N> ideas | <TRADE|HOLD> — <one-line reason>"
