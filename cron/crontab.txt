@@ -1,0 +1,22 @@
+# Trading bot cron - America/Chicago
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+HOME=/home/bot
+
+# Pre-market research - 6 AM CT, weekdays
+0 6 * * 1-5 cd /home/bot/trading-bot-routines && bash scripts/run-routine.sh pre-market >> logs/cron.log 2>&1
+
+# Market-open execution - 8:30 AM CT, weekdays
+30 8 * * 1-5 cd /home/bot/trading-bot-routines && bash scripts/run-routine.sh market-open >> logs/cron.log 2>&1
+
+# Intraday scans - top of hour, 9 AM through 2 PM CT, weekdays
+0 9-14 * * 1-5 cd /home/bot/trading-bot-routines && bash scripts/run-routine.sh intraday-scan >> logs/cron.log 2>&1
+
+# Daily summary - 3 PM CT, weekdays
+0 15 * * 1-5 cd /home/bot/trading-bot-routines && bash scripts/run-routine.sh daily-summary >> logs/cron.log 2>&1
+
+# Weekly review - Friday 4 PM CT
+0 16 * * 5 cd /home/bot/trading-bot-routines && bash scripts/run-routine.sh weekly-review >> logs/cron.log 2>&1
+
+# Weekend crypto - Saturday + Sunday 9 AM CT
+0 9 * * 6,0 cd /home/bot/trading-bot-routines && bash scripts/run-routine.sh crypto-check >> logs/cron.log 2>&1
