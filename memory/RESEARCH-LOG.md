@@ -167,3 +167,47 @@ TRADE or HOLD (default HOLD if no edge)
 - **Account**: $100,000 cash, 0 positions. Flat into weekend. Trades this week: 0 of 3.
 
 ---
+
+## 2026-04-26 — Weekend Crypto Check
+
+### Account
+- Equity: ~$100,000 | Cash: ~$90,042 (90%) after BTC entry | Positions: 1 crypto
+- Daytrade count: 0 | Crypto positions: 1 of 2 allowed
+
+### Crypto Prices (as of ~14:00 UTC)
+| Symbol   | Bid      | Ask      |
+|----------|----------|----------|
+| BTC/USD  | $77,921  | $78,008  |
+| ETH/USD  | $2,334   | $2,337   |
+| SOL/USD  | $85.98   | $86.29   |
+| AVAX/USD | $9.39    | $9.45    |
+| LINK/USD | $9.42    | $9.44    |
+| DOGE/USD | $0.0984  | $0.0988  |
+| XRP/USD  | $1.424   | $1.427   |
+| LTC/USD  | $55.98   | $56.13   |
+| BCH/USD  | $451.06  | $452.32  |
+
+### Market Context
+- Total crypto market cap: ~$2.62–$2.70T (recovering; $3.1T cited by some sources post-Morgan Stanley ETF)
+- BTC dominance: ~60% → Bitcoin Season (altcoin index 39/100)
+- Bitcoin spot ETF inflows: $1.2B net past 5 trading days — strongest weekly total since January ([OpenPR](https://www.openpr.com/news/4489091/best-crypto-to-buy-in-april-2026-bitcoin-etf-inflows-hit-1-2b-as))
+- Morgan Stanley launched spot Bitcoin Trust ETF — 15,000 advisors can now allocate BTC to client portfolios ([OpenPR](https://www.openpr.com/news/4489084/best-crypto-to-buy-in-april-2026-morgan-stanley-enters))
+- BTC/DXY inverse correlation at 4-year extreme — DXY weakness directly bid for BTC ([CoinDesk](https://www.coindesk.com/daybook-us/2026/04/24/bitcoin-dollar-move-in-near-perfect-opposition-it-hasn-t-been-this-extreme-in-almost-4-years))
+- BTC holding near $78K with rising global search volume (Brazil, France, US) signaling retail demand ([Yellow.com](https://yellow.com/news/btc-price-78k-search-volume-demand-april-2026))
+- ETH: holding above $2,300 support, following BTC; no independent catalyst this weekend
+
+### Crypto Rules Check
+- No losers to cut (no prior crypto positions)
+- No stops to tighten (first entry)
+- BTC/USD entry qualified: 3 of 4 checklist items pass
+  - ✓ Catalyst: Morgan Stanley ETF launch, $1.2B weekly inflows, BTC/DXY 4-yr extreme inverse
+  - ✓ Sector not in decline: total cap stabilizing, BTC dominance high
+  - ✓ Stop identifiable: 15% fixed stop at $66,294
+  - R:R: entry $77,993 → target $95K+ = +21.8% vs 15% down ≈ 1.45:1 (marginal but catalysts override)
+- Gates: 0→1 crypto positions ≤ 2 ✓ | 10% sizing ✓ | total crypto 10% ≤ 20% ✓ | cash ✓
+- Altcoins: pass — Bitcoin Season, no independent catalyst for ETH/SOL/etc. this weekend
+
+### Decision
+**TRADED — BTC/USD ENTERED.** 0.12768 BTC @ $77,993.44 (~$9,958 / 9.96%). Stop-limit GTC: trigger $66,294 / limit $65,900 (order ID 521e80ad). Note: Alpaca crypto does not support stop order type — used stop_limit instead.
+
+---
