@@ -211,3 +211,52 @@ TRADE or HOLD (default HOLD if no edge)
 **TRADED — BTC/USD ENTERED.** 0.12768 BTC @ $77,993.44 (~$9,958 / 9.96%). Stop-limit GTC: trigger $66,294 / limit $65,900 (order ID 521e80ad). Note: Alpaca crypto does not support stop order type — used stop_limit instead.
 
 ---
+
+## 2026-04-27 — Pre-market Research
+
+### Account
+- **NOTE: Alpaca API returning 403 (host_not_allowed) — IP not in key allowlist. Values estimated from logs.**
+- Equity: ~$100,174 (est.) | Cash: ~$90,042 | Crypto: ~$10,090 (BTC mark ~$79,032)
+- Buying power: ~$90,042 (cash only — do NOT use margin)
+- Daytrade count: 0 | Equity positions: 0 | Crypto positions: 1 (BTC/USD)
+- Trades this week: 0 of 8 allowed (new week)
+- Open orders: 1 — BTC/USD stop-limit GTC $66,294/$65,900 (order 521e80ad)
+
+### BTC Position Check
+- Entry: $77,993.44 | Current: ~$79,032 | Unrealized: +$132 (+1.3%)
+- Stop: $66,294 trigger / $65,900 limit — valid, no tightening yet (+15% = $89,692)
+- Approaching $80K resistance — watch for breakout or rejection
+
+### Market Context
+- WTI: ~$95-96/bbl | Brent: ~$101/bbl — Strait of Hormuz effectively closed; Iran talks stalled; WTI +13% last week ([TradingEconomics](https://tradingeconomics.com/commodity/crude-oil); [OilPrice.com](https://oilprice.com/))
+- S&P 500 futures: +0.72% premarket; ES ~7,195; SPX closed Fri at 7,165.08 (fresh ATH 7,168.59) — four-week win streak ([Investing.com](https://www.investing.com/indices/us-spx-500-futures); [Advisor Perspectives](https://www.advisorperspectives.com/dshort/updates/2026/04/24/s-p-500-snapshot-four-week-win-streak))
+- VIX: ~18.71 (Fri close) — moderate fear, sub-20, well below HOLD threshold of 35 ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- Earnings before open: VZ (Verizon), DPZ (Domino's), NUE (Nucor), PSA (Public Storage), UHS, Ventas, AvalonBay, Cincinnati Financial ([Earnings Whispers](https://www.earningswhispers.com/calendar))
+- Today's catalysts: Stalled Iran talks keeping oil bid; Mag-7 earnings week (GOOGL/META/MSFT/AMZN/AAPL report Wed/Thu); FOMC Wed Apr 29 (100% priced for hold at 3.50-3.75%); GDP + core PCE Thu Apr 30 ([CNBC](https://www.cnbc.com/2026/04/24/stock-market-next-week-outlook-for-april-27-may-1-2026.html); [LiteFinance](https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-27042026-03052026/))
+- Economic calendar: Mon — no major releases | Wed — FOMC decision 2 PM ET | Thu — GDP Q1 advance + Core PCE March
+- Sector momentum YTD: Leading — Energy (+25% YTD, -9% MTD), Materials (XLB +22%), Consumer Staples, Industrials | Improving — Utilities, Real Estate | Lagging — Tech (XLK), Comms, Discretionary, Financials ([Schwab](https://www.schwab.com/learn/story/stock-sector-outlook); [Investing.com](https://www.investing.com/analysis/sector-rotation-a-guide-to-the-sp-500-momentum-status-200675903))
+- BTC: ~$79,032 — approaching $80K resistance; ETF inflows $335M+ weekly; institutional buying sustained ([LatestLY](https://www.latestly.com/business/bitcoin-price-today-april-27-2026-btc-price-approaches-usd-80000-milestone-amid-strong-etf-inflows-institutional-buying-7408589.html))
+
+### Trade Ideas
+1. **GOOGL** (Alphabet) — Reports Wed Apr 29 AH. Pre-earnings momentum: up >10% MTD on AI ad-revenue strength. Tech lagging YTD = more room if Mag-7 leads rotation. Entry near open above VWAP, size $15K (15%), stop 10% trail (~$157 if enters ~$175), target +15-20% ($200+). R:R ~1.5-2:1. Exit before Wed close if not running. Catalyst: Mag-7 earnings + AI momentum. ([CNBC](https://www.cnbc.com/2026/04/24/stock-market-next-week-outlook-for-april-27-may-1-2026.html))
+2. **NUE** (Nucor) — Reports before open today. Materials sector leader YTD (+22%); steel protected by tariffs; infrastructure demand. If opens constructively above VWAP (no gap-down on miss), entry $15K, stop 10% trail, target +15%. R:R ~1.5:1. Catalyst: earnings beat + sector momentum. ([Earnings Whispers](https://www.earningswhispers.com/calendar))
+3. **DVN** (Devon Energy) — WTI $95-96 with Hormuz closed and Iran talks stalled. Energy YTD leader. FOMC hold expected → supportive for risk. Entry on morning dip, $10K (speculative sizing — MTD pullback risk), stop 10% trail, target +12%. R:R ~1.2:1. Lower conviction — chasing a stretched sector. ([TradingEconomics](https://tradingeconomics.com/commodity/crude-oil))
+
+### Risk Factors
+- **Alpaca API IP block** — cannot programmatically monitor or adjust positions; must verify manually via Alpaca web dashboard
+- Mag-7 earnings Wed/Thu — single biggest binary event of the week; gap risk on miss
+- GDP (Thu) could be soft (Q1 tariff-drag) → recession fears spike; PCE could be hot → rate-cut repricing
+- FOMC Wed — no move expected but Powell tone on tariff-inflation could rattle markets
+- Oil at $95+ stretched; ceasefire progress would flush Energy longs fast
+- BTC at $80K resistance — rejection here could pull back to $75K; stop still $13K away (intact)
+- VIX 18.71 = complacency risk; one catalyst could spike to 25+
+
+### Decision
+**TRADE.** HOLD criteria not met: VIX 18.71 (well below 35), ES +0.72% (not down >2%), 0/6 equity positions (not at max), qualified setups exist.
+- **Priority 1**: GOOGL — pre-earnings Mag-7 play. Enter above VWAP at open. $15K, 10% trail.
+- **Priority 2**: NUE — Materials earnings momentum. Enter only if opens above prior close / VWAP (no miss gap-down). $15K, 10% trail.
+- **Skip**: DVN — too speculative with oil this stretched.
+- **BTC**: Hold. No action until $89,692 (+15% tighten level).
+- **PDT note**: 0 daytrading used; 3 remaining. These are swing entries — hold days, not intraday flips.
+
+---
