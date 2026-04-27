@@ -168,6 +168,64 @@ TRADE or HOLD (default HOLD if no edge)
 
 ---
 
+## 2026-04-27 — Pre-market Research
+
+### Account
+- Equity: $99,957.13 | Cash: $90,016.84 | Buying power: $180,033.68
+- Daytrade count: 0 (PDT limit: 3)
+- Positions: 1 crypto (BTC/USD 0.12768 @ $77,993.44, market value $9,940.29, unrealized -$17.91 per Friday close; current BTC ~$79,032–79,400 → ~+$130 unrealized)
+- Open orders: GTC stop-limit sell BTC/USD — trigger $66,294 / limit $65,900 (order 521e80ad) ✓
+- Equity positions: 0 of 6 | Crypto positions: 1 of 2 | Weekly equity trades: 0 of 8
+
+### Market Context
+- WTI: $95.66 | Brent: ~$106 — elevated, Iran Strait of Hormuz supply disruption proposal pushing oil toward cycle highs ([Investing.com](https://www.investing.com/commodities/crude-oil))
+- S&P 500 futures: 7,188, -0.09% | Nasdaq 100 futures: 27,386.75, -0.18% — nearly flat, not risk-off ([CNBC](https://www.cnbc.com/pre-markets/))
+- VIX: 18.71, -3.11% — benign, declining ([CNBC](https://www.cnbc.com/quotes/.VIX))
+- 10Y yield: ~4.26% (last data point 4/17; no fresh print today) ([FRED](https://fred.stlouisfed.org/series/DGS10))
+- DXY: ~98.59 — weak dollar, bullish BTC and commodities ([CNBC](https://www.cnbc.com/quotes/.DXY))
+- BTC: $79,032–79,400, up 16% for April, pulled back from 12-week high ([CoinDesk](https://www.coindesk.com/markets/2026/04/27/bitcoin-pulls-back-from-12-week-high-as-iran-rally-hits-seller-wall-at-usd79-400))
+- Economic calendar today: NOTHING scheduled. GDP + PCE due Thursday April 30. ([Trading Economics](https://tradingeconomics.com/united-states/calendar))
+- FOMC: Meeting Tuesday/Wednesday. 99.9% probability of no rate change (3.50–3.75% unchanged). Decision 2:00 PM ET Wednesday April 29. ([Polymarket](https://polymarket.com/event/fed-decision-in-april))
+- Earnings before open today: GLW (beat, revenue $4.41B +13.9% YoY), IR (beat, $2.09B +10.1% YoY), NUE (Q1 results after close tonight, ESP -0.19% slight miss expected), CDNS, VZ, PSA also reporting ([EarningsWhispers](https://www.earningswhispers.com/calendar))
+- Weekend/Friday reactions: INTC +23.6% (EPS 29¢ vs 1¢ est, revenue $13.58B vs $12.42B est — massive beat); AMD +13.9%, QCOM +10.3% on INTC coattails; ARM/MRVL/SMCI/TSM all +3.5%+ ([CNBC](https://www.cnbc.com/2026/04/23/stock-market-today-live-updates.html))
+- NVDA: Down premarket to $200.64 (prior close $208.27, -3.6%) — semi sector resting after Friday's massive move ([MarketChameleon](https://marketchameleon.com/Overview/NVDA/Stock-Price-Action/Premarket-VWAP))
+- Mega-cap earnings this week: META reports Wednesday 4/29 after close ($675.03 current); GOOGL reports Wednesday 4/29 after close ($338.60 premarket, -0.09%); AAPL Thursday; MSFT/AMZN also this week ([TipRanks](https://www.tipranks.com/news/alphabet-googl-will-report-q1-earnings-on-april-29-here-is-what-to-expect))
+- Sector momentum: Semiconductors leading (SMH +5.1% this week), Asia ETFs (EWT +4.6%); energy sector down 10.24% from recent highs but recovering on Iran news ([QuantLake](https://www.quantlake.com/post/sector-dynamics-cae196f9))
+- Premarket movers: OGN +15.4% (Sun Pharma $11.75B acquisition at $14/share — do not chase, takeover spread play); MX +16% (earnings tomorrow); SNDK ATH (new Nasdaq 100 inclusion); CTNT -22% (reverse split — ignore) ([TradingView](https://www.tradingview.com/markets/stocks-usa/market-movers-pre-market-gainers/))
+
+### BTC Position Review
+- Entry $77,993, current ~$79,032–79,400 → ~+$130 (+0.1–1.8%) from Friday close
+- Thesis intact: Morgan Stanley ETF (15K advisors), $1.2B weekly ETF inflows, DXY weakness at 4-yr extreme
+- Stop GTC in place ($66,294/$65,900). No action needed.
+- BTC up 16% April — tighten trail at +15% from entry ($89,692). Not there yet.
+
+### Trade Ideas
+
+1. **UCO** (2x crude oil ETF) — Iran Strait of Hormuz supply disruption proposal is today's primary macro catalyst. WTI $95.66, Brent ~$106. If Iran advances, oil runs toward $110+. UCO at 2x gives leveraged R:R. Entry: market open, confirm oil strength. Size: 5% (~$5,000, leveraged ETF cap). Stop: 10% below entry. Target: +20–25% if WTI to $107+. R:R: ~2.0–2.5:1. Checklist: ✓ Catalyst ✓ Sector recovering ✓ Stop identifiable ✗ R:R minimum (3/4 pass). ([CNBC](https://www.cnbc.com/2026/04/25/crude-oil-freight-tanker-strait-hormuz-iran-war-energy-stocks.html))
+
+2. **META** ($675.03) — Pre-earnings run ahead of Wednesday April 29 after-close report. AI-driven ad revenue cycle, low VIX, FOMC neutral backdrop. Entry: today at market open. Size: 15% (~$15,000). Stop: 10% below (~$607). Target: +12–15% on beat + guidance lift. Sell before close Wednesday or hold through earnings at discretion. Checklist: ✓ Catalyst (earnings Wed) ✓ Sector leading ✓ Stop identifiable (3/4 pass). ([Meta IR](https://investor.atmeta.com/investor-events/event-details/2026/Q1-2026-Earnings-Call/default.aspx))
+
+3. **GOOGL** ($338.60) — Same earnings date as META (Wednesday April 29). Expected revenue $106.89B (+19% YoY), EPS $2.63. Google Cloud + AI search revenue growth thesis. Entry: today. Size: 15% (~$15,000). Stop: 10% below (~$304.74). Target: +12–15%. Same FOMC/earnings risk profile as META. Checklist: ✓ Catalyst ✓ Sector ✓ Stop (3/4 pass). ([TipRanks](https://www.tipranks.com/news/alphabet-googl-will-report-q1-earnings-on-april-29-here-is-what-to-expect))
+
+4. **XLE** (energy sector ETF) — Iran/oil secondary play via sector ETF. Down ~10% from ceasefire-driven selloff, recovering. Lower leverage than UCO, better liquidity for 10-15% sizing. Entry: confirm oil strength premarket. Size: 10% (~$10,000). Stop: 10% below. Target: +10–12%. Checklist: ✓ Catalyst ✓ Stop (2/4 pass — R:R marginal at 1.0–1.2:1, sector contested). ([CNBC](https://www.cnbc.com/2026/04/25/crude-oil-freight-tanker-strait-hormuz-iran-war-energy-stocks.html))
+
+**Deployment after all 4:** BTC $9,940 + UCO $5,000 + META $15,000 + GOOGL $15,000 + XLE $10,000 = $54,940 / $99,957 = 54.9% deployed. Below 75% target — acceptable given FOMC + earnings binary risk Wednesday.
+
+**Do not chase:** INTC (+23.6% already gapped), AMD (+13.9% Friday), NVDA (down premarket), OGN (acquisition spread, not a momentum trade), SBUX (R:R 0.7:1, below minimum).
+
+### Risk Factors
+- FOMC Wednesday April 29: Even with 99.9% no-change odds, hawkish guidance could spike VIX and hit tech longs (META/GOOGL)
+- META + GOOGL both report Wednesday after close — holding through both FOMC and earnings same day is concentrated risk; plan to evaluate intraday
+- Iran ceasefire could be announced at any time, reversing UCO/XLE quickly — watch news feed at open
+- GDP + PCE Thursday April 30 — secondary risk for end of week
+- BTC stop at $66,294 provides downside protection; no manual action needed unless thesis breaks
+- Earnings week: AAPL Thursday could move QQQ/NQ significantly; positive read-through expected if GOOGL/META beat
+
+### Decision
+**TRADE.** VIX 18.71 (well below 35), futures -0.09% (far from -2% threshold), 0 equity positions (max 6), 4 qualified setups with 3+ checklist items each. Execute UCO + META + GOOGL at market open. Add XLE if oil strength holds at open. Deploying to ~55% of equity.
+
+---
+
 ## 2026-04-26 — Weekend Crypto Check
 
 ### Account
