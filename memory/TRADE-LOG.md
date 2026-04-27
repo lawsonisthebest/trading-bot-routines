@@ -48,3 +48,24 @@ No positions yet. Bot launches tomorrow.
 - Note: Alpaca crypto does not accept order type `stop` — `stop_limit` used instead.
 - Tighten to 10% trail at +15% ($89,692), to 7% at +30% ($101,391).
 - Altcoins skipped — BTC dominance 60% (Bitcoin Season), no independent catalyst.
+
+---
+
+## Apr 27 — Intraday Entries (14:03 ET scan)
+
+**Portfolio:** $99,816 → ~$99,659 (after fills) | **Cash:** ~$60,161 | **Deployed:** ~39.7% | **Weekly trades:** 3 of 8
+
+| Ticker  | Shares | Entry      | Stop (trail) | Target     | R:R  | Thesis |
+|---------|--------|------------|--------------|------------|------|--------|
+| META    | 22     | $678.83    | $611.01 (10% trail, order 8d4a55e3) | $781 (+15%) | 1.5:1 | Pre-earnings run; reports Wed 4/29 after close; AI ad revenue thesis |
+| UCO     | 112    | $44.433    | $39.98 (10% trail, order 9e7d2543)  | $53.32 (+20%) | 2.0:1 | WTI $96+, Hormuz closed, Iran talks suspended — oil supply shock |
+| XLE     | 175    | $56.82     | $51.14 (10% trail, order 32b61207)  | $65.34 (+15%) | 1.5:1 | Energy sector ETF; oil Hormuz catalyst + sector recovery |
+| BTC/USD | 0.12768| $77,993.44 | $66,294/$65,900 (GTC stop-limit, order 521e80ad) | $89,692 (+15%) | — | Ongoing; -1.52% unrealized; thesis intact |
+
+**Entry notes:**
+- META: Intraday-scan entry at 2 PM ET — earnings Wednesday 4/29 after close. Up 0.54% today. 3/4 checklist pass. 15% sizing.
+- UCO: Hormuz catalyst fully intact — IEA "largest supply shock on record"; WTI $96.15-96.85 +2% on stalled Iran talks. 4/4 pass. 5% leveraged-ETF sizing (2x cap rule).
+- XLE: Energy sector ETF secondary oil play. 4/4 pass. 10% standard sizing.
+- GOOGL skipped (also reports Wed): up 4.2% from planned $338.60 entry → R:R drops to 1.2:1 (below 1.5:1 minimum).
+- Total deployed after entries: BTC $9,807 + META $14,932 + UCO $4,976 + XLE $9,944 = $39,659 (39.7% of equity).
+- Tighten META/UCO/XLE trails: 7% at +15%, 5% at +20% (per strategy).

@@ -224,6 +224,17 @@ TRADE or HOLD (default HOLD if no edge)
 ### Decision
 **TRADE.** VIX 18.71 (well below 35), futures -0.09% (far from -2% threshold), 0 equity positions (max 6), 4 qualified setups with 3+ checklist items each. Execute UCO + META + GOOGL at market open. Add XLE if oil strength holds at open. Deploying to ~55% of equity.
 
+### Intraday Addendum (14:03 ET scan — 2026-04-27)
+- **Market-open routine did not execute entries** (no prior record); entries executed at 14:03 ET intraday scan.
+- **WTI $96.15–96.85 +2%** — Strait of Hormuz closed, US–Iran talks suspended by Trump; IEA calls it largest supply shock on record. Oil thesis fully intact.
+- **GOOGL skipped** — up 4.2% from planned $338.60 premarket entry ($352.81 bid now) → R:R drops to 1.2:1, below 1.5:1 minimum. Earnings still Wednesday.
+- **META $678.83 ENTERED** — 22 shares, up only 0.54% from premarket. Pre-earnings run thesis intact. Stop 10% trail $611.01 (order 8d4a55e3).
+- **UCO $44.433 ENTERED** — 112 shares. Hormuz fully closed, 4/4 checklist pass. Stop 10% trail $39.98 (order 9e7d2543).
+- **XLE $56.82 ENTERED** — 175 shares. Energy sector ETF, oil catalyst confirmed. Stop 10% trail $51.14 (order 32b61207).
+- **BTC/USD** at $76,808 (-1.52% from entry) — no action, stop in place, thesis intact.
+- **Deployed:** ~39.7% ($39,659 of $99,816). Below 75-85% target but acceptable given FOMC + double earnings binary risk Wednesday.
+- **Weekly equity trades:** 3 of 8.
+
 ---
 
 ## 2026-04-26 — Weekend Crypto Check
