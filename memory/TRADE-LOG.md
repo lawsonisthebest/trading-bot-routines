@@ -69,3 +69,33 @@ No positions yet. Bot launches tomorrow.
 - GOOGL skipped (also reports Wed): up 4.2% from planned $338.60 entry → R:R drops to 1.2:1 (below 1.5:1 minimum).
 - Total deployed after entries: BTC $9,807 + META $14,932 + UCO $4,976 + XLE $9,944 = $39,659 (39.7% of equity).
 - Tighten META/UCO/XLE trails: 7% at +15%, 5% at +20% (per strategy).
+
+---
+
+## Apr 29-30 — META Stop-Out
+
+- META trailing stop (10%, order 8d4a55e3) triggered ~$611 at Apr 30 open
+- Catalyst: Earnings beat (EPS $10.44, revenue +33%) BUT capex raised to $125-145B → stock gapped -6% AH to ~$630, continued lower to ~$605
+- P&L: ($611.01 - $678.83) × 22 = **-$1,492 (-10.0%)**
+- Stopped per rules; no override warranted. Stop worked as designed.
+- Weekly trades: 3 entries (META/UCO/XLE counted on entry date Apr 27)
+
+---
+
+## Apr 30 — Intraday Entries (10:05 ET scan)
+
+**Portfolio:** ~$98,896 | **Cash:** ~$29,556 (after fills) | **Deployed:** ~70.1% | **Weekly trades:** 6 of 8
+
+| Ticker | Shares | Entry      | Stop (trail)                              | Target        | R:R  | Thesis |
+|--------|--------|------------|-------------------------------------------|---------------|------|--------|
+| GOOGL  | 39     | $371.51    | $333.86 (10% trail, order 8d39b26a)       | $445 (+19.8%) | 2.0:1 | Q1 earnings beat; Google Cloud +63% YoY to $20B vs $18B est; +7% AH; AI capex ROI leader |
+| AMZN   | 56     | $262.19    | $236.06 (10% trail, order 10f815e7)       | $313 (+19.8%) | 1.98:1 | Q1 beat; AWS +24% (fastest 13Q); EPS $2.78 vs $1.64 est; $200B capex — AI infra accelerating |
+| NVDA   | 73     | $202.85    | $182.63 (10% trail, order e0197b6b)       | $243 (+19.8%) | 1.81:1 | Cloud capex acceleration: GOOGL/AMZN/MSFT all beat; AWS confirms NVDA dependency; AI GPU primary beneficiary |
+
+**Entry notes:**
+- GOOGL: 4/4 checklist. Cloud earnings beat was the clearest setup of the batch. +6% today from $349.94 close.
+- AMZN: 4/4 checklist. AWS fastest growth in 13 quarters. R:R 1.98:1 to +20% target.
+- NVDA: 4/4 checklist. Indirect catalyst — AI capex from 3 cloud peers accelerating. Down -3% today vs $209.25 close (buy dip). AWS explicit "sticking with NVDA" confirmation.
+- Total deployed: BTC $9,764 + UCO $5,275 + XLE $10,332 + GOOGL $14,469 + AMZN $14,684 + NVDA $14,815 = $69,339 (70.1% equity).
+- At max equity positions (5 equity + 1 crypto = 6 total). No new entries until one exits.
+- Tighten all new trails: 7% at +15%, 5% at +20%.
