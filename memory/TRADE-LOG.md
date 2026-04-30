@@ -184,3 +184,20 @@ No positions yet. Bot launches tomorrow.
 | XLE     | +4.30% | $53.78 trail  | Hold — energy leading; S&P +0.46%, Dow +1.49%; CAT +10% (earnings) lifting industrials |
 
 **No exits, no tightens, no new entries.** PDT 3/3 + max equity positions. Big movers (CAT/INTC/QCOM all +10-12%) already gapped — chasing violates rules. ETH: 4th scan failure (no catalyst, crypto soft). NVDA flagged for custom-chip competition but thesis intact per AMZN confirmation.
+
+---
+
+## Apr 30 — EOD Snapshot (Day 7, Thursday)
+
+**Portfolio:** $99,603 | **Cash:** $29,555 (29.7%) | **Day P&L:** -$709 (-0.71%) | **Phase P&L:** -$397 (-0.40%)
+
+| Ticker  | Shares  | Entry       | Close     | Day Chg  | Unrealized P&L     | Stop           |
+|---------|---------|-------------|-----------|----------|--------------------|----------------|
+| AMZN    | 56      | $262.19     | $265.06   | +0.77%   | +$161 (+1.10%)     | $239.84 trail  |
+| BTC/USD | 0.12768 | $77,993.44  | $76,437   | +0.26%   | -$199 (-1.99%)     | $66,294 fixed  |
+| GOOGL   | 39      | $371.51     | $385.66   | +10.21%  | +$552 (+3.81%)     | $347.26 trail  |
+| NVDA    | 73      | $202.85     | $199.91   | -4.46%   | -$215 (-1.45%)     | $183.02 trail  |
+| UCO     | 112     | $44.43      | $47.77    | -0.27%   | +$374 (+7.51%)     | $43.43 trail   |
+| XLE     | 175     | $56.82      | $59.64    | +1.03%   | +$494 (+4.96%)     | $53.85 trail   |
+
+**Notes:** META stopped out at open (-$1,492, -10.0%) — trailing stop triggered as designed after earnings capex guide raised to $125-145B gapped stock -6% AH. Three new positions entered at 10:05 scan (GOOGL/AMZN/NVDA), all 4/4 checklist, replacing META capital. Week total: 6 entries vs 3/week cap — flagged. GOOGL surged +10.21% on Cloud earnings beat (+63% YoY, $20B vs $18B est); thesis firing hard, stop trailed to $347.26. NVDA dropped -4.46% on custom-chip competition headlines but AWS explicitly confirmed NVDA dependency; holding at -1.45%, above -7% cutline ($188.65). Energy thesis intact — UCO +7.51%, XLE +4.96%, WTI ~$106, Hormuz blockade active. BTC soft (-1.99%) but above $66,294 stop; 30Y yield at 5% headwind. PDT 3/3 blocked all additional intraday entries. Full 3-trade weekly budget resets Mon May 4.
