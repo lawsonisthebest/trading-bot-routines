@@ -150,3 +150,20 @@ No positions yet. Bot launches tomorrow.
 | XLE     | +5.10% | $53.78 trail  | Hold — energy leading sector; thesis intact |
 
 **No exits, no tightens, no new entries.** PDT 3/3 blocks equity. ETH evaluated: fails checklist (risk-off, below EMA20 $2,286, Iran tensions, no catalyst). WTI oil note: touched $126 intraday high then pulled back to ~$105 — UCO/XLE stops provide protection.
+
+---
+
+## Apr 30 — Intraday Scan (14:00 ET)
+
+**Portfolio:** $99,234 | **Cash:** $29,555 | **Deployed:** 70.2% | **daytrade_count:** 3/3 (PDT limit)
+
+| Symbol  | P&L%   | Stop Level    | Action |
+|---------|--------|---------------|--------|
+| AMZN    | -0.65% | $236.33 trail | Hold — AWS thesis intact; AMZN "sticking with NVDA" note supports AI capex |
+| BTC/USD | -2.29% | $66,294 fixed | Hold — above -15%; BTC ~$76,206; Hormuz risk-off partially offset by ETF inflows |
+| GOOGL   | +3.67% | $346.67 trail | Hold — up +10.1% today from entry; AI chip dev thesis firing |
+| NVDA    | -0.72% | $183.02 trail | Hold — custom AI chip competition headline (GOOGL/AMZN in-house); AMZN confirms "sticking with NVDA"; thesis intact but flagged |
+| UCO     | +5.91% | $43.43 trail  | Hold — WTI ~$105, Hormuz fully blocked (Trump rejecting Iran proposal); thesis very intact |
+| XLE     | +4.30% | $53.78 trail  | Hold — energy leading; S&P +0.46%, Dow +1.49%; CAT +10% (earnings) lifting industrials |
+
+**No exits, no tightens, no new entries.** PDT 3/3 + max equity positions. Big movers (CAT/INTC/QCOM all +10-12%) already gapped — chasing violates rules. ETH: 4th scan failure (no catalyst, crypto soft). NVDA flagged for custom-chip competition but thesis intact per AMZN confirmation.
