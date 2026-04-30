@@ -153,6 +153,23 @@ No positions yet. Bot launches tomorrow.
 
 ---
 
+## Apr 30 — Intraday Scan (15:00 ET)
+
+**Portfolio:** $99,472 | **Cash:** $29,555 | **Deployed:** 70.3% | **daytrade_count:** 3/3 (PDT limit)
+
+| Symbol  | P&L%   | Stop Level    | Action |
+|---------|--------|---------------|--------|
+| AMZN    | +0.57% | $237.72 trail | Hold — AWS thesis intact; post-earnings holding +0.57% |
+| BTC/USD | -2.07% | $66,294 fixed | Hold — 30Y yield 5% headwind; above -15%; stop intact |
+| GOOGL   | +2.78% | $347.26 trail | Hold — Cloud +63% thesis intact; up +9.1% today |
+| NVDA    | -0.47% | $183.02 trail | ⚠️ Flagged — custom AI chip competition "confirmed significant risk" (WS); AMZN confirmed "sticking with NVDA"; thesis intact but under pressure |
+| UCO     | +7.62% | $43.43 trail  | Hold — WTI $106-108, Hormuz blockade active, thesis very intact |
+| XLE     | +4.74% | $53.78 trail  | Hold — energy leading sector; oil thesis intact |
+
+**No exits, no tightens, no new entries.** PDT 3/3 + max equity positions. ETH fails checklist (30Y at 5%, BTC soft, no catalyst). NVDA flagged — thesis under pressure from hyperscaler custom-chip competition but AMZN explicitly confirmed NVDA dependency; no cut at -0.47%.
+
+---
+
 ## Apr 30 — Intraday Scan (14:00 ET)
 
 **Portfolio:** $99,234 | **Cash:** $29,555 | **Deployed:** 70.2% | **daytrade_count:** 3/3 (PDT limit)
