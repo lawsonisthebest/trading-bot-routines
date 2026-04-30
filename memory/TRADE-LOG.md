@@ -116,3 +116,20 @@ No positions yet. Bot launches tomorrow.
 | XLE     | +4.40% | $53.46 trail  | Hold — energy only green sector |
 
 **No exits, no tightens, no new entries.** PDT limit (3/3) + max positions blocks entries.
+
+---
+
+## Apr 30 — Intraday Scan (12:00 ET)
+
+**Portfolio:** $98,743 | **Cash:** $29,555 | **Deployed:** 70.5% | **daytrade_count:** 3/3 (PDT limit)
+
+| Symbol  | P&L%   | Stop Level    | Action |
+|---------|--------|---------------|--------|
+| AMZN    | -1.45% | $236.33 trail | Hold — AWS AI chips $20B run-rate, thesis intact |
+| BTC/USD | -1.95% | $66,294 fixed | ⚠️ Monitoring — ETF outflows 3 straight days ($137M/day), Fear/Greed 33. Macro oil/DXY thesis intact; not a full break yet |
+| GOOGL   | +0.87% | $340.41 trail | Hold — up +7.1% today; Google Cloud thesis firing |
+| NVDA    | -1.12% | $183.02 trail | Hold — down -4.1% today; AI capex acceleration thesis intact (Rubin H2) |
+| UCO     | +5.91% | $43.43 trail  | Hold — WTI $108-110, Hormuz thesis very intact |
+| XLE     | +4.87% | $53.75 trail  | Hold — energy leading sector, XLE +33% YTD |
+
+**No exits, no tightens, no new entries.** PDT 3/3 + max equity positions. Crypto entry (ETH) evaluated — fails checklist (1/4: ETF outflows active, Fear zone, declining trend).
