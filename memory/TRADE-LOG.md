@@ -133,3 +133,20 @@ No positions yet. Bot launches tomorrow.
 | XLE     | +4.87% | $53.75 trail  | Hold — energy leading sector, XLE +33% YTD |
 
 **No exits, no tightens, no new entries.** PDT 3/3 + max equity positions. Crypto entry (ETH) evaluated — fails checklist (1/4: ETF outflows active, Fear zone, declining trend).
+
+---
+
+## Apr 30 — Intraday Scan (13:00 ET)
+
+**Portfolio:** $98,876 | **Cash:** $29,555 | **Deployed:** 70.1% | **daytrade_count:** 3/3 (PDT limit)
+
+| Symbol  | P&L%   | Stop Level    | Action |
+|---------|--------|---------------|--------|
+| AMZN    | -1.42% | $236.33 trail | Hold — above -7%; AWS thesis intact |
+| BTC/USD | -2.22% | $66,294 fixed | Hold — Iran risk-off headwind; above -15%; stop holds |
+| GOOGL   | +1.94% | $340.75 trail | Hold — Cloud +63% thesis intact |
+| NVDA    | -1.38% | $183.02 trail | Hold — AI capex acceleration thesis intact |
+| UCO     | +6.29% | $43.43 trail  | Hold — WTI spiked $126→$105 (record intraday); Hormuz blockade active |
+| XLE     | +5.10% | $53.78 trail  | Hold — energy leading sector; thesis intact |
+
+**No exits, no tightens, no new entries.** PDT 3/3 blocks equity. ETH evaluated: fails checklist (risk-off, below EMA20 $2,286, Iran tensions, no catalyst). WTI oil note: touched $126 intraday high then pulled back to ~$105 — UCO/XLE stops provide protection.
