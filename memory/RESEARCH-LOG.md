@@ -280,3 +280,27 @@ TRADE or HOLD (default HOLD if no edge)
 **TRADED — BTC/USD ENTERED.** 0.12768 BTC @ $77,993.44 (~$9,958 / 9.96%). Stop-limit GTC: trigger $66,294 / limit $65,900 (order ID 521e80ad). Note: Alpaca crypto does not support stop order type — used stop_limit instead.
 
 ---
+
+## 2026-04-30 — Intraday Scan Addendum (11:00 ET)
+
+### Macro Data Released Today
+- **GDP Q1:** 2.0% (est 2.2%) — mild miss; not a crash signal
+- **PCE:** 3.2% core / 3.5% headline — sticky inflation, in-line with estimates
+- **30Y Treasury yield:** hit 5.0% — risk-asset headwind, crypto particularly affected
+- **WTI crude:** ~$108/bbl — Iran/Hormuz escalation; Trump military briefing signals active
+
+### Position Thesis Review (11:00 ET)
+| Symbol | P&L% | Thesis | Status |
+|--------|------|--------|--------|
+| AMZN   | -0.83% | AWS +28% (15Q high), AI run rate $15B+ | INTACT |
+| BTC/USD| -2.07% | Morgan Stanley ETF, ETF inflows; headwind from 30Y yield at 5% | AT RISK (monitor) |
+| GOOGL  | +0.41% | Cloud +63%, CapEx raising = AI ROI leader | INTACT |
+| NVDA   | -0.35% | Cloud capex confirmed (GOOGL/AMZN/MSFT); OpenAI miss is noise | INTACT |
+| UCO    | +6.74% | WTI $108, Hormuz blockade, Trump military signals | INTACT |
+| XLE    | +4.40% | Only sector green YTD; oil surge fully in play | INTACT |
+
+### Actions Taken
+- No exits (no -7% losers, BTC well above -15% threshold)
+- No stop tightens (no positions at +15%)
+- No new entries: at max positions (5 equity + 1 crypto) AND daytrade_count = 3 (PDT limit)
+- Weekly equity trades: 6 of 8 used

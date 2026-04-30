@@ -99,3 +99,20 @@ No positions yet. Bot launches tomorrow.
 - Total deployed: BTC $9,764 + UCO $5,275 + XLE $10,332 + GOOGL $14,469 + AMZN $14,684 + NVDA $14,815 = $69,339 (70.1% equity).
 - At max equity positions (5 equity + 1 crypto = 6 total). No new entries until one exits.
 - Tighten all new trails: 7% at +15%, 5% at +20%.
+
+---
+
+## Apr 30 — Intraday Scan (11:00 ET)
+
+**Portfolio:** $98,863 | **Cash:** $29,555 | **Deployed:** 70.1% | **daytrade_count:** 3/3 (PDT limit)
+
+| Symbol  | P&L%   | Stop Level   | Action |
+|---------|--------|--------------|--------|
+| AMZN    | -0.83% | $236.33 trail | Hold — thesis intact |
+| BTC/USD | -2.07% | $66,294 fixed | Hold — above -15%; 30Y yield headwind, monitor |
+| GOOGL   | +0.41% | $335.87 trail | Hold — thesis intact |
+| NVDA    | -0.35% | $183.02 trail | Hold — thesis intact |
+| UCO     | +6.74% | $43.43 trail  | Hold — WTI $108, thesis intact |
+| XLE     | +4.40% | $53.46 trail  | Hold — energy only green sector |
+
+**No exits, no tightens, no new entries.** PDT limit (3/3) + max positions blocks entries.
