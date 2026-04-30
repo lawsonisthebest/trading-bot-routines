@@ -34,12 +34,20 @@ STEP 2 — Re-validate with live data:
 
 STEP 3 — Hard-check rules BEFORE every order. Skip any trade that fails
 and log the reason:
-- Total positions after trade <= 6
-- Trades this week <= 8
-- Position cost <= 20% of equity (default to 15% sizing unless high-conviction)
+- Total positions after trade <= 5 (was 6 — fewer, bigger positions)
+- Trades this week <= 12 (was 8)
+- Position cost <= 30% of equity (default 25% — BIG positions)
 - Catalyst documented in today's RESEARCH-LOG
 - daytrade_count leaves room (PDT: 3/5 rolling business days)
-- Time is >= 8:35 AM CT (avoid first 5 min only)
+- Time is during regular market hours (8:30 AM - 3:00 PM CT)
+
+POSITION SIZING — use full size:
+- Pull current account equity via `alpaca.sh account`
+- Default qty = floor( equity * 0.25 / current_price )
+- High-conviction qty = floor( equity * 0.30 / current_price )
+- Speculative/lower-conviction = floor( equity * 0.15 / current_price )
+- Crypto default = floor( equity * 0.12 / current_price * 1000 ) / 1000
+  (3 decimal places of precision)
 
 BIAS: If the hard-check passes AND the setup meets 2 of 4 entry-checklist
 items, TAKE THE TRADE. NOW. Do not wait for perfect tape, do not require
@@ -59,24 +67,33 @@ STEP 4 — Execute the buys.
 Wait for fill confirmation before placing the stop.
 
 STEP 5 — Place the stop.
-  EQUITY / ETF — 10% trailing stop GTC:
-    bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'
-  If Alpaca rejects with PDT error, fall back to fixed stop 10% below entry:
+  EQUITY / ETF — 8% trailing stop GTC (was 10% — tighter to lock gains):
+    bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"trailing_stop","trail_percent":"8","time_in_force":"gtc"}'
+  If Alpaca rejects with PDT error, fall back to fixed stop 8% below entry:
     bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
-  CRYPTO — fixed stop-loss at 15% below entry (no trailing for crypto on Alpaca):
+  CRYPTO — fixed stop-loss at 12% below entry (was 15% — tighter):
     bash scripts/alpaca.sh order '{"symbol":"BTC/USD","qty":"0.01","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
 If all stops blocked, queue in TRADE-LOG as "stop-blocked, retry next run".
 
-STEP 6 — Append each trade to memory/TRADE-LOG.md (matching existing format):
+STEP 6 — Log to NOTION trade journal for each fill (REQUIRED):
+  bash scripts/notion.sh trade \
+    --action BUY --symbol SYM --qty N --price FILL_PRICE \
+    --side buy --order-type market --asset stock \
+    --stop STOP_PRICE --target TARGET_PRICE \
+    --thesis "one-paragraph why we're buying"
+Run once per fill. If NOTION env vars are missing, the wrapper falls back
+to logs/notion-fallback.md silently — do not error, just continue.
+
+STEP 7 — Append each trade to memory/TRADE-LOG.md (matching existing format):
 Date, ticker, side, shares, entry price, stop level, thesis, target, R:R.
 
-STEP 7 — Heartbeat notification (ALWAYS send — trade OR no-trade):
+STEP 8 — Heartbeat notification (ALWAYS send — trade OR no-trade):
   If trades fired:
-    bash scripts/clickup.sh "market-open $DATE: <tickers, shares, fill prices, one-line why>"
+    bash scripts/clickup.sh "market-open $DATE: <tickers, shares, fill prices, one-line why> [logged to Notion]"
   If no trades:
     bash scripts/clickup.sh "market-open $DATE: no entries — <one-line reason> | watching: <tickers for midday re-check>"
 
-STEP 8 — COMMIT AND PUSH (mandatory if any trades executed):
+STEP 9 — COMMIT AND PUSH (mandatory if any trades executed):
   git add memory/TRADE-LOG.md
   git commit -m "market-open trades $DATE"
   git push origin main
