@@ -304,3 +304,53 @@ TRADE or HOLD (default HOLD if no edge)
 - No stop tightens (no positions at +15%)
 - No new entries: at max positions (5 equity + 1 crypto) AND daytrade_count = 3 (PDT limit)
 - Weekly equity trades: 6 of 8 used
+
+---
+
+## 2026-05-01 — Pre-market Research
+
+### Account
+- Equity: ~$99,603 (last known Apr 30 EOD — Alpaca API blocked by IP allowlist)
+- Cash: ~$29,555 (29.7%)
+- Buying power: ~$59,110 (2× cash, do NOT use margin)
+- Daytrade count: 3/3 (PDT limit — blocked until rolling 5-day window expires ~May 7)
+- Positions: GOOGL (39 @ $371.51), AMZN (56 @ $262.19), NVDA (73 @ $202.85), UCO (112 @ $44.43), XLE (175 @ $56.82), BTC/USD (0.12768 @ $77,993.44) — MAX positions (5 equity + 1 crypto)
+- Weekly equity trades: 6 of 8 (resets Mon May 4)
+- **Note:** Alpaca API returning 403 (x-deny-reason: host_not_allowed) — IP not in account allowlist. Using Apr 30 EOD as baseline.
+
+### Market Context
+- WTI: ~$104–106/bbl | Brent: ~$115.80 (pulled back from $126 intraday high Apr 30; ~+60% since Feb 28 US/Israel-Iran war start) ([CNBC](https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html))
+- S&P 500 futures: +0.21% (7,258.75) — constructive; Mag-7 earnings bid sustaining rally ([Schwab](https://www.schwab.com/learn/story/stock-market-update-open))
+- VIX: 17.10 (-9.1%) — fear retreating; risk appetite improving ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- Today's catalysts: (1) Iran peace diplomacy — Trump sending Witkoff/Kushner to Pakistan; Israel-Lebanon ceasefire extended 3 weeks → oil pulling back on de-escalation hopes ([Schwab](https://www.schwab.com/learn/story/stock-market-update-open)); (2) AMZN Q1 beat driving +3% premarket (AWS +28% YoY, $37.6B); (3) AAPL reports after close — major event risk for entire market
+- Earnings before open: Dominion Energy (D), Ares Management (ARES), TPG — minor, no direct thesis impact ([Yahoo Finance Earnings](https://finance.yahoo.com/calendar/earnings/))
+- **AAPL after close:** Major catalyst. AAPL miss/weak guide could drag QQQ/NQ and affect our tech longs (GOOGL, AMZN, NVDA). Beat + strong guide = further tech bid.
+- Economic calendar: No major releases today (CPI/PPI/FOMC/NFP not scheduled) — macro neutral ([Trading Economics](https://tradingeconomics.com/united-states/calendar))
+- Sector momentum (YTD): Energy (+493% top gainers), Technology (+254%), Healthcare (+188%) — Energy still leading; Tech rebounding on Mag-7 beats ([StockTitan](https://www.stocktitan.net/rankings/stock-gains-ytd/2026))
+
+### Position Status (premarket, based on research)
+| Symbol  | Entry    | Apr 30 Close | Premarket Signal        | Unrealized (EOD) | Stop         |
+|---------|----------|--------------|-------------------------|------------------|--------------|
+| GOOGL   | $371.51  | $385.66      | Flat (Q1 beat already priced +10.2% Apr 30) | +$552 (+3.81%) | $347.26 trail |
+| AMZN    | $262.19  | $265.06      | +3% premarket on Q1 beat; AWS +28% YoY | +$161 (+1.10%) | $239.84 trail |
+| NVDA    | $202.85  | $199.91      | ~$198–211 range; AMZN capex confirms NVDA demand | -$215 (-1.45%) | $183.02 trail |
+| UCO     | $44.43   | $47.77       | Oil pulling back on Iran diplomacy; WTI ~$105 | +$374 (+7.51%) | $43.43 trail |
+| XLE     | $56.82   | $59.64       | Same oil risk; XLE still in leading sector | +$494 (+4.96%) | $53.85 trail |
+| BTC/USD | $77,993  | $76,437      | No fresh print; 30Y yield headwind persists | -$199 (-1.99%) | $66,294 fixed |
+
+### Trade Ideas
+1. **UCO stop tighten (ACTION REQUIRED)** — UCO at +7.51% triggers +5% profit-ladder rule: tighten trailing stop from ~8% to 4%. New stop level: ~$45.86 (4% below $47.77 close). Order 9e7d2543. *Cannot execute today — Alpaca IP blocked. Must tighten at market open via manual intervention or when API access restored.*
+2. **Watch UCO for +10% trigger** — If UCO hits $48.87 intraday (+10% from entry), take 25% off (28 shares) and tighten trail to 5%. No action until price reached.
+3. **No new entries** — blocked by: (a) max positions (5 equity + 1 crypto = 6), (b) PDT 3/3. Cannot add until at least one position exits AND PDT window clears (~May 7).
+
+### Risk Factors
+- **AAPL after close** — largest company by market cap; miss/weak guide could gap tech sector down overnight; GOOGL/AMZN/NVDA all exposed
+- **Iran diplomacy swing** — if Witkoff/Kushner talks produce ceasefire, oil reverses hard; UCO/XLE stops ($43.43/$53.85) provide protection but intraday whipsaw risk
+- **Alpaca API IP block** — cannot execute UCO stop tighten or any order adjustments; manual intervention required to add IP to allowlist
+- **Oil two-way risk today** — WTI $104–106 with peace-talk headline risk; Hormuz situation could resolve or escalate by open
+- **PDT 3/3 locked** — no day trades until rolling window clears; no flexibility to respond intraday even if a stop triggers and we want to re-enter
+- **NVDA at -1.45%** — custom AI chip competition headlines (GOOGL/AMZN in-house) are a lingering overhang; manual cut level $190.68 (-6%); stop at $183.02 (-9.8% from entry)
+- **Friday = weekend risk** — positions carry Iran/AAPL binary risk into weekend
+
+### Decision
+**HOLD — max positions + PDT blocked.** No new entries possible. All 6 positions thesis-intact; no mandatory exits (no position at -6% or thesis broken). **Action item: resolve Alpaca IP allowlist block to enable UCO stop tighten + ongoing order management.**
