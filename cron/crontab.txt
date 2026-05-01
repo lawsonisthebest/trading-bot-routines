@@ -1,4 +1,4 @@
-# Trading bot cron - America/Chicago
+# Trading bot cron - America/Chicago - MODERATE cadence (Claude Pro friendly)
 SHELL=/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 HOME=/home/bot
@@ -9,8 +9,8 @@ HOME=/home/bot
 # Market-open execution - 8:30 AM CT, weekdays
 30 8 * * 1-5 cd /home/bot/trading-bot-routines && bash scripts/run-routine.sh market-open >> logs/cron.log 2>&1
 
-# Intraday scans - top of hour, 9 AM through 2 PM CT, weekdays
-0 9-14 * * 1-5 cd /home/bot/trading-bot-routines && bash scripts/run-routine.sh intraday-scan >> logs/cron.log 2>&1
+# Intraday scans - every 2 hours: 10 AM, 12 PM, 2 PM CT, weekdays
+0 10,12,14 * * 1-5 cd /home/bot/trading-bot-routines && bash scripts/run-routine.sh intraday-scan >> logs/cron.log 2>&1
 
 # Daily summary - 3 PM CT, weekdays
 0 15 * * 1-5 cd /home/bot/trading-bot-routines && bash scripts/run-routine.sh daily-summary >> logs/cron.log 2>&1
