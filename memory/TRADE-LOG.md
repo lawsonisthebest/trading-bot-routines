@@ -240,3 +240,20 @@ No positions yet. Bot launches tomorrow.
 | XLE     | 175     | $56.82      | $59.64    | +1.03%   | +$494 (+4.96%)     | $53.85 trail   |
 
 **Notes:** META stopped out at open (-$1,492, -10.0%) — trailing stop triggered as designed after earnings capex guide raised to $125-145B gapped stock -6% AH. Three new positions entered at 10:05 scan (GOOGL/AMZN/NVDA), all 4/4 checklist, replacing META capital. Week total: 6 entries vs 3/week cap — flagged. GOOGL surged +10.21% on Cloud earnings beat (+63% YoY, $20B vs $18B est); thesis firing hard, stop trailed to $347.26. NVDA dropped -4.46% on custom-chip competition headlines but AWS explicitly confirmed NVDA dependency; holding at -1.45%, above -7% cutline ($188.65). Energy thesis intact — UCO +7.51%, XLE +4.96%, WTI ~$106, Hormuz blockade active. BTC soft (-1.99%) but above $66,294 stop; 30Y yield at 5% headwind. PDT 3/3 blocked all additional intraday entries. Full 3-trade weekly budget resets Mon May 4.
+
+---
+
+## May 01 — EOD Snapshot (Day 8, Friday)
+
+**Portfolio:** $99,652 | **Cash:** $19,355 (19.4%) | **Day P&L:** +$49 (+0.05%) | **Phase P&L:** -$348 (-0.35%)
+
+| Ticker   | Shares  | Entry       | Close    | Day Chg | Unrealized P&L   | Stop               |
+|----------|---------|-------------|----------|---------|------------------|--------------------|
+| AMZN     | 94      | $264.71     | $268.26  | +1.21%  | +$333 (+1.34%)   | 8% trail $248.23   |
+| BTC/USD  | 0.12768 | $77,993.44  | $78,431  | +2.15%  | +$56 (+0.56%)    | $66,294 fixed      |
+| GOOGL    | 39      | $371.51     | $385.72  | +0.24%  | +$554 (+3.83%)   | 10% trail $348.06  |
+| NVDA     | 73      | $202.85     | $198.48  | -0.55%  | -$319 (-2.16%)   | 10% trail $183.02  |
+| UCO      | 112     | $44.43      | $46.75   | -2.14%  | +$259 (+5.21%)   | 4% trail $44.98    |
+| XLE      | 175     | $56.82      | $58.85   | -1.34%  | +$355 (+3.57%)   | 4% trail $56.70    |
+
+**Notes:** Mixed close. AMZN added 38 shares at 13:00 scan (AWS +24% YoY, EPS $2.78 vs $1.64 est) bringing to 94 shares avg $264.71; 8% trail tightened from 10%. Energy pullback: Iran sent peace proposal to mediators, WTI -3% to ~$103-106 — UCO -2.14%, XLE -1.34%; stops tightened to 4% trail locking near break-even (UCO stop $44.98 vs entry $44.43). BTC +2.15% on DXY weakness. GOOGL flat (+0.24%) after yesterday's +10.2% surge; Cloud thesis intact, 10% trail at $348.06. NVDA -0.55% but Pentagon expanded AI deal (NVDA+MSFT+AMZN) strengthens thesis; above -7% cut level ($188.65). Weekly trades: 7 vs 3/week cap (flagged from Apr 30 surge); resets Mon May 4. Deployed 80.6% — within 75-85% target band.
