@@ -28,6 +28,89 @@ Format each entry:
 ### Risk Factors
 - ...
 
+---
+
+## 2026-05-01 — Pre-market Research
+
+### Account
+- Equity: $99,710.90
+- Cash: $29,555.32 (29.6%)
+- Deployed: 70.4% (5 equity + 1 crypto)
+- Buying power: $113,968.51
+- Daytrade count: 0/3 (PDT reset — full 3 available)
+- Weekly equity trades: 6/8 used (2 remaining; resets Mon May 4)
+
+### Positions (premarket)
+| Symbol  | Unreal P&L | Stop      | Note |
+|---------|------------|-----------|------|
+| AMZN    | +0.39%     | $239.84 trail 10% | Earnings BEAT AH: EPS $2.78 vs $1.64 est; should gap up |
+| BTC/USD | -0.97%     | $66,294 fixed | ~$77K, stable |
+| GOOGL   | +3.65%     | $347.26 trail 10% | Cloud +63% thesis intact |
+| NVDA    | -1.20%     | $183.02 trail 10% | Meta capex raise BULLISH — Meta spending $125-145B = more chips |
+| UCO     | +9.24%     | $43.43 trail 10% | ⚠️ Approaching +10% rung ($48.87) — flag for partial sale |
+| XLE     | +5.32%     | $53.85 trail 10% | ⚠️ Crossed +5% rung — tighten trail to 4% at open |
+
+### Market Context
+- WTI: ~$106-110/bbl | Brent: ~$108/bbl — Hormuz still shut; elevated
+- S&P 500 futures: +0.19% | NQ futures: +0.26% — modestly bullish open
+- VIX: 17.10 (-9.1%) — fear dissipating; calm tape
+- 10Y yield: 4.39% — well off 30Y's 5% headwind from yesterday; favorable for risk
+- DXY: ~98.15 — weak dollar; risk-on/BTC tailwind
+- BTC: ~$76,500-77,000 — flat, range-bound
+- April was S&P's best month since Nov 2020 (+10.4%); momentum bullish entering May
+- **Iran peace talks:** Trump sending Witkoff + Kushner to Pakistan — potential Hormuz de-escalation; ⚠️ OIL RISK for UCO/XLE
+- **Economic:** NFP / Nonfarm Payrolls today (first Friday May) — volatility catalyst at open; FOMC held Apr 29 (hawkish); PCE 3.2% released Apr 30
+
+### Earnings Today
+- **BMO:** XOM (Exxon), CVX (Chevron), MRNA, Dominion Energy — energy names in focus
+- **AH Apr 30 reactions:** AAPL +3% premarket (17% revenue growth, EPS beat) | AMZN beat EPS $2.78 vs $1.64 | GOOGL +10% yesterday | QCOM +16% AH | META -8.6% (capex $125-145B) | MSFT -3.9% (capex $31.9B/qtr)
+
+### Sector Momentum (week)
+- **Leading:** XLE (energy), XLB (materials), XLI (industrials), XLP (staples)
+- **Lagging:** XLK (tech), XLV (healthcare)
+- XOM/CVX BMO today reinforces energy leadership; Meta capex headwind weighs on XLK
+
+### Trade Ideas
+
+1. **AAPL** — Q2 earnings beat: EPS beat, 17% revenue growth, iPhone resilient. +3% premarket = controlled gap (not a chase). Mag-7 AI demand confirmed. Fills 6th equity slot.
+   - Entry: market open ~$230-234
+   - Stop: 8% trail GTC (~$213-215 area)
+   - Target: $260+ (prior range highs, AI supercycle re-rating)
+   - R:R: ~2.0:1
+   - Checklist: ✓ Catalyst (earnings beat) ✓ Sector not in decline ✓ Stop identifiable ✓ R:R 2:1 — **4/4 PASS**
+   - Size: 25% of equity = ~$24,950 (~107 shares at $233)
+   - Gate check: 5→6 equity ≤ 6 ✓ | 2 weekly trades remaining ✓ | PDT 0/3 ✓
+
+2. **AMZN ADD** (contingent) — if AMZN opens below $280 and position is still below 25% of equity, consider topping up. EPS beat was enormous ($2.78 vs $1.64 est), AWS AI run-rate $20B+. Current cost $14,682 (14.7% of equity) — room to 25% ($10k add). BUT: if AMZN gaps to +10%, strategy calls for taking partial profit, NOT adding. Monitor at open.
+   - Catalyst: ✓ Earnings beat ✓ AWS AI thesis firing ✓ Stop already in place ✓ R:R good — **4/4 PASS**
+   - Only execute if AMZN opens flat-to-moderate gap (<+5%); skip if +10%+ gap
+
+3. **QCOM** — +16% AH on earnings beat; AI/mobile chip demand. Too extended to chase (16% gap). Skip unless consolidates to $235-240 area intraday.
+   - Catalyst strong but entry risk too high; flag for intraday watch
+
+4. **XOM** (caution) — BMO earnings today with WTI at $106. BUT: already 15% energy exposure (UCO + XLE). Adding XOM would push energy sector toward 40% limit. Skip unless UCO/XLE stop triggers first.
+   - Energy over-concentration risk trumps catalyst
+
+5. **UCO partial exit** — at +10% rung (hit at $48.87, current $48.54): sell 28 shares (25% of 112). Tighten trail to 5%. Iran peace talk de-escalation = oil downside risk.
+   - Not a new trade — profit-ladder execution
+
+### Profit Ladder & Stop Actions Required at Open
+- **XLE: TIGHTEN STOP 10% → 4%** (crossed +5% rung). Current trail $53.85 → new trail ~4% from ~$59.84 = $57.45. Cancel/replace GTC order.
+- **UCO: TAKE 25% PARTIAL** if/when $48.87 hit. Sell 28 of 112 shares. Tighten trail to 5%.
+- **AMZN: watch for +5%** ($275.30) to tighten trail from 10% to 4%; watch for +10% ($288.41) for 25% partial.
+- **GOOGL: watch for +5%** from entry ($390.09) to tighten trail.
+
+### Risk Factors
+- Iran peace talks → sudden oil drop → UCO/XLE stop hit (Hormuz re-open = -20-30% oil)
+- NFP surprise (hot = yields spike, rates fear; cold = recession fear) — either tail can whipsaw
+- META/MSFT capex anxiety spreading to XLK/NVDA sellers — monitor NVDA pre-market
+- BTC at -0.97%, weak DXY helps but 30Y at 5% was headwind yesterday; watch 10Y at open
+- S&P April +10.4% = overbought short-term; potential buy-the-rumor-sell-the-news after strong month
+
+### Decision
+**TRADE** — AAPL 4/4 checklist, 25% size at open. Monitor AMZN for gap level; execute UCO/XLE profit-ladder actions.
+- VIX 17 (well below 35 ✓), futures +0.2% (not -2% ✓), positions at 5/6 max (room for 1 ✓), clear setups exist ✓ → all HOLD criteria fail → ACT
+
 ### Decision
 TRADE or HOLD (default HOLD if no edge)
 
