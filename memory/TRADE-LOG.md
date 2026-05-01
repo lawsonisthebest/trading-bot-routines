@@ -170,6 +170,28 @@ No positions yet. Bot launches tomorrow.
 
 ---
 
+## May 1 — Intraday Scan (13:00 ET, 12:00 CT)
+
+**Portfolio:** $99,632 | **Cash:** $29,555 (pre-fill) | **Deployed:** 70.4% → ~80% post-fill | **daytrade_count:** 0/3 | **Weekly trades:** 6→7/8
+
+| Symbol  | P&L%    | Stop (old)     | Stop (new)                     | Action |
+|---------|---------|----------------|--------------------------------|--------|
+| AMZN    | +1.40%  | $245.98 trail 10% | $246.95 trail 8% (order d4543bc0) | ✅ ADDED 38 shares @ ~$268.43; 94 total; avg $264.71; replaced stop for 94 shares |
+| BTC/USD | +0.33%  | $66,294 fixed  | Unchanged                      | Hold — Hormuz thesis intact |
+| GOOGL   | +3.64%  | $348.06 trail 10% | Unchanged                   | Hold — Cloud thesis intact |
+| NVDA    | -1.78%  | $183.02 trail 10% | Unchanged                   | Hold — above -6% cut level; AI GPU thesis intact |
+| UCO     | +4.63%  | $43.43 trail 10% | $44.61 trail 4% (order 45a134ba) | ✅ TIGHTENED stop: +5% rung crossed (HWM $48.25 = +8.6%); locked near break-even |
+| XLE     | +3.43%  | $53.85 trail 10% | $56.41 trail 4% (order b0339003) | ✅ TIGHTENED stop: +5% rung crossed (HWM $59.84 = +5.3%); locked above entry |
+
+**Actions taken:**
+- **AMZN add** (38 shares, market ~$268.43): 4/4 checklist — AWS +24% YoY, EPS $2.78 vs $1.64 est, AI cloud infra thesis intact, +1.3% gap (controlled). New position: 94 shares @ avg $264.71, ~$24,987 (25% equity). New 8% trail stop $246.95. Tag: intraday-scan May 1.
+- **XLE trail tightened** 10% → 4%: HWM $59.84 crossed +5% rung ($59.66). New stop $56.41 (was $53.85). Locks ~break-even on pullback protection.
+- **UCO trail tightened** 10% → 4%: HWM $48.25 crossed +5% rung ($46.65). New stop $44.61 (was $43.43). Locks above entry $44.43 — break-even locked.
+- **AAPL skipped**: +21% intraday gap from planned $233 entry; R:R fails at $283 (near 52wk high $286.19).
+- Hormuz still closed per Baker Hughes through H2 2026 — UCO/XLE oil thesis fully intact.
+
+---
+
 ## Apr 30 — Intraday Scan (14:00 ET)
 
 **Portfolio:** $99,234 | **Cash:** $29,555 | **Deployed:** 70.2% | **daytrade_count:** 3/3 (PDT limit)
