@@ -114,6 +114,16 @@ Format each entry:
 ### Decision
 TRADE or HOLD (default HOLD if no edge)
 
+### Intraday Addendum (15:00 ET scan — 2026-05-01)
+- **Oil down ~3%** — Iran sent peace proposal to mediators; WTI ~$103-106. Hormuz STILL CLOSED (9.1M bpd shut-ins per FX Leaders). UCO -2.177% today but +5.169% from entry; stop at $44.976 (break-even protection). XLE -1.249% today but +3.669% from entry; stop $56.573. ⚠️ Iran deal would be oil thesis break — monitoring closely.
+- **NVDA +**: Pentagon expanded AI deal (NVDA, MSFT, AMZN, Reflection AI) announced. Positive thesis confirmation vs custom-chip competition headlines. Earnings May 20.
+- **Nasdaq +0.79%** — risk-on session despite oil selloff.
+- **ASTS** rising on CEO pay/milestone structure — not in watchlist, no clean entry thesis.
+- **RBLX -24%** on guidance cut; no position.
+- **No new entries:** NVDA add fails 30% position-size cap. Cash $19,354 (19.4%). All gate checks fail on combination of cap + thesis risk (energy).
+- **Account:** $99,634 equity | $19,355 cash | 80.6% deployed | 7/8 weekly equity trades | daytrade_count 1/3
+- **Stops valid:** All 6 GTC orders confirmed live (AMZN 8%, GOOGL 10%, NVDA 10%, UCO 4%, XLE 4%, BTC fixed).
+
 ---
 
 ## 2026-04-22 — Pre-market Research

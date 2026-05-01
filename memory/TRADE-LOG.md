@@ -209,6 +209,23 @@ No positions yet. Bot launches tomorrow.
 
 ---
 
+## May 1 — Intraday Scan (15:00 ET, 14:00 CT — final scan)
+
+**Portfolio:** $99,634 | **Cash:** $19,355 | **Deployed:** 80.6% | **daytrade_count:** 1/3 | **Weekly trades:** 7/8
+
+| Symbol  | P&L%    | Day%    | Stop Level                        | Action |
+|---------|---------|---------|-----------------------------------|--------|
+| AMZN    | +1.575% | +1.443% | 8% trail $248.23, HWM $269.81    | Hold — AWS thesis intact |
+| BTC/USD | +0.646% | +2.24%  | $66,294 fixed                     | Hold — DXY weak, thesis intact |
+| GOOGL   | +3.237% | -0.33%  | 10% trail $348.06, HWM $386.74   | Hold — Cloud thesis intact |
+| NVDA    | -2.201% | -0.594% | 10% trail $183.02, HWM $203.36   | Hold — Pentagon expanded AI deal (NVDA+MSFT+AMZN) = thesis strengthened |
+| UCO     | +5.169% | -2.177% | 4% trail $44.976, HWM $46.85     | Hold — Iran peace proposal ≠ deal; Hormuz still closed 9.1M bpd; stops near break-even |
+| XLE     | +3.669% | -1.249% | 4% trail $56.573, HWM $58.93     | Hold — energy thesis intact; stops protecting |
+
+**No exits, no tightens, no new entries.** Iran sent peace proposal to mediators; WTI -3% today to ~$103-106. UCO/XLE stops locked near break-even (UCO stop $44.976 vs entry $44.433). NVDA add evaluated: fails — combined NVDA exposure would be 34.2% of equity (exceeds 30% cap). EOD flatten check: no position up ≥10% today. All stops appropriately set from 13:00 ET scan.
+
+---
+
 ## Apr 30 — EOD Snapshot (Day 7, Thursday)
 
 **Portfolio:** $99,603 | **Cash:** $29,555 (29.7%) | **Day P&L:** -$709 (-0.71%) | **Phase P&L:** -$397 (-0.40%)
