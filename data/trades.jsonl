@@ -1,0 +1,1 @@
+{"timestamp":"2026-05-01T00:29:40Z","action":"BUY","symbol":"TEST","qty":1.0,"price":100.0,"notional":100.0,"order_type":"market","asset_class":"stock","side":"","stop_price":null,"target_price":null,"realized_pnl":0.0,"thesis":"smoke test"}
