@@ -75,14 +75,14 @@ STEP 5 — Place the stop.
     bash scripts/alpaca.sh order '{"symbol":"BTC/USD","qty":"0.01","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
 If all stops blocked, queue in TRADE-LOG as "stop-blocked, retry next run".
 
-STEP 6 — Log to NOTION trade journal for each fill (REQUIRED):
-  bash scripts/notion.sh trade \
+STEP 6 — Log to JOURNAL for each fill (REQUIRED — feeds the dashboard):
+  bash scripts/journal.sh trade \
     --action BUY --symbol SYM --qty N --price FILL_PRICE \
     --side buy --order-type market --asset stock \
     --stop STOP_PRICE --target TARGET_PRICE \
     --thesis "one-paragraph why we're buying"
-Run once per fill. If NOTION env vars are missing, the wrapper falls back
-to logs/notion-fallback.md silently — do not error, just continue.
+This appends one line to data/trades.jsonl which the GitHub Pages dashboard
+reads. The commit + push at STEP 9 makes it appear on the live dashboard.
 
 STEP 7 — Append each trade to memory/TRADE-LOG.md (matching existing format):
 Date, ticker, side, shares, entry price, stop level, thesis, target, R:R.
@@ -94,7 +94,7 @@ STEP 8 — Heartbeat notification (ALWAYS send — trade OR no-trade):
     bash scripts/clickup.sh "market-open $DATE: no entries — <one-line reason> | watching: <tickers for midday re-check>"
 
 STEP 9 — COMMIT AND PUSH (mandatory if any trades executed):
-  git add memory/TRADE-LOG.md
+  git add memory/TRADE-LOG.md data/trades.jsonl
   git commit -m "market-open trades $DATE"
   git push origin main
 Skip commit if no trades fired. On push failure: rebase and retry.

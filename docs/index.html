@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Trading Bot Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0b0d10;
+    --panel: #14181d;
+    --border: #232830;
+    --text: #e6e6e6;
+    --muted: #8a93a0;
+    --green: #36c46c;
+    --red: #ef5350;
+    --yellow: #f0b323;
+    --blue: #4ea8ff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  header {
+    padding: 24px 32px; border-bottom: 1px solid var(--border);
+    display: flex; justify-content: space-between; align-items: baseline;
+  }
+  header h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  header .updated { color: var(--muted); font-size: 12px; }
+  main { padding: 24px 32px; max-width: 1400px; margin: 0 auto; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .kpi { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .kpi .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .kpi .value { font-size: 24px; font-weight: 600; }
+  .kpi .sub { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .pos { color: var(--green); }
+  .neg { color: var(--red); }
+  .grid { display: grid; gap: 16px; grid-template-columns: 2fr 1fr; margin-bottom: 16px; }
+  .grid.three { grid-template-columns: 1fr 1fr 1fr; }
+  @media (max-width: 1024px) { .grid, .grid.three { grid-template-columns: 1fr; } }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .card h2 { margin: 0 0 12px; font-size: 14px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+  .pill { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .pill.buy { background: rgba(54, 196, 108, 0.15); color: var(--green); }
+  .pill.sell { background: rgba(239, 83, 80, 0.15); color: var(--red); }
+  .calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+  .calendar .day-name { text-align: center; color: var(--muted); font-size: 11px; padding: 4px 0; }
+  .calendar .day {
+    aspect-ratio: 1; background: var(--bg); border: 1px solid var(--border); border-radius: 4px;
+    padding: 4px; display: flex; flex-direction: column; justify-content: space-between;
+    font-size: 11px; cursor: default;
+  }
+  .calendar .day.has-trade { border-color: var(--blue); }
+  .calendar .day .num { color: var(--muted); }
+  .calendar .day .pnl { font-weight: 600; font-size: 12px; }
+  .calendar .day.empty { background: transparent; border: 1px solid transparent; }
+  .empty-state { text-align: center; padding: 32px; color: var(--muted); }
+  .filter-bar { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+  .filter-bar button {
+    background: var(--panel); border: 1px solid var(--border); color: var(--text);
+    padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 12px;
+  }
+  .filter-bar button.active { background: var(--blue); border-color: var(--blue); color: #fff; }
+  canvas { max-height: 260px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📈 Trading Bot Dashboard</h1>
+  <div class="updated">Last update: <span id="updated">—</span></div>
+</header>
+<main>
+  <section class="kpis" id="kpis"></section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Equity Curve</h2>
+      <canvas id="equityChart"></canvas>
+    </div>
+    <div class="card">
+      <h2>Win / Loss</h2>
+      <canvas id="winLossChart"></canvas>
+    </div>
+  </section>
+
+  <section class="grid three">
+    <div class="card">
+      <h2>P&amp;L by Symbol</h2>
+      <canvas id="symbolChart"></canvas>
+    </div>
+    <div class="card">
+      <h2>Trades by Asset Class</h2>
+      <canvas id="assetChart"></canvas>
+    </div>
+    <div class="card">
+      <h2>Realized P&amp;L by Trade</h2>
+      <canvas id="pnlChart"></canvas>
+    </div>
+  </section>
+
+  <section class="card" style="margin-bottom: 16px;">
+    <h2>Calendar — Daily P&amp;L (last 6 weeks)</h2>
+    <div class="calendar" id="calendar"></div>
+  </section>
+
+  <section class="card">
+    <h2>All Trades</h2>
+    <div class="filter-bar">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="BUY">Buys</button>
+      <button data-filter="SELL">Sells</button>
+      <button data-filter="stock">Stocks</button>
+      <button data-filter="etf">ETFs</button>
+      <button data-filter="crypto">Crypto</button>
+    </div>
+    <table id="tradesTable">
+      <thead>
+        <tr>
+          <th>Time</th><th>Action</th><th>Symbol</th><th>Asset</th>
+          <th>Qty</th><th>Price</th><th>Notional</th>
+          <th>P&amp;L</th><th>Thesis</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="empty-state" id="emptyState" style="display:none;">
+      No trades yet. The bot writes here every time it fills an order.
+    </div>
+  </section>
+</main>
+<script>
+const fmt$ = n => n == null ? "—" : "$" + n.toLocaleString(undefined, { maximumFractionDigits: 2 });
+const fmtSign = n => (n == null ? "—" : (n >= 0 ? "+" : "") + fmt$(n));
+const dayKey = ts => ts.slice(0, 10);
+const colorFor = pnl => pnl > 0 ? "var(--green)" : pnl < 0 ? "var(--red)" : "var(--muted)";
+
+async function loadTrades() {
+  const url = "../data/trades.jsonl?t=" + Date.now();
+  try {
+    const r = await fetch(url);
+    if (!r.ok) return [];
+    const text = await r.text();
+    return text.trim().split("\n").filter(Boolean).map(l => JSON.parse(l));
+  } catch (e) {
+    console.error("failed to load", e);
+    return [];
+  }
+}
+
+function renderKPIs(trades) {
+  const buys = trades.filter(t => t.action === "BUY");
+  const sells = trades.filter(t => t.action === "SELL");
+  const totalPnl = sells.reduce((s, t) => s + (t.realized_pnl || 0), 0);
+  const wins = sells.filter(t => (t.realized_pnl || 0) > 0).length;
+  const losses = sells.filter(t => (t.realized_pnl || 0) < 0).length;
+  const winRate = (wins + losses) > 0 ? (wins / (wins + losses) * 100).toFixed(1) : "—";
+  const totalNotional = buys.reduce((s, t) => s + (t.notional || 0), 0);
+
+  const kpis = [
+    { label: "Total Realized P&L", value: fmtSign(totalPnl), sub: `${sells.length} closes`, cls: totalPnl >= 0 ? "pos" : "neg" },
+    { label: "Win Rate", value: winRate === "—" ? "—" : winRate + "%", sub: `${wins}W / ${losses}L` },
+    { label: "Total Trades", value: trades.length, sub: `${buys.length} buys, ${sells.length} sells` },
+    { label: "Capital Deployed", value: fmt$(totalNotional), sub: "cumulative buys" },
+  ];
+
+  document.getElementById("kpis").innerHTML = kpis.map(k =>
+    `<div class="kpi"><div class="label">${k.label}</div>
+     <div class="value ${k.cls || ''}">${k.value}</div>
+     <div class="sub">${k.sub}</div></div>`).join("");
+}
+
+function renderEquityChart(trades) {
+  const sells = trades.filter(t => t.action === "SELL").sort((a, b) => a.timestamp.localeCompare(b.timestamp));
+  let cum = 0;
+  const labels = [], data = [];
+  sells.forEach(t => {
+    cum += t.realized_pnl || 0;
+    labels.push(t.timestamp.slice(0, 16).replace("T", " "));
+    data.push(cum);
+  });
+  if (labels.length === 0) { labels.push("start"); data.push(0); }
+  new Chart(document.getElementById("equityChart"), {
+    type: "line",
+    data: { labels, datasets: [{ data, borderColor: "#4ea8ff", backgroundColor: "rgba(78,168,255,0.1)", fill: true, tension: 0.2, pointRadius: 2 }] },
+    options: { plugins: { legend: { display: false } }, scales: { x: { ticks: { color: "#8a93a0", maxTicksLimit: 6 } }, y: { ticks: { color: "#8a93a0", callback: v => "$" + v } } } }
+  });
+}
+
+function renderWinLoss(trades) {
+  const sells = trades.filter(t => t.action === "SELL");
+  const wins = sells.filter(t => (t.realized_pnl || 0) > 0).length;
+  const losses = sells.filter(t => (t.realized_pnl || 0) < 0).length;
+  const flat = sells.length - wins - losses;
+  new Chart(document.getElementById("winLossChart"), {
+    type: "doughnut",
+    data: {
+      labels: ["Wins", "Losses", "Flat"],
+      datasets: [{ data: [wins, losses, flat], backgroundColor: ["#36c46c", "#ef5350", "#8a93a0"], borderWidth: 0 }]
+    },
+    options: { plugins: { legend: { labels: { color: "#e6e6e6" } } } }
+  });
+}
+
+function renderSymbolChart(trades) {
+  const bySym = {};
+  trades.filter(t => t.action === "SELL").forEach(t => {
+    bySym[t.symbol] = (bySym[t.symbol] || 0) + (t.realized_pnl || 0);
+  });
+  const entries = Object.entries(bySym).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  new Chart(document.getElementById("symbolChart"), {
+    type: "bar",
+    data: {
+      labels: entries.map(e => e[0]),
+      datasets: [{ data: entries.map(e => e[1]), backgroundColor: entries.map(e => e[1] >= 0 ? "#36c46c" : "#ef5350") }]
+    },
+    options: { indexAxis: "y", plugins: { legend: { display: false } }, scales: { x: { ticks: { color: "#8a93a0" } }, y: { ticks: { color: "#e6e6e6" } } } }
+  });
+}
+
+function renderAssetChart(trades) {
+  const byAsset = {};
+  trades.forEach(t => { byAsset[t.asset_class || "unknown"] = (byAsset[t.asset_class || "unknown"] || 0) + 1; });
+  new Chart(document.getElementById("assetChart"), {
+    type: "pie",
+    data: {
+      labels: Object.keys(byAsset),
+      datasets: [{ data: Object.values(byAsset), backgroundColor: ["#4ea8ff", "#a855f7", "#f0b323", "#8a93a0"], borderWidth: 0 }]
+    },
+    options: { plugins: { legend: { labels: { color: "#e6e6e6" } } } }
+  });
+}
+
+function renderPnlChart(trades) {
+  const sells = trades.filter(t => t.action === "SELL").slice(-30);
+  new Chart(document.getElementById("pnlChart"), {
+    type: "bar",
+    data: {
+      labels: sells.map(t => t.symbol),
+      datasets: [{ data: sells.map(t => t.realized_pnl || 0), backgroundColor: sells.map(t => (t.realized_pnl || 0) >= 0 ? "#36c46c" : "#ef5350") }]
+    },
+    options: { plugins: { legend: { display: false } }, scales: { x: { ticks: { color: "#8a93a0", maxTicksLimit: 12 } }, y: { ticks: { color: "#8a93a0", callback: v => "$" + v } } } }
+  });
+}
+
+function renderCalendar(trades) {
+  const byDay = {};
+  trades.filter(t => t.action === "SELL").forEach(t => {
+    const k = dayKey(t.timestamp);
+    byDay[k] = (byDay[k] || 0) + (t.realized_pnl || 0);
+  });
+  const today = new Date();
+  const start = new Date(today); start.setDate(start.getDate() - 41);
+  // Align start to Sunday
+  start.setDate(start.getDate() - start.getDay());
+  const cal = document.getElementById("calendar");
+  const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  let html = days.map(d => `<div class="day-name">${d}</div>`).join("");
+  for (let i = 0; i < 42; i++) {
+    const d = new Date(start); d.setDate(start.getDate() + i);
+    const key = d.toISOString().slice(0, 10);
+    const pnl = byDay[key];
+    const isFuture = d > today;
+    if (isFuture) {
+      html += `<div class="day empty"></div>`;
+    } else {
+      const cls = pnl != null ? "has-trade" : "";
+      const pnlText = pnl != null
+        ? `<span class="pnl" style="color:${colorFor(pnl)}">${fmtSign(pnl)}</span>`
+        : "";
+      html += `<div class="day ${cls}"><span class="num">${d.getDate()}</span>${pnlText}</div>`;
+    }
+  }
+  cal.innerHTML = html;
+}
+
+let allTrades = [];
+let activeFilter = "all";
+
+function renderTable() {
+  const filtered = allTrades.filter(t => {
+    if (activeFilter === "all") return true;
+    if (["BUY", "SELL"].includes(activeFilter)) return t.action === activeFilter;
+    return t.asset_class === activeFilter;
+  });
+  const tbody = document.querySelector("#tradesTable tbody");
+  if (filtered.length === 0) {
+    document.getElementById("emptyState").style.display = "block";
+    tbody.innerHTML = "";
+    return;
+  }
+  document.getElementById("emptyState").style.display = "none";
+  tbody.innerHTML = filtered.slice().reverse().map(t => `
+    <tr>
+      <td>${t.timestamp.slice(0, 16).replace("T", " ")}</td>
+      <td><span class="pill ${t.action === 'BUY' ? 'buy' : 'sell'}">${t.action}</span></td>
+      <td><strong>${t.symbol}</strong></td>
+      <td>${t.asset_class || ""}</td>
+      <td>${t.qty}</td>
+      <td>${fmt$(t.price)}</td>
+      <td>${fmt$(t.notional)}</td>
+      <td class="${(t.realized_pnl || 0) > 0 ? 'pos' : (t.realized_pnl || 0) < 0 ? 'neg' : ''}">${t.realized_pnl ? fmtSign(t.realized_pnl) : "—"}</td>
+      <td style="max-width:300px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" title="${(t.thesis || '').replace(/"/g, '&quot;')}">${t.thesis || ""}</td>
+    </tr>
+  `).join("");
+}
+
+document.querySelectorAll(".filter-bar button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-bar button").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    activeFilter = btn.dataset.filter;
+    renderTable();
+  });
+});
+
+(async function main() {
+  allTrades = await loadTrades();
+  document.getElementById("updated").textContent = new Date().toLocaleString();
+  renderKPIs(allTrades);
+  renderEquityChart(allTrades);
+  renderWinLoss(allTrades);
+  renderSymbolChart(allTrades);
+  renderAssetChart(allTrades);
+  renderPnlChart(allTrades);
+  renderCalendar(allTrades);
+  renderTable();
+})();
+</script>
+</body>
+</html>

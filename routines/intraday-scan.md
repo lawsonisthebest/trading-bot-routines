@@ -111,11 +111,11 @@ DO NOT defer. If gates pass and setup is qualified, ENTER NOW.
 STEP 6 — Log to NOTION trade journal for EVERY fill (entry AND every
 partial sell from the profit ladder):
   Buy:
-    bash scripts/notion.sh trade --action BUY --symbol SYM --qty N \
+    bash scripts/journal.sh trade --action BUY --symbol SYM --qty N \
       --price FILL --side buy --order-type market --asset stock \
       --stop STOP --target TARGET --thesis "..."
   Sell (partial or full):
-    bash scripts/notion.sh trade --action SELL --symbol SYM --qty N \
+    bash scripts/journal.sh trade --action SELL --symbol SYM --qty N \
       --price FILL --side sell --order-type market --asset stock \
       --pnl REALIZED_DOLLARS --thesis "ladder partial at +X%" or "stop hit"
 If notion env vars are missing, the wrapper falls back to a local file
@@ -132,7 +132,7 @@ STEP 8 — Heartbeat notification (every hourly run):
     bash scripts/clickup.sh "scan $(date +%H:%M): <N> positions, equity \$X, day P&L ±X.X%, no changes."
 
 STEP 9 — COMMIT AND PUSH (only if memory files changed):
-  git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md
+  git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md data/trades.jsonl
   git commit -m "intraday scan $DATE $(date +%H:%M)"
   git push origin main
 On push failure: rebase and retry.
