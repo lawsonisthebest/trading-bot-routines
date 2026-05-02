@@ -257,3 +257,32 @@ No positions yet. Bot launches tomorrow.
 | XLE      | 175     | $56.82      | $58.85   | -1.34%  | +$355 (+3.57%)   | 4% trail $56.70    |
 
 **Notes:** Mixed close. AMZN added 38 shares at 13:00 scan (AWS +24% YoY, EPS $2.78 vs $1.64 est) bringing to 94 shares avg $264.71; 8% trail tightened from 10%. Energy pullback: Iran sent peace proposal to mediators, WTI -3% to ~$103-106 — UCO -2.14%, XLE -1.34%; stops tightened to 4% trail locking near break-even (UCO stop $44.98 vs entry $44.43). BTC +2.15% on DXY weakness. GOOGL flat (+0.24%) after yesterday's +10.2% surge; Cloud thesis intact, 10% trail at $348.06. NVDA -0.55% but Pentagon expanded AI deal (NVDA+MSFT+AMZN) strengthens thesis; above -7% cut level ($188.65). Weekly trades: 7 vs 3/week cap (flagged from Apr 30 surge); resets Mon May 4. Deployed 80.6% — within 75-85% target band.
+
+---
+
+## May 02 — Weekend Crypto Check (Saturday)
+
+**Portfolio:** $99,638 | **Cash:** $19,355 (19.4%) | **Deployed:** 80.6% | **Crypto:** $10,002 (10.0%)
+
+| Ticker  | Shares  | Entry      | Current    | Unrealized P&L   | Stop (old → new)                         |
+|---------|---------|------------|------------|------------------|------------------------------------------|
+| BTC/USD | 0.12768 | $77,993.44 | $78,383    | +$44 (+0.44%)    | $66,294/$65,900 → **$68,634/$68,225 GTC** |
+
+**Actions taken:**
+- **BTC stop raised** (strategy compliance): old -15% stop ($66,294 trigger / $65,900 limit, order 521e80ad) cancelled. New stop_limit GTC: trigger **$68,634** / limit **$68,225** (order 27bd426d) = -12% below entry $77,993.44 per updated strategy rule. Stop raised (allowed); not moved down.
+- **No cuts**: BTC +0.44% — far above -12% cut threshold.
+- **No new entries**: ETH fails checklist (ETF outflows $184M/4 days, Fear zone, underperforming). BTC dominance 58.29% = Bitcoin Season; no alt catalysts. Fear & Greed 43 (improving from 33).
+
+**Watchlist prices (May 2, ~14:00 UTC):**
+| Symbol    | Price   | Notes                                   |
+|-----------|---------|-----------------------------------------|
+| BTC/USD   | $78,383 | Held. +0.44%. April: strongest ETF month ($1.97B net). |
+| ETH/USD   | $2,308  | Outflows $184M/4 days; underperforming. Skip. |
+| SOL/USD   | $84.00  | Bitcoin Season; no catalyst. Skip.     |
+| XRP/USD   | $1.392  | No catalyst. Skip.                      |
+| AVAX/USD  | $9.12   | No catalyst. Skip.                      |
+| LINK/USD  | $9.11   | No catalyst. Skip.                      |
+| DOGE/USD  | $0.109  | No catalyst. Skip.                      |
+| LTC/USD   | $55.36  | No catalyst. Skip.                      |
+
+**Market context:** Total market cap $2.65T (+1.18% 24h). BTC dominance 58.29%. Fear & Greed 43. Spot BTC ETF inflows resumed (+$4.5M). April aggregate inflows $2.43B despite price drawdown — institutional conviction intact. ETH ETF outflows 4 consecutive days ($184M). Macro: Brent crude >$103, Fed at 3.75%.

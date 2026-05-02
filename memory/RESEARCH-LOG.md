@@ -397,3 +397,39 @@ TRADE or HOLD (default HOLD if no edge)
 - No stop tightens (no positions at +15%)
 - No new entries: at max positions (5 equity + 1 crypto) AND daytrade_count = 3 (PDT limit)
 - Weekly equity trades: 6 of 8 used
+
+---
+
+## 2026-05-02 — Weekend Crypto Check (Saturday)
+
+### Crypto Market Context
+- Total market cap: $2.65T (+1.18% 24h; -14.77% YoY) [CoinGecko]
+- BTC dominance: 58.29% → Bitcoin Season intact
+- Fear & Greed: 43 (Fear, improving from 33 Wednesday)
+- Spot BTC ETF flows: resumed inflows $4.5M May 2; April aggregate +$2.43B net (strongest ETF month 2026) [CoinGlass]
+- ETH ETF: outflows $184M over 4 consecutive days [CoinGecko]
+- Macro: Brent crude >$103 (Hormuz), Fed at 3.75%, DXY weak
+
+### BTC/USD Position Review
+- Entry: $77,993.44 | Current: $78,383 | Unrealized: +$44 (+0.44%)
+- Stop raised: $66,294 → $68,634 trigger / $68,225 limit (order 27bd426d)
+- Reason: old stop at -15% violated updated strategy rule (-12%). Raising complies and raises — not violating "never move stop down."
+- Thesis: Spot ETF institutional bid structural; April inflows show conviction-over-speculation; DXY weakness supportive. Intact.
+
+### Watchlist Scan
+| Symbol   | Price  | Assessment                                          |
+|----------|--------|-----------------------------------------------------|
+| ETH/USD  | $2,308 | SKIP — ETF outflows 4 days, underperforming, Fear zone. 1/4 checklist. |
+| SOL/USD  | $84.00 | SKIP — Bitcoin Season, no catalyst                  |
+| XRP/USD  | $1.392 | SKIP — no catalyst                                  |
+| AVAX/USD | $9.12  | SKIP — no catalyst                                  |
+| LINK/USD | $9.11  | SKIP — no catalyst                                  |
+| DOGE/USD | $0.109 | SKIP — no catalyst                                  |
+| LTC/USD  | $55.36 | SKIP — no catalyst                                  |
+| BCH/USD  | $446   | SKIP — no catalyst                                  |
+| DOT/USD  | $1.208 | SKIP — no catalyst                                  |
+| AAVE/USD | $92.39 | SKIP — no catalyst                                  |
+| UNI/USD  | $3.227 | SKIP — no catalyst                                  |
+
+### Decision
+**NO NEW ENTRIES.** Stop raised on BTC. 1 crypto position (BTC), below 25% cap (10.0%). ETH fails checklist. Alts: Bitcoin Season, no independent catalysts. Watch ETH next week for ETF flow reversal signal.
