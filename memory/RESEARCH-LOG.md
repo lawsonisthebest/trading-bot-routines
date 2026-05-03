@@ -126,6 +126,33 @@ TRADE or HOLD (default HOLD if no edge)
 
 ---
 
+## 2026-05-03 — Weekend Crypto Check
+
+### Crypto Positions
+| Symbol  | P&L%   | Stop             | Status |
+|---------|--------|------------------|--------|
+| BTC/USD | +0.85% | $68,634/$68,225  | Hold   |
+
+### Crypto Market Context
+- BTC: $78,651 — consolidating near $80K resistance; +12% in April; strongest ETF month 2026 ($2.44B inflows)
+- BlackRock IBIT: +$284M on May 1 — institutional demand intact
+- ETH: $2,322 — 226K ETH flowed into exchanges past 72h (selling pressure); $149.7M liquidations; ETH Foundation selling 10K ETH/week
+- Total market cap: ~$2.68T | BTC dominance: 58.5% = Bitcoin Season
+- Regulatory: Senate Clarity Act stablecoin compromise (positive for sector)
+- Risk: Fed leadership change May 15 (Powell → Warsh, hawkish) — volatility catalyst ahead
+
+### Rule Application
+- **Cuts**: None (BTC +0.85%, far above -12%)
+- **Stop tightens**: None (BTC below +15% rung)
+- **New entries**: None
+  - ETH: FAIL (exchange inflows bearish, liquidations, R:R <1.5:1)
+  - All alts: FAIL (BTC dominance 58.5% = Bitcoin Season, no independent catalysts)
+
+### Decision
+HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
+
+---
+
 ## 2026-04-22 — Pre-market Research
 
 ### Account

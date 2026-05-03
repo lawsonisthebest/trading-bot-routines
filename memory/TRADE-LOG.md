@@ -286,3 +286,32 @@ No positions yet. Bot launches tomorrow.
 | LTC/USD   | $55.36  | No catalyst. Skip.                      |
 
 **Market context:** Total market cap $2.65T (+1.18% 24h). BTC dominance 58.29%. Fear & Greed 43. Spot BTC ETF inflows resumed (+$4.5M). April aggregate inflows $2.43B despite price drawdown — institutional conviction intact. ETH ETF outflows 4 consecutive days ($184M). Macro: Brent crude >$103, Fed at 3.75%.
+
+---
+
+## May 03 — Weekend Crypto Check (Sunday)
+
+**Portfolio:** $99,686 | **Cash:** $19,355 (19.4%) | **Deployed:** 80.7% | **Crypto:** $10,050 (10.1%)
+
+| Ticker  | Shares  | Entry      | Current    | Unrealized P&L   | Stop             |
+|---------|---------|------------|------------|------------------|------------------|
+| BTC/USD | 0.12768 | $77,993.44 | $78,651    | +$84 (+0.85%)    | $68,634/$68,225 GTC (unchanged) |
+
+**Actions taken:** None.
+- **No cuts**: BTC +0.85% — far above -12% threshold.
+- **No stop tighten**: BTC below +15% rung ($89,692). Stop stays at -12% fixed.
+- **No new entries**: ETH fails (226K ETH into exchanges 72h = selling pressure, $149.7M liquidations, R:R <1.5:1). BTC dominance 58.5% = Bitcoin Season; alts skip.
+
+**Watchlist prices (May 3, ~14:00 UTC):**
+| Symbol    | Price    | Notes                                              |
+|-----------|----------|----------------------------------------------------|
+| BTC/USD   | $78,651  | Held. +0.85%. Consolidating near $80K resistance. |
+| ETH/USD   | $2,322   | 226K ETH → exchanges 72h; liquidations $149.7M. Skip. |
+| SOL/USD   | $84.08   | Bitcoin Season; no catalyst. Skip.                 |
+| XRP/USD   | $1.395   | No catalyst. Skip.                                  |
+| AVAX/USD  | $9.06    | No catalyst. Skip.                                  |
+| LINK/USD  | $9.15    | No catalyst. Skip.                                  |
+| DOGE/USD  | $0.1086  | Whale holdings ATH but no entry catalyst. Skip.    |
+| LTC/USD   | $55.16   | No catalyst. Skip.                                  |
+
+**Market context:** Total market cap ~$2.68T. BTC dominance 58.5%. BTC April: +12%, strongest ETF month 2026 ($2.44B inflows). BlackRock IBIT +$284M May 1. Fed leadership change May 15 (Powell → Warsh, hawkish) = volatility risk ahead. Regulatory positive: Clarity Act stablecoin compromise in Senate.
