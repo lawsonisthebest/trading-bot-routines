@@ -419,3 +419,23 @@ No positions yet. Bot launches tomorrow.
 **PLTR:** Reports Q1 AH tonight at 5 PM ET (EPS $0.28 est, rev $1.54B est). 96% Polymarket beat probability. No entry today — max slots. Plan: tomorrow AM pre-market if beat confirmed, size 15-20%.
 
 **Tag:** intraday-scan 2026-05-04
+
+---
+
+## May 04 — EOD Snapshot (Day 9, Monday)
+
+**Portfolio:** $100,538.75 | **Cash:** $6,019.19 (5.99%) | **Day P&L:** +$895.97 (+0.90%) | **Phase P&L:** +$538.75 (+0.54%)
+
+| Ticker  | Shares  | Entry     | Close     | Day Chg | Unrealized P&L       | Stop                    |
+|---------|---------|-----------|-----------|---------|----------------------|-------------------------|
+| AAPL    | 53      | $277.01   | $276.77   | -1.20%  | -$12.72 (-0.09%)     | 8% trail $255.76        |
+| AMZN    | 94      | $264.71   | $271.71   | +1.29%  | +$657.55 (+2.64%)    | 8% trail $254.01        |
+| BTC/USD | 0.12768 | $77,993   | $80,031   | +0.26%  | +$260.16 (+2.61%)    | stop_limit $68,634      |
+| GOOGL   | 39      | $371.51   | $383.09   | -0.67%  | +$451.79 (+3.12%)    | 10% trail $348.64       |
+| NVDA    | 73      | $202.85   | $198.52   | +0.04%  | -$316.09 (-2.14%)    | 10% trail $183.02       |
+| UCO     | 84      | $44.43    | $50.47    | +7.93%  | +$507.09 (+13.59%)   | 4% trail $49.02         |
+| XLE     | 175     | $56.82    | $59.42    | +0.97%  | +$455.00 (+4.58%)    | 4% trail $57.20         |
+
+**Trades today:** AAPL buy 53@$277.01 (new position, slot 6); UCO trim 28@$48.076 (+$102 realized, +8.2%). Weekly new positions: 1/3 (AAPL).
+
+**Notes:** Strong day led by UCO +7.93% (Iran-UAE cruise missile strikes, WTI ~$104, Hormuz blockade ongoing) and AMZN +1.29% (AWS thesis). Opened AAPL as 6th equity slot at market open — 4/4 checklist pass, 8% trail stop placed. Trimmed UCO 25% at profit rung +8%. All 6 equity slots filled; no new equity entries possible. BTC stop is static at $68,634 — well below $80K current; monitor for manual update opportunity. NVDA lagging (-2.14% unrealized) but above -6% cut level at $198.52. PLTR reported Q1 AH tonight — check pre-market; if beat confirmed, evaluate freeing a slot (weakest position is NVDA if thesis deteriorates).
