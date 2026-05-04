@@ -315,3 +315,27 @@ No positions yet. Bot launches tomorrow.
 | LTC/USD   | $55.16   | No catalyst. Skip.                                  |
 
 **Market context:** Total market cap ~$2.68T. BTC dominance 58.5%. BTC April: +12%, strongest ETF month 2026 ($2.44B inflows). BlackRock IBIT +$284M May 1. Fed leadership change May 15 (Powell → Warsh, hawkish) = volatility risk ahead. Regulatory positive: Clarity Act stablecoin compromise in Senate.
+
+---
+
+## May 04 — Market-Open Entries (Day 9, Monday)
+
+**Portfolio:** $100,136 | **Cash:** $19,355 → ~$6,200 post-fill | **Deployed:** ~94% | **Weekly trades:** 0→1/8 | **daytrade_count:** 0/3
+
+### New Entry
+
+| Ticker | Shares | Entry   | Stop (trail)                           | Target  | R:R  | Thesis |
+|--------|--------|---------|----------------------------------------|---------|------|--------|
+| AAPL   | 53     | $277.01 | 8% trail GTC $255.26 (order d30b23cb)  | $318.56 | 1.88:1 | Q2 2026 earnings beat + strong guidance; iPhone resilient; XLK sector leading YTD +55%; 4/4 checklist pass |
+
+### Position Management
+
+| Action | Ticker | Shares | Fill Price | Realized P&L | Notes |
+|--------|--------|--------|------------|--------------|-------|
+| SELL 25% | UCO | 28 | $48.076 | +$102 (+8.2%) | Profit ladder: +10% trigger hit premarket ($48.89); 84 shares remain; new 4% trail GTC $46.21 (order 740fe47d) |
+
+### Entry Notes
+- **AAPL** (53 shares @ $277.01): 4/4 checklist — Q2 beat, XLK leading, stop identifiable, R:R 1.88:1. 15% position (~$14,682). Fills 6th equity slot. Weekly trade 1/8.
+- **UCO partial exit**: Sold 28 of 112 shares at $48.076; realized +$102. New stop placed for 84 shares at 4% trail. UCO still at +8.2% unrealized on remaining shares.
+- **PLTR**: earnings tonight AH — monitoring; plan entry tomorrow pre-market if beat.
+- Total deployed post-fill: ~94% (AAPL $14,682 + AMZN $25,580 + GOOGL $15,002 + NVDA $14,581 + UCO $4,038 + XLE $10,199 + BTC $10,090 = $94,172).
