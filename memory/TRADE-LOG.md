@@ -393,3 +393,29 @@ No positions yet. Bot launches tomorrow.
 **New entries evaluated:** No qualified setup can be acted on — max equity positions, insufficient cash for crypto. Hold discipline maintained.
 
 **Tag:** intraday-scan 2026-05-04
+
+---
+
+## May 04 — Intraday Scan (15:00 ET, 14:00 CT)
+
+**Portfolio:** $100,423 | **Cash:** $6,019 | **Deployed:** 94.0% | **daytrade_count:** 1/3 | **Weekly trades:** 1/8 | **Day P&L:** +$780 (+0.78%)
+
+| Symbol  | P&L%    | Day%    | Stop Level                              | Action |
+|---------|---------|---------|-----------------------------------------|--------|
+| AAPL    | -0.14%  | -1.25%  | 8% trail $255.76, HWM $278              | Hold — thesis intact |
+| AMZN    | +2.35%  | +1.00%  | 8% trail $254.01, HWM $276.10           | Hold — AWS thesis intact; +5% rung ($277.95) not hit |
+| BTC/USD | +2.69%  | +0.34%  | stop_limit $68,634/$68,225              | Hold — DXY weak, thesis intact |
+| GOOGL   | +3.13%  | -0.67%  | 10% trail $348.64, HWM $387.38          | Hold — Cloud +63% thesis intact |
+| NVDA    | -2.26%  | -0.09%  | 10% trail $183.02, HWM $203.36          | Hold — above -6% cut ($190.68); hyperscaler dependency thesis intact |
+| UCO     | +13.95% | +8.28%  | 4% trail $49.02, HWM $51.06            | Hold — +20% rung $53.32 not hit; Hormuz thesis VERY intact |
+| XLE     | +4.40%  | +0.80%  | 4% trail $57.20, HWM $59.58            | Hold — energy thesis intact |
+
+**No actions taken.** Max equity slots (6/6). $6K cash insufficient for 12% crypto sizing.
+
+**EOD flatten check (14:00 CT):** UCO +8.28% today — catalyst is multi-day (ongoing Hormuz blockade + Iran-UAE missile strikes), NOT a one-day event. No mandatory close.
+
+**Oil escalation update:** Iran fired 4 cruise missiles at UAE. WTI ~$104-105/bbl. US "Project Freedom" active in Hormuz. Exxon CEO: "market hasn't seen full impact." UCO/XLE thesis strongly intact.
+
+**PLTR:** Reports Q1 AH tonight at 5 PM ET (EPS $0.28 est, rev $1.54B est). 96% Polymarket beat probability. No entry today — max slots. Plan: tomorrow AM pre-market if beat confirmed, size 15-20%.
+
+**Tag:** intraday-scan 2026-05-04
