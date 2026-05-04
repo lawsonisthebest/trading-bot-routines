@@ -153,6 +153,84 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 
 ---
 
+## 2026-05-04 — Pre-market Research
+
+### Account (last known — Alpaca API unavailable: host IP not in allowlist)
+- Equity: ~$99,686 | Cash: $19,355 (19.4%) | Deployed: ~80.7%
+- Daytrade count: 0/3 (PDT reset — new week)
+- Weekly equity trades: 0/8 (reset Monday)
+- Positions: 5 equity + 1 crypto
+
+### Positions (May 3 EOD baseline)
+| Symbol  | Shares  | Avg Entry  | Unrealized | Stop               | Note |
+|---------|---------|------------|------------|--------------------|------|
+| AMZN    | 94      | $264.71    | +1.34%     | 8% trail ~$248     | AWS 28% YoY; thesis intact |
+| BTC/USD | 0.12768 | $77,993    | +0.85%     | $68,634 fixed      | Consolidating ~$80K resistance |
+| GOOGL   | 39      | $371.51    | +3.83%     | 10% trail ~$348    | Cloud +63% thesis intact |
+| NVDA    | 73      | $202.85    | -2.16%     | 10% trail ~$183    | Pentagon AI deal; earnings May 20 |
+| UCO     | 112     | $44.43     | +5.21%     | 4% trail ~$44.98   | Break-even protected; Iran risk |
+| XLE     | 175     | $56.82     | +3.57%     | 4% trail ~$56.57   | Near break-even; Iran risk |
+
+### Market Context
+- WTI: ~$103-108/bbl | Brent: ~$101.94 — Iran/US peace draft through Pakistan mediators; oil -2% intraday on talks ([CNBC](https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html))
+- S&P 500 futures: +0.17% (7,270) | NQ: +0.37% (27,940) | Dow: -0.05% ([CNBC premarket](https://www.cnbc.com/pre-markets/))
+- VIX: 16.78 — calm, well below 35 threshold ([TradingEconomics](https://tradingeconomics.com/united-states/cboe-volatility-index-vix-fed-data.html))
+- Core PCE: 4.3% (above 4.1% est, up from 2.7%) — sticky inflation
+- Weekly jobless claims: 189K (lowest since 1969) — strong labor market ([CNBC May 4 outlook](https://www.cnbc.com/2026/05/01/stock-market-next-week-outlook-for-may-4-8-2026.html))
+- Fed: Powell last day May 15 → Warsh (hawkish) Senate vote week of May 11 — volatility risk
+- S&P 500 Q1 EPS growth: +14% YoY; full year +18.7% — earnings season robust ([FactSet](https://insight.factset.com/sp-500-earnings-season-update-may-1-2026))
+- Iran/US: peace proposal in circulation through Pakistan mediators; Hormuz still closed but re-open risk elevated ([CNBC](https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html))
+
+### Earnings Today / This Week
+- **Tonight AH:** PLTR Q1 — est EPS $0.28 (+115% YoY), rev $1.54B (+74%); 10 consecutive beats; ~$144 (down 20% YTD, 31% from ATH $207); Pentagon AI deal catalyst ([TipRanks](https://www.tipranks.com/news/palantir-pltr-will-report-q1-earnings-on-may-4-wall-street-analysts-eye-115-earnings-jump))
+- **Tuesday AH:** AMD Q1 — est EPS $1.28 (+33%), rev $9.88B (+33%); AI GPU + EPYC demand; up 68% YTD; D.A. Davidson Buy/$375 target ([TipRanks](https://www.tipranks.com/news/amd-is-about-to-report-q1-earnings-heres-what-analysts-expect))
+- **Tuesday:** PFE, PYPL also reporting
+
+### Sector Momentum (YTD 2026)
+- Leading: Energy (XLE +34%), Industrials (XLI), Materials (XLB), Consumer Staples (XLP) ([Investing.com](https://www.investing.com/analysis/sector-rotation-a-guide-to-the-sp-500-momentum-status-200675903))
+- Lagging: Tech (XLK), Communications (XLC), Discretionary (XLY), Financials (XLF)
+- Within-tech outliers: AMD +68% YTD, GOOGL +34% April, NVDA +21% April
+
+### Held Ticker News
+- **AMZN**: AWS 28% YoY ($37.59B, 15-quarter high); OpenAI + Anthropic Trainium deals signed; up 27% past month; best Mag-7 performer 2026 ([Motley Fool](https://www.fool.com/investing/2026/04/30/amazon-all-time-high-buy-magnificent-seven-stock/))
+- **GOOGL**: Cloud +63% to $20B; EPS $5.11 beat; market cap ~$5T overtaking NVDA; best April since 2004 +34% ([CNBC](https://www.cnbc.com/2026/05/01/a-major-mag-7-shift-with-alphabets-market-cap-set-to-pass-nvidias.html))
+- **NVDA**: $5T market cap reclaimed; $500B US manufacturing committed; Pentagon AI deal (NVDA+MSFT+AMZN+GOOG); 37 analysts Strong Buy, target $270; trading ~$199 (-2.2% from entry); earnings May 20 ([Motley Fool](https://www.fool.com/investing/2026/05/01/nvidia-is-worth-5-trillion-once-again-heres-why-it/))
+- **BTC**: ~$79,933 (+0.25% from entry); BlackRock ETP $1.1B AUM; April rally driven by leveraged derivatives not spot demand — vulnerability signal; Strategy reports May 5 ([CNBC](https://www.cnbc.com/2026/05/01/bitcoin-surged-in-april-but-weak-buyer-demand-makes-rally-vulnerable.html))
+- **UCO/XLE**: Hormuz still closed; WTI $103-108; Iran/US peace talks active → oil sold off 2% intraday; stops locked at/near break-even ([CNBC](https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html))
+
+### Trade Ideas
+1. **AMD** (pre-earnings, reports Tue AH) — AI GPU + EPYC demand validated by AMZN/GOOGL/MSFT capex beats. D.A. Davidson upgraded to Buy/$375. Up 68% YTD; momentum intact entering earnings.
+   - Entry: market open ~$215 est (confirm at open)
+   - Stop: 8% trail (~$198)
+   - Target: $247+ (+15%) on EPS beat + guidance raise
+   - R:R: ~1.9:1
+   - Size: 15% (~$14,500) — uses available cash; fills 6th equity slot
+   - Checklist: ✓ Catalyst (earnings eve) ✓ Stop identifiable ✓ R:R 1.9:1 — **3/4 PASS**
+   - Gate: 5→6 equity ≤ 6 ✓ | weekly trades 0+1=1 ≤ 8 ✓ | PDT 0/3 ✓ | cash $19.3K ≥ $14.5K ✓
+
+2. **PLTR** (watch tonight AH, potential entry tomorrow AM) — 10 consecutive EPS beats; AIP commercial accelerating; Pentagon AI deal; ~$144 (20% off YTD highs = value entry in AI defense theme).
+   - NOT entering today — binary earnings risk; wait for AH results
+   - If beats EPS + raises guidance: enter tomorrow AM ~$150-155
+   - Stop: 8% trail | Target: $170+ | R:R: ~1.6:1
+   - Size: 10-15% (requires AMD partial trim or exit to free slot)
+
+3. **NVDA hold/dip** — maintain 73 shares at -2.2%. Pentagon deal + $500B manufacturing + May 20 earnings = multi-catalyst window. Above -6% manual cut ($190.47). Stop at $183.02 manages downside.
+
+### Risk Factors
+- Iran/US peace deal → Hormuz re-open → oil -20-30% → UCO/XLE stops triggered (acceptable; stops near break-even)
+- Warsh Senate confirmation vote week of May 11 → hawkish surprise → yield spike → risk-off
+- Strategy (MSTR) May 5 earnings → large paper loss disclosure → BTC sentiment hit
+- PCE 4.3% sticky → rates-higher narrative weighing on growth tech (NVDA/GOOGL/AMZN)
+- AMD 68% YTD → elevated entry; miss scenario = gap down; 8% stop limits damage
+- At max equity after AMD fill → no agility for new opportunities until one exits
+
+### Decision
+**TRADE** — AMD pre-earnings entry, 15% size (~$14.5K), market open. Fills final equity slot (6/6).
+- VIX 16.78 (<35 ✓), futures +0.17% (not -2% ✓), equity 5/6 (room for 1 ✓), 3/4 checklist ✓ → HOLD criteria not met → ACT.
+- PLTR: watch AH tonight; evaluate entry tomorrow AM if beats.
+
+---
+
 ## 2026-04-22 — Pre-market Research
 
 ### Account
