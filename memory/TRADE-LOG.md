@@ -339,3 +339,27 @@ No positions yet. Bot launches tomorrow.
 - **UCO partial exit**: Sold 28 of 112 shares at $48.076; realized +$102. New stop placed for 84 shares at 4% trail. UCO still at +8.2% unrealized on remaining shares.
 - **PLTR**: earnings tonight AH — monitoring; plan entry tomorrow pre-market if beat.
 - Total deployed post-fill: ~94% (AAPL $14,682 + AMZN $25,580 + GOOGL $15,002 + NVDA $14,581 + UCO $4,038 + XLE $10,199 + BTC $10,090 = $94,172).
+
+---
+
+## May 04 — Intraday Scan (11:00 ET, 10:00 CT)
+
+**Portfolio:** $100,407 | **Cash:** $6,019 | **Deployed:** 94.0% | **daytrade_count:** 1/3 | **Weekly trades:** 1/8 | **Day P&L:** +$764 (+0.77%)
+
+| Symbol  | P&L%    | Day%    | Stop Level                              | Action |
+|---------|---------|---------|-----------------------------------------|--------|
+| AAPL    | +0.08%  | +0.08%  | 8% trail $255.76, HWM $278              | Hold — XLK thesis intact |
+| AMZN    | +3.19%  | +1.83%  | 8% trail $254.01, HWM $276.10           | Hold — AWS AI thesis intact; +5% rung ($277.95) not hit |
+| BTC/USD | +2.89%  | +0.54%  | stop_limit $68,634/$68,225              | Hold — DXY weak, ETF inflows intact |
+| GOOGL   | +2.88%  | -0.91%  | 10% trail $348.64, HWM $387.38          | Hold — Cloud +63% thesis intact |
+| NVDA    | -2.82%  | -0.67%  | 10% trail $183.02, HWM $203.36          | Hold — above -6% cutline ($190.68); $500B US manufacturing + hyperscaler dependency intact |
+| UCO     | +10.68% | +5.17%  | 4% trail $47.21, HWM $49.18            | Hold — +10% rung done at open; next rung +20% ($53.32) not hit |
+| XLE     | +4.03%  | +0.44%  | 4% trail $56.86, HWM $59.23            | Hold — already at 4% trail; +10% rung ($62.50) not hit |
+
+**No actions taken.** 6/6 equity slots filled — no new equity entries possible. $6K cash insufficient for 12% crypto sizing. All GTC stops live and valid.
+
+**Oil/Hormuz update:** Iran proposed Hormuz reopening but US "Project Freedom" active; UAE ADNOC vessel attacked by Iranian drones. WTI ~$100-102/bbl. Thesis intact — attacks ongoing, no deal. UCO/XLE stops (4% trail each) lock near break-even.
+
+**PLTR:** Reports Q1 tonight AH; consensus EPS $0.28 (+115% YoY), revenue $1.54B (+74% YoY); 96% beat probability (Polymarket). Options pricing ±10.55% move. NO entry today — binary risk + no equity slot. Plan entry tomorrow AM on confirmed beat. PLTR current: $147.50 (+2.1% today from $144.41).
+
+**Tag:** intraday-scan 2026-05-04
