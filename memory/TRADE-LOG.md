@@ -363,3 +363,33 @@ No positions yet. Bot launches tomorrow.
 **PLTR:** Reports Q1 tonight AH; consensus EPS $0.28 (+115% YoY), revenue $1.54B (+74% YoY); 96% beat probability (Polymarket). Options pricing ±10.55% move. NO entry today — binary risk + no equity slot. Plan entry tomorrow AM on confirmed beat. PLTR current: $147.50 (+2.1% today from $144.41).
 
 **Tag:** intraday-scan 2026-05-04
+
+---
+
+## May 04 — Intraday Scan (13:00 ET, 12:00 CT)
+
+**Portfolio:** $100,258 | **Cash:** $6,019 | **Deployed:** 94.0% | **daytrade_count:** 1/3 | **Weekly trades:** 1/8 | **Day P&L:** +$615 (+0.62%)
+
+| Symbol  | P&L%    | Day%    | Stop Level                              | Action |
+|---------|---------|---------|-----------------------------------------|--------|
+| AAPL    | -0.08%  | -1.19%  | 8% trail $255.76, HWM $278              | Hold — XLK +1.5% today; thesis intact |
+| AMZN    | +2.05%  | +0.71%  | 8% trail $254.01, HWM $276.10           | Hold — AWS thesis intact; +5% rung ($277.95) not hit |
+| BTC/USD | +2.69%  | +0.34%  | stop_limit $68,634/$68,225              | Hold — DXY weak, thesis intact |
+| GOOGL   | +3.16%  | -0.64%  | 10% trail $348.64, HWM $387.38          | Hold — Cloud thesis intact; +5% rung $390.09 not hit |
+| NVDA    | -2.99%  | -0.84%  | 10% trail $183.02, HWM $203.36          | Hold — lagging semis (SOX 15th intraday ATH); $196.79 > $190.68 cut level; thesis intact |
+| UCO     | +13.97% | +8.30%  | 4% trail $48.72, HWM $50.75            | Hold — next rung +20% @ $53.32 not hit; oil thesis escalating |
+| XLE     | +4.44%  | +0.83%  | 4% trail $57.20, HWM $59.58            | Hold — energy thesis intact; +10% rung $62.50 not hit |
+
+**No actions taken.** Max equity slots (6/6). $6K cash insufficient for 12% crypto sizing ($12K needed).
+
+**Oil escalation:** UAE intercepted 4 Iranian cruise missiles; WTI +3% to $105.63. UCO +8.3% intraday. Hormuz thesis STRENGTHENING — no deal, active military engagement. UCO next rung +20% at $53.32.
+
+**Semis rally:** SOX 15th intraday ATH of 2026 (+22 wins in 23 sessions). XLK +1.5% today. NVDA lagging (-0.84%) due to custom AI chip competition overhang, but hyperscaler dependency + $500B manufacturing thesis intact. Stop $183.02 holds.
+
+**TWLO:** Reported Q1 beat AH Apr 30; +20% today to $179.48 (52wk high). Missed — no equity slot. No chasing.
+
+**PLTR:** Reports Q1 AH tonight (EPS $0.28 est, rev $1.54B est, 96% beat probability). No entry — max slots. Plan: tomorrow AM pre-market if confirmed beat, size 15-20% ($15-20K).
+
+**New entries evaluated:** No qualified setup can be acted on — max equity positions, insufficient cash for crypto. Hold discipline maintained.
+
+**Tag:** intraday-scan 2026-05-04
