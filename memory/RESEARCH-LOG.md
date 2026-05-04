@@ -460,3 +460,102 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 
 ### Decision
 **NO NEW ENTRIES.** Stop raised on BTC. 1 crypto position (BTC), below 25% cap (10.0%). ETH fails checklist. Alts: Bitcoin Season, no independent catalysts. Watch ETH next week for ETF flow reversal signal.
+
+---
+
+## 2026-05-04 — Pre-Market Research (Day 9, Monday)
+
+### Account
+- Equity: $99,981
+- Cash: $19,355 (19.4%)
+- Long market value: $80,627 (80.6%)
+- Buying power: $103,802
+- Daytrade count: 0 (weekly reset — full 3 available)
+- Weekly trade budget: 0/8 used (reset Monday)
+
+### Open Positions
+| Symbol  | Qty     | Entry       | Current    | Unreal P&L        | Stop                        |
+|---------|---------|-------------|------------|-------------------|-----------------------------|
+| AMZN    | 94      | $264.71     | $268.24    | +$331 (+1.33%)    | 8% trail, stop $248.23      |
+| BTC/USD | 0.12768 | $77,993.44  | $78,875    | +$113 (+1.13%)    | stop_limit $68,634/$68,225  |
+| GOOGL   | 39      | $371.51     | $386.12    | +$570 (+3.93%)    | 10% trail, stop $348.06     |
+| NVDA    | 73      | $202.85     | $198.10    | -$347 (-2.34%)    | 10% trail, stop $183.02     |
+| UCO     | 112     | $44.43      | $48.89     | +$499 (+10.03%)   | 4% trail, stop $44.98 ⚠️ LADDER |
+| XLE     | 175     | $56.82      | $59.15     | +$409 (+4.11%)    | 4% trail, stop $56.70       |
+
+**⚠️ UCO profit ladder trigger: +10.03% → SELL 25% (28 shares) at market open. Keep 4% trail on 84 remaining shares (already tighter than required 5%).**
+
+### Market Context
+- **WTI:** ~$101.79–$104.90 (Iran/Hormuz tensions — Hormuz blockade warnings active; energy elevated) [OilPrice.com, TheStreet]
+- **Brent:** ~$108–$111 (+3.35% today on Iran warnings) [Investing.com]
+- **S&P 500 futures:** +0.11% (7,265.75) — mildly positive; SPY hit fresh ATH Friday [CNBC Pre-Markets]
+- **Nasdaq 100 futures:** +0.87% (27,835.75) — slight negative in early premarket [Investing.com]
+- **VIX:** 16.78 — low volatility, risk-on environment [Yahoo Finance]
+- **10Y Treasury:** 4.38% — significantly improved from 5.0% headwind last week [Trading Economics]
+- **DXY:** 98.16 — weak dollar, down 1.82% past month; tailwind for risk assets [Yahoo Finance]
+- **BTC:** $79,933 — consolidating near $80K, up +2.5% from entry; thesis intact [OKX]
+- **Earnings before open:** Minor names (Marzetti, GeneDx, RLJ Lodging). No mega-cap BMO today.
+- **Earnings after close tonight:** PLTR (Palantir) — high-impact AI name; critical catalyst.
+- **Economic calendar:** ISM Services PMI today; April Jobs Report due Friday. No CPI/PPI/FOMC today — clean macro.
+- **Sector momentum (week):** XLK (tech) leading YTD +55%. Real Estate and Communication Services also leading. Energy (XLE) holding. Industrials weakening (dropped rank #4 → #10). [QuantLake, FactSet]
+
+### Key Catalysts Today
+- **AAPL:** +3.5% premarket on Q2 2026 earnings beat (strong guidance; iPhone rev slightly missed but overall beat). Mega-cap tech momentum play. [Yahoo Finance]
+- **EBAY:** +10.5% premarket on GameStop $125/share acquisition bid (20% premium to $104.07 Friday close). Merger arb — deal not confirmed, R:R <1.5:1. SKIP entry. [TheStreet]
+- **GME:** +5% on eBay bid news. Speculative — not in primary watchlist.
+- **PLTR:** $144.41 Friday close; reports Q1 2026 tonight after close. AI + government contracts catalyst. WATCH for tomorrow entry on post-earnings reaction.
+- **PANW:** $180.98; acquiring Portkey (AI Gateway for autonomous agent governance). AI security theme expanding. [Yahoo Finance]
+- **Oil/Energy:** Iran warned US forces re: Strait of Hormuz approach. WTI +2.87%; Brent +3.35%. Direct tailwind for UCO/XLE held positions.
+- **GOOGL:** Pentagon defense AI deal signed. Cloud thesis intact (+3.93% unrealized). [Motley Fool]
+- **NVDA:** $500B US manufacturing investment announced. Competition concerns from GOOGL/AMZN chips but AWS dependency confirmed. -2.34% unrealized, above -6% cutline. HOLD.
+
+### Trade Ideas
+
+1. **AAPL — LONG (primary idea)** [Yahoo Finance/CNBC]
+   - Catalyst: Q2 2026 earnings beat + strong guidance; +3.5% premarket; XLK sector leading YTD +55%
+   - Entry: ~market open price (estimate $200–207 post-gap)
+   - Stop: 8% trailing from entry
+   - Target: +15% ($230–238 range) on earnings momentum
+   - Size: 15% of equity (~$15K, ~73 shares at $205)
+   - Checklist: Catalyst ✓, Sector not declining ✓, Stop identifiable ✓, R:R ~2:1 ✓ — **4/4**
+   - **TRADE** — this uses the 1 remaining equity slot (cap: 6 equity)
+
+2. **PANW — LONG (alternative if AAPL entry unattractive)** [Yahoo Finance]
+   - Catalyst: Portkey M&A (AI Gateway) + AI security sector tailwind + XLK leadership
+   - Entry: ~$181 at open
+   - Stop: 8% trail (~$166.50)
+   - Target: $210 (+16%); AI security premium expansion
+   - Size: 15% (~$15K, ~83 shares)
+   - Checklist: Catalyst ✓, Sector not declining ✓, Stop identifiable ✓, R:R ~2:1 ✓ — **3/4**
+   - **TRADE** — backup if AAPL gaps too high
+
+3. **UCO — POSITION MANAGEMENT (existing hold)** [OilPrice.com]
+   - At +10.03% → profit ladder: SELL 25% (28 shares) at open ($48.89 → ~$1,372 realized)
+   - Keep 4% trail on 84 remaining shares (already tighter than 5% requirement)
+   - Iran/Hormuz tension keeps energy elevated; energy thesis intact for remainder
+
+4. **PLTR — WATCH (entry tomorrow morning)** [Motley Fool, Yahoo Finance]
+   - Earnings tonight after close; AI revenue + government contract growth expected
+   - Do NOT enter today ahead of earnings (binary risk)
+   - If beat + guidance raise: enter tomorrow pre-market
+   - Checklist for tomorrow: Catalyst ✓ (earnings beat), Sector ✓, Stop ✓, R:R TBD
+   - Current price $144.41; target $165–170 post-beat (+15%)
+
+5. **BTC/USD — HOLD (existing)** [OKX, CoinGlass]
+   - $79,933 premarket (+2.49% from entry); consolidating near $80K resistance
+   - Stop at $68,634 trigger / $68,225 limit (-12% from entry) — intact
+   - BlackRock IBIT ETF inflows ongoing. DXY weak = BTC tailwind. Thesis intact.
+
+### Risk Factors
+- PLTR post-earnings gap could tank NVDA/AI complex if guidance disappoints
+- NVDA at -2.34% — monitor; cut at -6% ($190.68). Thesis still valid but fragile if AI capex narrative reverses.
+- UCO: Iran peace proposals resurfaced last week; ceasefire rumor = WTI retracement risk. Stop at 4% trail locks near break-even on remaining shares post-partial sale.
+- DXY flat today (98.16, +0.01%); watch for reversal — DXY spike would pressure BTC and growth names
+- April Jobs Report Friday — weak print (<53K est) = risk-off signal
+- Daytrade budget: 0/3 used. Preserve 1 for emergencies. Don't burn all 3 on entries.
+
+### Decision
+**TRADE.** VIX 16.78 (not > 35), SPY futures +0.11% (not down > 2%), 1 equity slot open, multiple 3–4/4 setups.
+- **Execute at open:** Sell 28 shares UCO (profit ladder +10%)
+- **Execute at open:** Buy AAPL (primary) or PANW (backup) — 15% position, 8% trailing stop
+- **Watch tonight:** PLTR earnings; plan entry for 2026-05-05 pre-market if beat
