@@ -559,3 +559,71 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 - **Execute at open:** Sell 28 shares UCO (profit ladder +10%)
 - **Execute at open:** Buy AAPL (primary) or PANW (backup) — 15% position, 8% trailing stop
 - **Watch tonight:** PLTR earnings; plan entry for 2026-05-05 pre-market if beat
+
+---
+
+## 2026-05-05 — Pre-market Research
+
+### Account Snapshot *(last confirmed: May 4 EOD — Alpaca API blocked from runner IP)*
+- **Equity:** ~$100,538 | **Cash:** ~$6,019 (6%) | **Deployed:** ~94%
+- **Equity slots:** 6/6 (FULL) | **Crypto slots:** 1/2 | **DT count:** 1/3 | **Weekly trades:** 1/8
+
+| Ticker  | Shares | Entry    | Last Close | Unrlzd P&L      | Stop               |
+|---------|--------|----------|------------|-----------------|--------------------|
+| AAPL    | 53     | $277.01  | $280.07    | +1.10%          | 8% trail ~$257.66  |
+| AMZN    | 94     | $264.71  | $271.71    | +2.64%          | 8% trail $254.01   |
+| BTC/USD | 0.1277 | $77,993  | $80,031    | +2.61%          | stop_limit $68,634 |
+| GOOGL   | 39     | $371.51  | $383.09    | +3.12%          | 10% trail $348.64  |
+| NVDA    | 73     | $202.85  | $198.52    | -2.14%          | 10% trail $183.02  |
+| UCO     | 84     | $44.43   | $50.47     | +13.59%         | 4% trail $49.02    |
+| XLE     | 175    | $56.82   | $59.42     | +4.58%          | 4% trail $57.20    |
+
+### Market Context
+- **WTI:** ~$106/bbl (settled Mon, +4.4%) | **Brent:** ~$114/bbl (+5.8%) — Iran attacked UAE with cruise missiles; Hormuz 90%+ traffic collapse since Feb; US "Project Freedom" active. Thesis for UCO/XLE VERY strong. [(CNBC)](https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html)
+- **SPY futures:** ~flat (+0.01%, 7,231.25) — equities digesting Hormuz shock vs AI capex optimism. [(Investing.com)](https://www.investing.com/indices/us-spx-500-futures)
+- **VIX:** ~16.99 (May 4 close) — risk-on; well below 35 HOLD threshold. [(247WallSt)](https://247wallst.com/investing/2026/05/01/the-cboe-vix-falls-to-16-level-as-risk-on-trade-returns-to-market/)
+- **Hyperscaler capex:** 5 top cloud cos projected $751B capex in 2026 (+83% YoY) — AI infrastructure spend accelerating. [(Yahoo Finance)](https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-4-231452685.html)
+- **Semis:** SOX 22nd win in 23 sessions, 15th intraday ATH of 2026. [(Yahoo Finance)](https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-4-231452685.html)
+- **Sectors YTD:** Energy +22.7%, Financials +22%, Industrials +14.3%, Healthcare leading defensive. Tech lagging early 2026 but AI capex story reversing that. [(FT Portfolios)](https://www.ftportfolios.com/blogs/MarketBlog/2026/3/10/top-performing-sp-500-index-subsectors-ytd-thru-36)
+- **Econ calendar:** No high-impact releases today (May 5). April Jobs Report due Friday — consensus ~53K; weak print = risk-off.
+- **Earnings today (349 cos reporting):** No mega-cap pre-market movers identified. Norwegian Cruise Line beat EPS / missed rev (minor). [(EarningsWhispers)](https://www.earningswhispers.com/calendar/20260505/1)
+
+### Held Ticker News
+- **PLTR:** MASSIVE Q1 beat AH Monday — Rev $1.63B vs $1.54B est (+6.1%), EPS $0.33 vs $0.28 est. FY2026 guidance raised to $7.65-7.66B (+71% YoY, above $7.27B consensus). Premarket ~$152 (+5.3% from $144.41 close). [(CNBC)](https://www.cnbc.com/2026/05/04/palantir-pltr-q1-earnings-report-2026.html) [(Motley Fool)](https://www.fool.com/investing/2026/05/04/palantir-just-delivered-another-quarterly-beat-and/)
+- **NVDA:** Trading ~$198-199; Pentagon signed AI defense contracts with 7 companies incl NVIDIA; $5T market cap regained; avg analyst target $270 (+36%). Hyperscaler capex surge directly benefits NVDA. Thesis intact — lagging is temporary. [(Motley Fool)](https://www.fool.com/investing/2026/05/04/nvidias-1-trillion-pipeline-could-change-everythin/)
+- **AAPL:** Premarket ~$278.96 (-0.42% from $280.07) — Q2 2026 earnings beat drove +3.5% yesterday. Slight pullback premarket; position entered $277.01 so slightly green. 8% trail stop intact. [(Nasdaq)](https://www.nasdaq.com/market-activity/stocks/aapl)
+- **UCO/XLE:** Iran-UAE missile exchange + Hormuz 90%+ traffic collapse driving WTI to $106. UCO next profit rung +20% at $53.32 (from $44.43 entry). Watch for trigger at open. [(CNBC)](https://www.cnbc.com/2026/05/04/oil-prices-today-wti-brent-trump-iran-us-hormuz.html) [(Wikipedia)](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis)
+
+### Trade Ideas
+
+**1. PLTR — SKIP (no equity slot)**
+- Catalyst: Q1 massive beat, guidance raise +71% FY, AI gov + commercial flywheel. 4/4 checklist.
+- Entry would be ~$152 (5% gap from plan); stop 8% = $139.84; target $170 = +12%. R:R ~1.5:1 (barely passes).
+- BLOCKER: 6/6 equity slots filled. Only exit candidate would be NVDA (-2.14%), but NVDA above -6% cut, thesis intact, Pentagon AI deal fresh.
+- Cutting a thesis-intact position to chase a 5% gap = bad discipline. **SKIP.**
+- If NVDA deteriorates below -6% ($190.68) intraday → exit NVDA, enter PLTR as replacement.
+
+**2. UCO — MONITOR for +20% partial ($53.32)**
+- WTI likely stays elevated or climbs intraday on Hormuz. UCO at $50.47 close (+13.6% unrealized).
+- +20% rung triggers at $53.32 (from $44.43 entry) → sell 25% of 84 shares (21 shares).
+- After sale: tighten trail from 4% to 4% on remaining 63 shares (already set per last trim).
+- Energy thesis remains active — Iran war wiki reports 90%+ Hormuz closure ongoing.
+
+**3. BTC/USD — MONITOR stop update**
+- BTC at ~$80K; fixed stop at $68,634 (-12% from $77,993 entry). Well below current. No action — stop logic correct for now. If BTC clears $85K, consider raising stop to break-even ($77,993).
+
+### Risk Factors
+- **Jobs Report Friday:** Consensus ~53K; miss = risk-off, could drag all positions.
+- **Hormuz ceasefire rumor risk:** Sudden peace deal = WTI crater, UCO/XLE reversal. Stop at 4% trail is tight.
+- **PLTR gap missed:** Position was planned but blocked by max slots. Opportunity cost noted.
+- **NVDA fragile:** -2.14% unrealized; if AI capex narrative reverses or custom chip competition news drops, watch -6% cut at $190.68 closely.
+- **AAPL premarket weak:** -0.42%; post-earnings digestion normal. Stop at $255.76 provides wide buffer.
+- **Daytrade budget:** 1/3 used. Preserve remaining 2 — avoid burning on FOMO entries.
+
+### Decision
+**HOLD.** Max equity positions (6/6). Cash $6K insufficient for crypto sizing ($12K min). No qualified exit candidates (NVDA above -6% cut, thesis intact). VIX 16.99 (not >35), SPY flat (not down >2%).
+- **Watch:** UCO at $53.32 → execute +20% partial (21 shares) if hit
+- **Contingency:** If NVDA breaks -6% ($190.68) → cut NVDA, enter PLTR ~market price
+- **No new entries** unless above contingency fires
+
+**Tag:** pre-market 2026-05-05
