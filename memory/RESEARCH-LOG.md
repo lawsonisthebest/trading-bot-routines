@@ -558,4 +558,71 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 **TRADE.** VIX 16.78 (not > 35), SPY futures +0.11% (not down > 2%), 1 equity slot open, multiple 3–4/4 setups.
 - **Execute at open:** Sell 28 shares UCO (profit ladder +10%)
 - **Execute at open:** Buy AAPL (primary) or PANW (backup) — 15% position, 8% trailing stop
+
+---
+
+## 2026-05-06 — Pre-market Research
+
+### Account Snapshot
+*(Alpaca API blocked in sandbox — using May 4 EOD as baseline)*
+- Equity: ~$100,539 | Cash: $6,019 (6.0%) | Deployed: 94%
+- Daytrade count: 1/3 (rolling 5-day from May 4)
+- Weekly trades (week of May 4): 1/8 (AAPL buy Mon)
+- Open positions: AAPL, AMZN, BTC/USD, GOOGL, NVDA, UCO, XLE
+
+### Market Context
+- **WTI:** ~$102–104/bbl (fell from $105+ after Hegseth confirmed ceasefire still holds; one ship transited Hormuz) [CNBC](https://www.cnbc.com/2026/05/05/oil-prices-today-wti-brent-iran-war-trump-hormuz.html)
+- **Brent:** ~$109–112/bbl [Fortune](https://fortune.com/article/price-of-oil-05-05-2026/)
+- **S&P 500 futures:** +0.25% at 7,305.25; S&P 500 closed 7,259.22 on May 5 (+0.81%) [Yahoo Finance](https://finance.yahoo.com/quote/%5EGSPC/)
+- **VIX:** ~17.45 (May 5 close) — normal, well below 35 threshold [Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/)
+- **Earnings today BMO:** AMD beat Q1 — Rev $10.3B (+38% YoY, est $9.85B), EPS $1.37 (est $1.27); Data Center +57% YoY; stock +5% premarket after Morgan Stanley raised PT to $360 [CNBC AMD](https://www.cnbc.com/2026/05/05/amd-q1-2026-earnings-report.html) [Investing.com](https://www.investing.com/news/transcripts/earnings-call-transcript-amds-q1-2026-earnings-surpass-expectations-stock-rises-93CH-4661423)
+- **PLTR reported AH May 5:** EPS $0.33 (est $0.24, +37.5%), Rev $1.63B (est $1.54B, +85% YoY); FY guide raised to $7.64B (vs $7.28B est); US Commercial +130% YoY; stock AH +2% to ~$147.83 — muted reaction at 46x fwd revenue [BusinessWire](https://www.businesswire.com/news/home/20260503338048/en/Palantir-Reports-Q1-2026-U.S.-Revenue-Growth-of-104-YY-and-Revenue-Growth-of-85-YY-Raises-FY-2026-Revenue-Guidance-to-71-YY-Growth-and-U.S.-Comm-Revenue-Guidance-to-120-YY-Crushing-Consensus-Expectations)
+- **Economic calendar:** No major CPI/FOMC/NFP today; NFP likely Friday May 8 — watch for weak print (<53K est) = risk-off [BLS](https://www.bls.gov/schedule/2026/home.htm)
+- **Sector YTD:** Energy +30.7% (leading), Technology +1.61% (lagging), Industrials + Defensives strong [Finbold](https://finbold.com/why-energy-stocks-are-crushing-the-sp-500-in-2026/) [247WallSt](https://247wallst.com/investing/2026/05/04/the-sp-500-helped-trump-make-history-last-year-2026-is-telling-a-very-different-story/)
+- **Ceasefire / Hormuz:** One ship transited strait; US ceasefire "still holds" per Hegseth. WTI soft but $100+ floor persists. Barclays 2026 Brent forecast $100/bbl floor [CNBC recession risk](https://www.cnbc.com/2026/05/04/strait-hormuz-gas-price-oil-shock-recession-risk-economy-iran-us-war.html)
+- **BTC:** $81,279 premarket (+5.2% past 5 days); broke descending trendline; haven't seen $81K since January [Yahoo Finance BTC](https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-may-5-2026-bitcoin-reaches-over-81000-hitting-a-high-last-seen-in-january-113951442.html)
+
+### Holdings News
+| Ticker | Unrealized (May 4) | News Today |
+|--------|-------------------|------------|
+| AAPL   | -0.09%  | Dividend $0.27, ex-date May 11; US chip manufacturing talks (Intel/Samsung). XLK +1.61% YTD. [Yahoo Finance AAPL](https://finance.yahoo.com/quote/AAPL/) |
+| AMZN   | +2.64%  | Launched supply chain service (UPS competitor). AWS thesis intact. [CNBC](https://www.cnbc.com/quotes/AMZN,%20AAPL,%20GOOGL,%20TSLA,%20MSFT,%20NVDA) |
+| BTC    | +2.61%  | $81,279 premarket. Stop $68,634 = 15.6% below current — dangerously loose. Tighten to $71,525 ($81K × 0.88). [Babypips](https://www.babypips.com/trading/premium-strategy-2026-05-06-bitcoin-btcusd) |
+| GOOGL  | +3.12%  | Raised 2026 capex to $180–190B. Pentagon AI deal intact. Cloud thesis strong. [CNBC](https://www.cnbc.com/quotes/AMZN,%20AAPL,%20GOOGL,%20TSLA,%20MSFT,%20NVDA) |
+| NVDA   | -2.14%  | CEO confirmed China market share = ZERO ($19.67B lost). Q1 earnings May 20 = binary risk. Thesis IMPAIRED. AMD beat = semis sector positive but NVDA-specific overhang severe. [Yahoo Finance NVDA](https://finance.yahoo.com/quote/NVDA/) |
+| UCO    | +13.59% | Oil soft on ceasefire; WTI $102–104. 4% trail ~$48.98. Hormuz partially open. Thesis intact but softening. [CNBC oil](https://www.cnbc.com/2026/05/05/oil-prices-today-wti-brent-iran-war-trump-hormuz.html) |
+| XLE    | +4.58%  | Energy sector +30.7% YTD. Thesis fully intact. [Finbold](https://finbold.com/why-energy-stocks-are-crushing-the-sp-500-in-2026/) |
+
+### Trade Ideas
+
+1. **SELL NVDA → BUY PLTR (slot swap)** — HIGH CONVICTION
+   - Rationale: NVDA thesis broken (China = $0 revenue, binary earnings risk May 20). PLTR massive beat — EPS $0.33 (+37.5%), Rev +85% YoY, raised guide to $7.64B. Swap weakest position for highest-conviction new name.
+   - NVDA exit: market sell 73 shares (~$199 = ~$14,527). Realize ~-$250 loss vs. risking -$930 at -6% cut or larger loss at May 20 binary event.
+   - PLTR entry: ~$148–150 at open; size 15% (~$15K, ~100 shares); stop 8% trail (~$136–138); target $170–175 (+15%). R:R: $22 reward / $12 risk = 1.83:1.
+   - Checklist: Catalyst ✓ (earnings beat + raised guide), Sector not declining ✓ (AI/Nasdaq recovering), Stop ✓, R:R ✓ — 4/4. **ACT.**
+   - Risk: 46x fwd revenue = valuation stretched. Keep size at 15% (not 25-30%).
+
+2. **BTC stop raise** — HOUSEKEEPING
+   - Current stop $68,634 is 15.6% below $81,279 current price (strategy allows 12% max).
+   - Action: update fixed stop to $71,525 ($81,279 × 0.88) via `alpaca.sh` to lock in partial gain buffer.
+   - No new buying needed — current size ~$10,380 = 10.3% of equity, within 15% cap.
+
+3. **UCO partial watch** — MONITOR ONLY
+   - If WTI breaks below $100 on full ceasefire confirmation = UCO 4% trail likely triggers. Do NOT preemptively exit.
+   - If WTI holds $100+ = thesis intact; next rung +20% at ~$53.32 still possible.
+   - No action today unless trail triggers.
+
+### Risk Factors
+- **NFP Friday May 8:** weak print (<53K) = risk-off, BTC + growth names sell. Reduce exposure or tighten stops Thursday afternoon.
+- **Oil ceasefire risk:** Hormuz re-opening = WTI -15–20% fast. UCO/XLE position = ~18% of equity — largest concentration risk.
+- **PLTR valuation:** 46x fwd revenue. Any future miss = -20%+ gap down. Keep size at 15%, hard stop, no averaging down.
+- **Semis binary (NVDA May 20):** REASON to exit NOW, not hold into earnings.
+- **PDT:** 1 of 3 day trades used (rolling 5-day). NVDA sell + PLTR buy on same day = 1 day trade if both sides are same-day. Plan carefully — may need to sell NVDA today, buy PLTR tomorrow if at PDT limit risk. Actually selling NVDA (opened May 4) + buying PLTR would only burn 1 PDT if PLTR is then held. Monitor.
+
+### Decision
+**TRADE.** VIX 17.45 (< 35), SPY futures +0.25% (not down > 2%), qualified setup confirmed.
+- **Action 1:** SELL NVDA 73 shares at market open — thesis broken, free slot.
+- **Action 2:** BUY PLTR ~100 shares (~$148–150), 8% trailing stop GTC — massive earnings beat.
+- **Action 3:** UPDATE BTC fixed stop from $68,634 → $71,525 (tighten to 12% below current).
+- **Monitor:** UCO trail; oil $100 floor; NFP Friday.
 - **Watch tonight:** PLTR earnings; plan entry for 2026-05-05 pre-market if beat
