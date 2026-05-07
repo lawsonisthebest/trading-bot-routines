@@ -559,3 +559,80 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 - **Execute at open:** Sell 28 shares UCO (profit ladder +10%)
 - **Execute at open:** Buy AAPL (primary) or PANW (backup) — 15% position, 8% trailing stop
 - **Watch tonight:** PLTR earnings; plan entry for 2026-05-05 pre-market if beat
+
+---
+
+## 2026-05-07 — Pre-market Research
+
+### Account (⚠️ estimated — Alpaca API blocked by IP allowlist; based on May 4 EOD + market inference)
+- Equity: ~$102,000 (est)
+- Cash: ~$20,100 (est — UCO/XLE trailing stops triggered May 5-6 on oil decline)
+- Deployed: ~80% (est — 4 equity + 1 crypto)
+- Daytrade count: 0/3
+- Weekly equity trades: 1/8 (AAPL May 4; resets Mon May 11)
+
+### Open Positions (estimated)
+| Symbol  | Qty     | Entry      | Est. Current | Est. Unreal P&L    | Stop                         |
+|---------|---------|------------|--------------|--------------------|------------------------------|
+| AAPL    | 53      | $277.01    | $284.44      | +$393 (+2.7%)      | 8% trail — update to ~$264.99 (HWM $288.03) |
+| AMZN    | 94      | $264.71    | ~$272 (est)  | +$688 (+2.8%)      | 8% trail ~$254               |
+| BTC/USD | 0.12768 | $77,993.44 | $81,437      | +$440 (+5.6%)      | fixed $68,634/$68,225        |
+| GOOGL   | 39      | $371.51    | ~$390 (est)  | +$720 (+5.0%)      | 10% trail ~$351              |
+| NVDA    | 73      | $202.85    | $199.68 pm   | -$231 (-1.6%)      | 10% trail $183.02            |
+| UCO     | —       | —          | STOPPED ~May 5 at $48.98 (4% trail, HWM $51.06) | Realized +$382 (+10.2%) | — |
+| XLE     | —       | —          | STOPPED ~May 5-6 at $57.04 (4% trail, HWM $59.42) | Realized +$38 (+0.4%) | — |
+
+### Market Context
+- **WTI:** $95.66 (+0.61%) | **Brent:** $101.96 (+0.68%) — recovered from ~$88 intraday low on May 6 (Iran deal panic), settling as deal talks progress ([TradingEconomics](https://tradingeconomics.com/commodity/crude-oil))
+- **S&P 500 futures:** +0.06% (7,394.25) — near-flat after +1.46% session May 6; S&P closed at 7,365 ([CNBC](https://www.cnbc.com/pre-markets/))
+- **VIX:** 16.73 (−3.74%) — low fear, risk-on ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- **FOMC:** No meeting today; next Jun 9-10; Apr 29 held rates 3.50–3.75% (hawkish dissent from 4 members noted) ([Fed.gov](https://www.federalreserve.gov/newsevents/calendar.htm))
+- **Iran/Hormuz ⚠️ ACTIVE:** US-Iran closing on short peace memo; Trump paused "Project Freedom" May 6 citing "great progress"; Iran to reply to proposal **today** → oil binary event; WTI fell to $88 (−15%) on May 6 before recovering; ~1,600 ships remain stuck in Hormuz ([CNN](https://www.cnn.com/2026/05/06/politics/trump-iran-war-talks-plan), [CBS News](https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-ships-uae-attacked/))
+- **AMD:** +16% May 6 on Q1 beat — EPS $1.37 vs $1.29 est; rev $10.25B vs $9.89B; data center +57% YoY to $5.8B; Q2 guide $11.2B (well above $9.89B est) — direct AI chip demand confirmation ([CNBC](https://www.cnbc.com/2026/05/06/amd-lisa-su-stock-forecast-earnings.html))
+- **PLTR:** Beat EPS ($0.33 vs $0.27 est) and rev ($1.63B vs $1.54B, +85% YoY); raised FY26 guide to $7.65B (+71% YoY) — but fell −7% to ~$135 on valuation saturation ([Motley Fool](https://www.fool.com/investing/2026/05/05/why-palantirs-beat-and-raise-quarter-did-absolutel/))
+- **BTC:** $81,437 — near $82K resistance; up from $80,031 close May 4; market defensive tone but structure bullish ([CaptainAltcoin](https://captainaltcoin.com/crypto-price-prediction-for-today-may-7-xrp-zcash-zec-and-bitcoin-btc/))
+- **Sector momentum (YTD):** Leading — Energy (+30.7%), Staples, Industrials, Materials | Improving — Technology (AMD catalyst), Comms | Lagging — Financials, Discretionary ([Investing.com](https://www.investing.com/analysis/sector-rotation-a-guide-to-the-sp-500-momentum-status-200675903))
+
+### Earnings Today
+- **BMO:** MCD, SHEL, GILD, MCHP — no mega-cap; MCD notable (consumer spending read)
+- **AH:** CRWV (CoreWeave — AI cloud GPU; rev guide $12-13B FY26 +140% YoY; options pricing ±17% move), COIN (Coinbase — BTC $81K tailwind)
+
+### Trade Ideas
+
+1. **NVDA ADD — LONG (primary)** — AMD Q1 beat (+57% data center) directly confirms AI GPU demand; NVDA is primary GPU supplier ([CNBC](https://www.cnbc.com/2026/05/06/amd-lisa-su-stock-forecast-earnings.html))
+   - Current: 73 shares @ $202.85 (~$14.8K, 14.8% equity)
+   - Add: ~53 shares at ~$200 = ~$10.6K → total ~$25.4K = 25% equity
+   - New avg: ~$201.57 | Stop: $183.02 (10% trail, HWM $203.36) | Target: $240+ (+19%)
+   - R:R: (240−201.57)/(201.57−183.02) = **2.07:1** ✓
+   - XLK check: AAPL ($14.7K) + NVDA ($25.4K) = $40.1K = 40% — right at cap ✓
+   - Checklist: Catalyst ✓ | Sector not declining ✓ | Stop ✓ | R:R 2.07:1 ✓ → **4/4**
+   - Gate: adding to existing position, no new slot used; XLK 40% (at cap); PDT 0/3; weekly 1→2/8
+
+2. **AMD — LONG (if NVDA skipped)** ([CNBC](https://www.cnbc.com/2026/05/06/amd-lisa-su-stock-forecast-earnings.html))
+   - Catalyst: Same as above — Q1 beat, data center +57%, Q2 guide $11.2B
+   - Entry: ~$348-352 at open | Stop: 8% trail (~$320) | Target: $400+ (R:R ~1.75:1)
+   - Size: 15% (~$15K) — new equity slot
+   - XLK check: AAPL + NVDA + AMD = ~$44K = 44% → **EXCEEDS 40% cap — SKIP if NVDA add executed**
+   - Checklist: 4/4 pass — but sector cap constraint blocks if NVDA also added
+
+3. **PLTR — SKIP** — "sell the news" on a blowout beat is a structural valuation warning; stock at ~$135 (-7%) with momentum negative; no clean entry until stabilization over multiple sessions
+
+### Stop / Ladder Actions
+- **AAPL HWM update:** HWM reached $288.03 on May 6; 8% trail = $264.99. Prior stop $255.76 is stale — **update trail at open** (new GTC cancel/replace)
+- **BTC:** $81,437 → +4.4% from entry. +15% rung at $89,692 not hit. Stop $68,634 unchanged. No action.
+- **NVDA:** HWM $203.36; stop $183.02. Current $199.68 is below HWM; no trail update needed.
+
+### Risk Factors
+- Iran response today: deal yes → WTI drops further ($80-85), broader market rally (positive for tech, negative for any energy re-entry). No energy exposure = no direct hit.
+- CRWV AH result: beat → AI infra narrative strengthens (NVDA tailwind); miss → AI capex narrative pressured
+- NVDA earnings May 20 (13 days away) — holding/adding into a binary event; position size moderate (25%)
+- XLK concentration at limit (40%) — no more XLK names
+- Fed leadership transition May 15 (Powell → Warsh, hawkish) — potential rates volatility
+- PLTR -7% on a beat may signal sector rotation away from high-multiple AI software → monitor NVDA/AMD for contagion
+
+### Decision
+**TRADE.** VIX 16.73 ✓ | Futures +0.06% ✓ | 2 equity slots open (UCO/XLE stopped) ✓ | NVDA add 4/4 ✓
+- **Execute at open:** NVDA add ~53 shares at market (~25% equity total)
+- **Execute at open:** Update AAPL 8% trail GTC to $264.99 (HWM $288.03)
+- **Hold:** AMZN, GOOGL, BTC — no changes
+- **Skip:** AMD (XLK cap breach), PLTR (negative reaction to beat), CRWV (binary AH risk today)
