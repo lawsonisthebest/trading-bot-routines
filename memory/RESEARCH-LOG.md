@@ -463,6 +463,100 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 
 ---
 
+## 2026-05-08 — Pre-Market Research (Day 10, Friday)
+
+### Account
+- **Alpaca API blocked** from this cloud host (`Host not in allowlist` — 403). Figures estimated from May 4 EOD + market data.
+- Last confirmed equity: $100,538.75 (May 4 EOD)
+- Estimated current equity: ~$101,500–103,000 (AAPL/AMZN/GOOGL/BTC all higher; UCO/XLE likely stopped out)
+- Cash: ~$20K+ estimated (UCO + XLE stops likely triggered on oil drop May 5–7)
+- Daytrade count: unknown (was 1/3 at May 4 EOD; 3 fresh reset potential today being Fri)
+- Weekly equity trades: 1/8 used (AAPL entry May 4; resets Monday May 11)
+
+### Open Positions (estimated — cannot confirm via API)
+| Symbol  | Entry       | Est. Current | Est. Unreal P&L | Stop Status |
+|---------|-------------|--------------|-----------------|-------------|
+| AAPL    | $277.01     | ~$287        | +3.6% ✅        | 8% trail ~$264 |
+| AMZN    | $264.71     | ~$282 (record high) | +6.5% ✅  | 8% trail ~$260 |
+| GOOGL   | $371.51     | ~$397        | +6.9% ✅        | 10% trail ~$357 |
+| NVDA    | $202.85     | ~$200–205    | ~-1% to +1%     | 10% trail $183.02 |
+| BTC/USD | $77,993.44  | ~$81,000     | +3.9% ✅        | stop_limit $68,634 |
+| UCO     | $44.43      | ~$43.27 🚨   | Stop ~$49.02 likely triggered | STOPPED OUT est. +$385 |
+| XLE     | $56.82      | ~$55–57 🚨   | Stop ~$57.20 likely triggered | STOPPED OUT est. +$66 |
+
+### Market Context
+- **WTI:** ~$94.81 (May 7 close) — down from ~$104 (May 4); -9% on Iran/Hormuz deal progress ([CNBC](https://www.cnbc.com/2026/05/07/oil-prices-today-trump-iran-strait-of-hormuz-us-crude-brent-.html))
+- **Brent:** $101.65 (+1.59% today May 8) — partial rebound but deal still active ([TradingEconomics](https://tradingeconomics.com/commodity/brent-crude-oil))
+- **S&P 500 futures:** 7,383.50, +0.28% | Nasdaq +0.45% | Dow +0.12% ([CNBC Pre-Markets](https://www.cnbc.com/pre-markets/))
+- **VIX:** 17.53 (range 17.36–17.60) — calm, risk-on tape ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- **BTC:** ~$81,000 (+3.9% from entry; +8% past week) ([Coinbase](https://www.coinbase.com/price/bitcoin))
+- **Sector momentum:** Energy +30.7% YTD (still #1 but thesis disrupted); Industrials/Materials/Staples also leading; Tech lagging YTD but recovering ([Investing.com](https://www.investing.com/analysis/sector-rotation-a-guide-to-the-sp-500-momentum-status-200675903))
+- **Earnings beat rate:** 83% of S&P 500 beat estimates; Mag-7 driving 55% of earnings growth this quarter
+
+### Iran/Hormuz — CRITICAL UPDATE (Oil Thesis BROKEN)
+- May 6: Trump **paused Project Freedom** (Hormuz escort mission) citing deal progress ([Fox News](https://www.foxnews.com/live-news/iran-war-news-trump-strait-hormuz-oil-prices-project-freedom-may-6))
+- Iran's IRGC stated "safe and sustainable transit through the strait will be facilitated" ([NPR](https://www.npr.org/2026/05/06/nx-s1-5813497/iran-war-strait-hormuz-updates))
+- US-Iran near 14-point MOU: Iran moratorium on nuclear enrichment; US lifts sanctions ([NBC News](https://www.nbcnews.com/business/business-news/oil-markets-gas-prices-450-us-iran-near-deal-end-war-hormuz-rcna343819))
+- Oil fell 7%+ on May 6 ([CNBC](https://www.cnbc.com/2026/05/06/oil-prices-trump-pauses-strait-of-hormuz-escort-effort.html)); WTI from $104 → $94.81
+- **UCO/XLE energy thesis is BROKEN** — Hormuz reopening = supply shock reversal. Stops should have triggered.
+
+### Earnings Before Open Today (May 8)
+- **BRK.B** (Berkshire): EPS est. $4.82 — not in watchlist, low relevance
+- **TSN** (Tyson Foods): EPS est. $0.81 — not relevant
+- No mega-cap BMO today ([EarningsWhispers](https://www.earningswhispers.com/calendar/20260508/1))
+
+### Held Ticker News
+- **AAPL** ($287): Evercore reiterated Outperform, $330 PT. Supply chain robust. Up from $277.01 entry. ([24/7 Wall St.](https://247wallst.com/investing/2026/05/07/stock-market-live-may-7-2026-sp-500-spy-could-see-higher-highs/))
+- **AMZN**: Record high on AWS AI + advertising (+22% YoY) — thesis firing. ([Motley Fool](https://www.fool.com/investing/2026/05/01/amazon-alphabet-microsoft-meta-and-apple-just-repo/))
+- **GOOGL** (~$397): Up +6.9% from entry. Cloud thesis intact. ([Yahoo Finance](https://finance.yahoo.com/quote/GOOG/))
+- **NVDA** (~$200–205): Goldman Sachs reiterated Buy; expects beat-and-raise on May 20 earnings. $272 consensus target. Blackwell $1T+ backlog. ([Motley Fool](https://www.fool.com/investing/2026/05/05/prediction-nvidia-stock-going-to-soar-after-may-20/))
+- **BTC** (~$81K): +8% past week. Stop at $68,634 intact. DXY weak = tailwind. ([Coinbase](https://www.coinbase.com/price/bitcoin))
+- **PLTR** (Q1 reported May 4 AH): EPS $0.33 vs $0.28 est; Revenue $1.633B (+85% YoY) vs $1.54B est. Guidance raised: FY26 $7.65–7.66B vs $7.27B consensus. Stock currently ~$136–137 (BELOW pre-earnings $144.41 — valuation selloff). ([CNBC](https://www.cnbc.com/2026/05/04/palantir-pltr-q1-earnings-report-2026.html); [Bloomberg](https://www.bloomberg.com/news/articles/2026-05-04/palantir-issues-strong-revenue-outlook-for-2026-shares-gain))
+
+### Economic Calendar
+- No CPI/PPI/FOMC/NFP today ([BLS](https://www.bls.gov/schedule/2026/05_sched.htm))
+- Fed leadership transition: Powell → Warsh, May 15 — volatility risk next week
+- Next key macro: CPI mid-May; FOMC June
+
+### Trade Ideas
+
+1. **PLTR LONG — primary** ([CNBC](https://www.cnbc.com/2026/05/04/palantir-pltr-q1-earnings-report-2026.html))
+   - Catalyst: Beat-and-raise Q1 (EPS +18% vs est, Rev +85% YoY); US govt revenue +84%; commercial +133%
+   - Stock sold off post-earnings (valuation overhang) — buying into fundamental strength, not a gap chase
+   - Entry: ~$137 (current level)
+   - Stop: 8% trail GTC (~$126.04)
+   - Target: $157.55 (+15%)
+   - R:R: 2.0:1
+   - Size: 15–20% (~$15–20K)
+   - Checklist: ✓ Catalyst (beat+raise) ✓ Sector not declining (AI/tech +) ✓ Stop identifiable ✓ R:R 2:1 — **4/4 PASS**
+   - Gate: UCO/XLE slots freed if stopped out. Confirm 1 open equity slot before order.
+
+2. **NVDA — HOLD (existing, not adding)** ([Motley Fool](https://www.fool.com/investing/2026/05/05/prediction-nvidia-stock-going-to-soar-after-may-20/))
+   - Goldman reiterated buy; earnings May 20 is the major catalyst
+   - Let the May 20 print play out; stop at $183.02 protects downside
+   - Do NOT add — need to preserve slot capacity and daytrade budget
+
+3. **XLK (sector ETF rotation) — watch** ([Investing.com](https://www.investing.com/analysis/sector-rotation-a-guide-to-the-sp-500-momentum-status-200675903))
+   - Energy thesis broken; capital rotation from energy → tech is natural
+   - XLK still lagging YTD but improving; Nasdaq futures +0.45%
+   - Lower priority — wait for sector momentum confirmation. If PLTR fills the slot, skip.
+
+### Risk Factors
+- Iran/Hormuz deal finalized = oil drop could extend further (UCO/XLE stops should already be in; no new energy exposure)
+- PLTR valuation risk — stock sold off post-beat (P/E concern). Stop at -8% limits damage.
+- NVDA still slightly negative unrealized; cut at -6% ($190.68) — hold above that level
+- Fed leadership transition May 15 (Powell → Warsh, hawkish) — potential volatility next week
+- BTC stop well below current ($68,634 vs ~$81K) — consider raising after +15% rung ($89,692 not yet hit)
+- Alpaca API inaccessible from this runner — cannot confirm exact positions or stop states. Urge operator to verify UCO/XLE stop fills and free slot count before PLTR entry.
+
+### Decision
+**TRADE — PLTR long on assumed open slot (UCO/XLE stops triggered by oil drop).**
+- VIX 17.53 (not >35 ✓), SPY futures +0.28% (not down >2% ✓), PLTR 4/4 checklist ✓
+- **⚠️ OPERATOR ACTION REQUIRED:** Verify via Alpaca app/website that UCO and XLE trailing stops triggered. Confirm free equity slot count before placing PLTR order. If no free slot, HOLD until one opens.
+- All HOLD criteria fail → strategy default is ACT.
+
+---
+
 ## 2026-05-04 — Pre-Market Research (Day 9, Monday)
 
 ### Account
