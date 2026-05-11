@@ -559,3 +559,82 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 - **Execute at open:** Sell 28 shares UCO (profit ladder +10%)
 - **Execute at open:** Buy AAPL (primary) or PANW (backup) — 15% position, 8% trailing stop
 - **Watch tonight:** PLTR earnings; plan entry for 2026-05-05 pre-market if beat
+
+---
+
+## 2026-05-11 — Pre-Market Research
+
+### Account
+- **⚠️ API BLOCKED:** Alpaca returns "Host not in allowlist" — live P&L/positions unconfirmable. Baseline = May 4 EOD.
+- Equity (May 4 EOD): $100,539 | Cash: $6,019 (5.99%) | Deployed: ~94%
+- Daytrade count: 0/3 (Monday reset) | Weekly trades: 0/8 (Monday reset)
+- **ACTION REQUIRED: Verify positions manually via Alpaca dashboard before placing any orders.**
+
+### Open Positions (estimated — May 4 EOD baseline; some stops likely triggered)
+| Symbol  | Entry    | Est. Current | Est. Unreal P&L | Stop            | Est. Status            |
+|---------|----------|--------------|-----------------|-----------------|------------------------|
+| AAPL    | $277.01  | ~$271.06     | ~-2.1%          | 8% trail $255.76 | Open — above stop     |
+| AMZN    | $264.71  | ~$263.99     | ~-0.3%          | 8% trail ~$254  | Open — above stop     |
+| BTC/USD | $77,993  | ~$80,832     | ~+3.6%          | fixed $68,634   | Open — thesis intact  |
+| GOOGL   | $371.51  | ~$344.40     | ~-7.3% ⚠️       | 10% trail $348.06 | **STOP LIKELY TRIGGERED** |
+| NVDA    | $202.85  | ~$210-212    | ~+3-5%          | 10% trail ~$190 | Open — above stop     |
+| UCO     | $44.43   | ~$48-52      | volatile        | 4% trail $49.02 | **STOP MAY HAVE TRIGGERED** (oil dip last week) |
+| XLE     | $56.82   | ~$55.70      | ~-2%            | 4% trail $57.20 | **STOP LIKELY TRIGGERED** |
+
+### Market Context
+- **WTI:** $100.18/bbl (+5% today) — US fired on Iranian tankers May 8; Hormuz re-escalation ([CNBC](https://www.cnbc.com/2026/05/11/oil-price-today-brent-wti-iran-war-trump.html))
+- **Brent:** $105.82/bbl (+4.47%) ([oilpriceapi.com](https://www.oilpriceapi.com/oil-prices-today))
+- **S&P 500 futures:** ~7,407 (-0.16%) — near ATH; 6-week winning streak intact ([Schwab](https://www.schwab.com/learn/story/stock-market-update-open))
+- **VIX:** 17.19 (May 8 close) — low fear, risk-on tape ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- **Hormuz:** Dual US/Iran blockade ongoing. US fired on Iranian tankers May 8 (NPR). Trump paused "Project Freedom" May 6 on "peace progress" — then escalated. Saudi Aramco: 1B barrels removed from global supply. DHL: 4-6 months to normalisation. ([NPR](https://www.npr.org/2026/05/08/g-s1-121061/iran-war-updates), [PressTV](https://www.presstv.ir/Detail/2026/05/10/768396/Saudi-Aramco-warns-Hormuz-disruption-removed-1-billion-barrels-from-global-supply))
+- **CPI Tuesday May 12 (8:30 AM ET):** Headline est. +3.7% YoY / +0.6% MoM; Core est. 2.7% YoY / +0.3% MoM — single biggest catalyst this week ([HeyGoTrade](https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-05-11/))
+- **Earnings BMO today:** CEG (Constellation Energy), CRCL (Circle Internet Group), AECOM, Barrick Mining, AST SpaceMobile ([EarningsWhispers](https://www.earningswhispers.com/calendar))
+- **Earnings this week:** Cisco (Wed), Alibaba (Wed), Applied Materials — AI/tech demand read-through
+- **PLTR Q1 (May 4 AH):** Beat — EPS $0.33 vs $0.28 est, revenue +85% YoY, guidance raised to $7.65-7.66B (+71% YoY). US gov revenue +84%. US commercial missed est. Stock muted ~$144-149. Citi PT $225, Argus upgraded to Buy. ([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-04/palantir-issues-strong-revenue-outlook-for-2026-shares-gain), [CNBC](https://www.cnbc.com/2026/05/04/palantir-pltr-q1-earnings-report-2026.html))
+- **AAPL:** Ex-dividend today ($0.27/share). Trading ~$271.06. ([Yahoo Finance](https://finance.yahoo.com/quote/AAPL/))
+- **BTC:** $80,832 (+0.33% 24h) — holding above $80K ([OKX](https://www.okx.com/en-us/price/bitcoin-btc))
+- **XLE:** ~$55.47-56.23 today — below May 4 stop $57.20 and below entry $56.82 ([Yahoo Finance](https://finance.yahoo.com/quote/XLE/))
+- **Sector momentum (YTD):** Materials (+22%), Energy, Consumer Staples, Industrials leading. Tech lagging after AI-capex rotation concerns. ([Investing.com](https://www.investing.com/analysis/sector-rotation-a-guide-to-the-sp-500-momentum-status-200675903))
+
+### Trade Ideas
+
+1. **UCO RE-ENTRY** — if stop triggered last week; Hormuz re-escalation thesis: WTI +5% today, US firing on Iranian tankers, Saudi Aramco 1B barrels removed from global supply. Thesis fully intact.
+   - Entry: market open ~$50-53 (est. based on WTI $100, 2× leverage)
+   - Stop: 8% trail GTC
+   - Target: +15% (~$57-61) | R:R ~1.9:1
+   - Size: 5% (~$5K, leveraged ETF cap)
+   - Checklist: Catalyst ✓ Sector ✓ Stop ✓ R:R ✓ — **4/4 PASS**
+   - Gate: only execute if UCO stop confirmed triggered (open slot)
+
+2. **XLE RE-ENTRY** — same Hormuz/oil catalyst; sector ETF lower-risk than UCO; oil re-rating if Hormuz stays blocked 4-6 months.
+   - Entry: ~$55.50-56.20 (current range)
+   - Stop: 8% trail GTC
+   - Target: +12% (~$62) | R:R ~1.5:1
+   - Size: 10% (~$10K)
+   - Checklist: Catalyst ✓ Sector ✓ Stop ✓ R:R ✓ — **4/4 PASS**
+   - Gate: only execute if XLE stop confirmed triggered (open slot)
+
+3. **PLTR LONG** — Q1 beat: EPS +18% vs est, revenue +85%, guide raised; US gov AI contract pipeline intact; muted post-earnings reaction = better entry.
+   - Entry: ~$144-149
+   - Stop: 8% trail GTC (~$133-137)
+   - Target: $175-180 (+20%) | R:R ~2:1
+   - Size: 15% (~$15K)
+   - Checklist: Catalyst ✓ Sector ✓ Stop ✓ R:R ✓ — **4/4 PASS**
+   - Gate: needs open equity slot; priority if GOOGL stop triggered (freeing a slot)
+
+### Risk Factors
+- **CPI Tuesday:** Hot print (>3.7%) → yields spike → tech/growth names sell off. Consider not maxing slots today ahead of report.
+- **GOOGL:** ~$344 is -7.3% from entry AND below $348.06 trailing stop — if not already closed by stop, must verify and close manually (-6% cut rule violated).
+- **XLE:** ~$55.70 is below $57.20 trailing stop — likely stopped out. Verify.
+- **UCO:** Oil whipsaw risk — any Iran peace signal → sharp WTI reversal; 2× leverage amplifies pain. Tight stop essential.
+- **API blocked:** All position estimates based on May 4 data + price research. Cannot confirm live stops, fills, or cash balance. Manual check is mandatory before trading.
+- **Pre-CPI sizing:** Hold ≥1 slot in reserve through Tuesday morning.
+
+### Decision
+**TRADE — conditional on manual position verification first.**
+- VIX ~17 (< 35 ✓) | Futures -0.16% (not -2% ✓) | Multiple 4/4 setups ✓ → HOLD criteria not met → bias to ACTION
+- **Step 1 (urgent):** Log into Alpaca dashboard; confirm which GTC stops triggered (GOOGL $348, XLE $57.20, UCO $49.02). Determine actual cash balance and open slots.
+- **Step 2:** If GOOGL stop triggered → 1 slot free → enter PLTR 15% at open.
+- **Step 3:** If XLE/UCO stops triggered → re-enter UCO (5%) + XLE (10%) on today's +5% oil move. Hormuz thesis STRENGTHENING not weakening.
+- **Step 4:** Hold AAPL, AMZN, NVDA, BTC — all theses intact (NVDA ~+4% est., BTC +3.6%, AAPL above -6% cut).
+- **Reserve:** Keep 1 slot for post-CPI Tuesday opportunity.
