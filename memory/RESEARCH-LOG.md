@@ -559,3 +559,96 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 - **Execute at open:** Sell 28 shares UCO (profit ladder +10%)
 - **Execute at open:** Buy AAPL (primary) or PANW (backup) — 15% position, 8% trailing stop
 - **Watch tonight:** PLTR earnings; plan entry for 2026-05-05 pre-market if beat
+
+---
+
+## 2026-05-12 — Pre-Market Research
+
+### ⚠️ CRITICAL SYSTEM ALERT
+**Alpaca API inaccessible — IP not in allowlist.** `curl` returned `403 Host not in allowlist`. Cannot confirm live positions, stop levels, cash, or daytrade count. ClickUp API likely similarly blocked. All account figures below are ESTIMATES based on last confirmed state (2026-05-04 EOD). Operator must verify positions manually and add this server's IP to Alpaca allowlist.
+
+### Account (Estimated — Alpaca API Blocked)
+- Last confirmed equity: $100,538.75 (2026-05-04 EOD)
+- Cash: $6,019 + probable proceeds from UCO/XLE stop-outs (see below)
+- Estimated current equity: ~$102,500–$104,000 (tech positions up ~$3.1K unrealized)
+- Daytrade count: unknown (PDT may have reset Mon May 11)
+- Weekly trades: 0 used this week (week of May 12)
+
+### Estimated Position Status (Based on Research Prices)
+| Symbol  | Entry     | Last Known Stop | Est. Price May 11 | Est. P&L% | Status |
+|---------|-----------|-----------------|-------------------|-----------|--------|
+| AAPL    | $277.01   | 8% trail ~$255.76 | $292.50         | +5.6%     | HELD — approaching +10% rung ($304.71) |
+| AMZN    | $264.71   | 8% trail ~$254.01 | $268.99         | +1.6%     | HELD — thesis intact |
+| BTC/USD | $77,993   | stop_limit $68,634 | $81,201        | +4.1%     | HELD — approaching +5% rung ($81,893) |
+| GOOGL   | $371.51   | 10% trail ~$348.64 | $388.64 (ATH $400.80 May 8) | +4.6% | HELD — trail moved to ~$360 |
+| NVDA    | $202.85   | 10% trail ~$183.02 | $219.44        | +8.2%     | HELD — approaching +10% rung ($223.14) |
+| UCO     | $44.43    | 4% trail ~$49.02  | $47.59 (low $44.47) | ⚠️ STOPPED? | WTI -6% from May 4; stop likely triggered ~$49.02 |
+| XLE     | $56.82    | 4% trail ~$57.20  | $56.78 (low $53.41) | ⚠️ STOPPED? | Below stop $57.20; likely triggered |
+
+**UCO/XLE likely stopped out** — if both triggered, ~$14K cash returned. Cannot confirm without Alpaca access.
+
+### Market Context
+- **WTI:** ~$98.07/bbl (May 11 close) | Brent ~$104.97 (+0.73% May 12) — elevated; Iran/Hormuz tensions ongoing but Hormuz fragile ceasefire may be forming ([CNBC](https://www.cnbc.com/2026/05/11/oil-price-today-brent-wti-iran-war-trump.html))
+- **S&P 500 futures:** 7,416.50, -0.01% — essentially flat premarket; SPX broke above 7,300 for first time, 6-week win streak ([Investing.com](https://www.investing.com/indices/us-spx-500-futures))
+- **VIX:** 18.41, +7.10% from prior close 17.19 — elevated on CPI anxiety ([CNBC](https://www.cnbc.com/quotes/.VIX))
+- **BTC:** $81,201 (-0.12% 24h) — near recent highs; DXY weak, ETF inflows ongoing ([OKX](https://www.okx.com/en-us/price/bitcoin-btc))
+- **Earnings BMO today:** Franco-Nevada (FNV) — materials/gold royalty; earnings today; Materials sector leading YTD ([EarningsWhispers](https://www.earningswhispers.com/calendar/20260512/1))
+- **Economic calendar — MAJOR:** April CPI at 8:30 AM ET today — consensus 0.6% MoM / 3.7% YoY headline; 0.3% MoM / 2.7% YoY core. THE key macro event this week; resolves before market open ([BLS](https://www.bls.gov/schedule/news_release/cpi.htm))
+- **Sector momentum YTD:** Leading — Energy, Materials, Consumer Staples, Industrials | Lagging — Tech (XLK), Communications, Consumer Discretionary, Financials ⚠️ Tech lag is headwind for 4 of our equity positions ([Investing.com](https://www.investing.com/analysis/sector-rotation-a-guide-to-the-sp-500-momentum-status-200675903))
+
+### Held Ticker News
+- **AAPL:** $292.50 May 11 (+5.6% from entry $277.01). XLK lagging sector — headwind. +5% rung at $290.86 passed; trail should be at 4% from HWM ~$294.45 = ~$282.67. +10% rung $304.71 not yet hit.
+- **AMZN:** $268.99 May 11 (+1.6%). AWS thesis intact. +5% rung $277.95 not yet hit. Flat/modest performance.
+- **GOOGL:** $388.64 May 11 (ATH $400.80 on May 8). +4.6% unrealized. 10% trail from ATH HWM ~$360.72. Cloud thesis intact. Pentagon AI deal active. [Yahoo Finance](https://finance.yahoo.com/quote/GOOGL/)
+- **NVDA:** $219.44 May 11 (+8.2%). +5% rung ($213) triggered; trail tightened to 4% from HWM. +10% rung $223.14 close — prepare partial. $500B US manufacturing + hyperscaler thesis intact. [Yahoo Finance](https://finance.yahoo.com/quote/NVDA/)
+- **UCO:** $47.59 May 12, prev close $44.47 — WTI slid from ~$104 (May 4) to ~$98 (May 11). 4% trail from HWM $51.06 = stop $49.02. UCO likely stopped between May 5–11. Energy thesis still valid (Hormuz ongoing) but oil retreating on fragile ceasefire signals.
+- **XLE:** $56.78 May 11, range low $53.41 since May 4. 4% trail stop was $57.20. Stop almost certainly triggered. Freed slot available.
+- **PLTR:** Reported Q1 May 4 AH — massive beat (EPS $0.33 vs $0.27 est, rev $1.63B vs $1.54B est, +85% YoY). Stock dropped -5.7% AH, currently $136.89. No entry confirmed (max slots May 4; stock dumped on valuation concern). [BusinessWire](https://www.businesswire.com/news/home/20260503338048/en/Palantir-Reports-Q1-2026-U.S.-Revenue-Growth-of-104-YY-and-Revenue-Growth-of-85-YY-Raises-FY-2026-Revenue-Guidance-to-71-YY-Growth-and-U.S.-Comm-Revenue-Guidance-to-120-YY-Crushing-Consensus-Expectations)
+
+### Trade Ideas
+
+1. **NVDA profit ladder — TAKE 25% at +10% rung ($223.14)** [IntraDay action]
+   - Current $219.44. +10% rung at $223.14 — sell 18 of 73 shares (~$4,017 realized)
+   - Tighten trail on remaining 55 shares to 5%
+   - Catalyst: AI capex cycle ($500B US manufacturing) intact; NVDA AI GPU demand confirmed
+   - Checklist: N/A — ladder execution, not new entry
+
+2. **UCO re-entry post-CPI (if cool print)** [Post-CPI setup]
+   - Catalyst: Hormuz blockade ongoing; WTI $98-105; Iran ceasefire fragile, not confirmed
+   - Entry: $48-50 range if WTI holds $98+ at open after cool CPI
+   - Stop: 4% trail from entry
+   - Target: +15% ($55-57) if WTI spikes back to $104-108
+   - Size: 5% leveraged (~$5K)
+   - Checklist: ✓ Catalyst ✓ Sector leading ✓ Stop identifiable ✓ R:R ~2.5:1 — **4/4 PASS (conditional on CPI)**
+
+3. **FNV (Franco-Nevada) — Materials sector BMO** [Conditional on earnings beat]
+   - Catalyst: Earnings today BMO; Materials sector leading YTD; gold royalty revenue inflated by oil/commodity macro
+   - Entry: VWAP hold 15 min post-open on confirmed beat
+   - Stop: 8% trail from entry
+   - Target: +15-20% (gold/materials sector momentum play)
+   - Size: 20-25% (~$20-25K if slots open)
+   - Checklist: ✓ Catalyst (earnings) ✓ Sector leading ✓ Stop identifiable ✓ R:R ~2:1 — **4/4 PASS (if beat confirmed)**
+
+### Risk Factors
+- **CPI hot (>0.3% core MoM):** Rate spike → tech compression → AAPL/AMZN/GOOGL/NVDA all at risk; stops could trigger
+- **Alpaca API inaccessible:** Cannot confirm live positions, stops, or cash. CRITICAL operational risk. Operator must add server IP to Alpaca allowlist immediately.
+- **Tech sector lagging YTD:** 4 of 5 equity positions are tech (AAPL/AMZN/GOOGL/NVDA) — sector headwind; momentum is working against us even if individual theses hold
+- **8-day log gap (May 5–11):** Unknown trades/stops may have changed portfolio composition significantly
+- **PLTR at $136.89:** If PLTR slot was taken on May 5, unrealized loss ~-5%; unclear from logs
+- **Hormuz ceasefire signals:** Oil could drop sharply on any formal deal; UCO/XLE exposure needs monitoring
+
+### Decision
+**TRADE** — HOLD criteria not met (VIX 18.41 < 35, futures -0.01% not -2%). CPI is known before market open at 8:30 AM ET.
+
+**At open (CPI cool — core ≤ 0.3%):**
+- Execute NVDA partial if $223.14 hit (ladder action)
+- Re-enter UCO if stopped (energy thesis intact, post-CPI strength confirms)
+- Evaluate FNV on confirmed earnings beat and VWAP hold
+- BTC: raise stop to 10% trail from new HWM when +5% rung ($81,893) hit
+
+**At open (CPI hot — core > 0.3%):**
+- Hold all. Let trailing stops protect. No new entries.
+- Review AAPL/NVDA for potential cuts if stops threaten (watch $282 AAPL, $197 NVDA)
+- Exit energy re-entry idea; oil would drop on rate-spike risk-off
+
+**Weekly trade budget:** 0/8 used (week of May 12). Plenty of room to act.
