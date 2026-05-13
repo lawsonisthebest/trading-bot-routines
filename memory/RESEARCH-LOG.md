@@ -463,6 +463,88 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 
 ---
 
+## 2026-05-13 — Pre-Market Research (Day 14, Wednesday)
+
+### Account (⚠️ API blocked — "Host not in allowlist" from this environment)
+Last known state from TRADE-LOG May 4 EOD. Actual state unknown for 9-day gap (May 5–12).
+- Equity: ~$100,539 (May 4 baseline; actual higher/lower depending on stop-outs)
+- Cash: ~$6,019 (May 4 known; may be higher if UCO/XLE stopped out)
+- Daytrade count: 0/3 (Mon May 11 weekly reset assumed)
+- Weekly equity trades: 0/8 (new week — Mon May 11 reset)
+
+### Estimated Position Status (trailing stops likely moved since May 4)
+| Symbol  | Entry    | May 4 Close | Est. Now  | Est. P&L% | Est. Stop      | Status |
+|---------|----------|-------------|-----------|-----------|----------------|--------|
+| AAPL    | $277.01  | $276.77     | $294.80   | +6.4%     | 8% trail       | ⚠️ TIGHTEN → 4% (+5% rung crossed at $290.86) |
+| AMZN    | $264.71  | $271.71     | ~$272     | +2.8%     | 8% trail       | Hold — thesis intact |
+| BTC/USD | $77,993  | $80,031     | ~$80,861  | +3.7%     | $68,634 fixed  | Hold — above stop |
+| GOOGL   | $371.51  | $383.09     | ~$385     | +3.6%     | 10% trail      | Hold — Cloud thesis intact |
+| NVDA    | $202.85  | $198.52     | ~$200     | -1.4%     | 10% trail $183 | Hold — earnings May 20, above -6% cut |
+| UCO     | $44.43   | $50.47      | $47.59    | +7.1%     | 4% trail ~$48.95 | ⚠️ LIKELY STOPPED OUT (below est. stop) |
+| XLE     | $56.82   | $59.42      | $57.58    | +1.3%     | 4% trail ~$57.20 | ⚠️ AT STOP — may have triggered |
+
+- [UCO price](https://stockanalysis.com/etf/uco/) / [XLE price](https://stockanalysis.com/etf/xle/) / [AAPL price](https://finance.yahoo.com/quote/AAPL/)
+
+### Market Context
+- **WTI:** ~$98–102/bbl | **Brent:** ~$107.05/bbl — Hormuz tensions ongoing; WTI pulled back from $106+ peak ([OilPrice API](https://www.oilpriceapi.com/oil-prices-today); [CNBC](https://www.cnbc.com/2026/05/12/oil-prices-today-brent-wti-trump-iran-war-hormuz.html))
+- **S&P 500:** 7,400.96 close May 11 — sank Monday on hot CPI; partial recovery May 12 ([TheStreet](https://www.thestreet.com/latest-news/stock-market-today-may-12-2026-updates))
+- **VIX:** 18.11 (+5.35%) — elevated but NOT panic; opened 18.77 today ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- **CPI April 2026** (released May 12): **3.8% YoY** — highest since May 2023 (vs. 3.3% March). Monthly +0.6%. Energy +3.8% (gas +28.4% YoY). Core +2.8% YoY. Rate hike probability by YE ~30%. ([CNBC](https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html); [BLS](https://www.bls.gov/news.release/cpi.nr0.htm))
+- **PPI April 2026** — releasing TODAY 8:30 AM ET. March PPI was +4.0% YoY (large). If hot again → yields spike, tech under pressure. ([BLS](https://www.bls.gov/ppi/))
+- **Trump–Xi Summit May 14–15 (Beijing):** Trade discussion expected; US–China bilateral board for trade/investment; ag purchases likely. No major breakthrough expected but positive tone = risk-on for tech/semis. Taiwan + Iran on agenda. ([CNBC](https://www.cnbc.com/2026/05/12/trump-xi-china-trade-iran-taiwan.html); [WaPo](https://www.washingtonpost.com/politics/2026/05/12/trump-xi-summit-economy/))
+- **NVDA Earnings May 20:** EPS est. $1.77, rev est. $78.8B. Hyperscalers committed $725B capex 2026 (+77% YoY). Blackwell $500B+ demand. Bull target $260–269. ([Motley Fool](https://www.fool.com/investing/2026/05/10/nvidia-reports-earnings-in-may-heres-why-im-loadin/); [NVDA Dev Journal](https://earezki.com/ai-financial-news/2026-05-12-nvda/))
+- **BTC:** ~$80,861 (May 12 data) — consolidating near $80K; thesis intact ([BlockchainReporter](https://blockchainreporter.net/bitcoin-price-today-btc-at-80860-after-failing-82000-again-the-biggest-week-of-2026-starts-now/))
+- **Sector momentum YTD:** Energy leading; Tech/XLK improving (NVDA/AI bid). Consumer Staples, Industrials also leading. Financials/Discretionary lagging. ([Investing.com sector rotation](https://www.investing.com/analysis/sector-rotation-a-guide-to-the-sp-500-momentum-status-200675903))
+
+### Earnings Today (May 13)
+- **BMO:** No mega-cap
+- **AMC:** CSCO (Cisco), BABA (Alibaba) — major names after close; both could move tech sentiment
+- ([EarningsWhispers](https://www.earningswhispers.com/calendar/20260513/3))
+
+### Trade Ideas
+
+1. **NVDA — PRE-EARNINGS LONG (primary)** — if equity slot opens (UCO stopped out)
+   - Catalyst: Earnings May 20; hyperscaler capex +77% YoY ($725B collective); Blackwell $500B+ confirmed orders; Rubin demand building. All HOLD criteria fail (VIX 18, no -2% futures, slot potentially open). ([Motley Fool](https://www.fool.com/investing/2026/05/10/should-you-buy-nvidia-stock-before-may-20-heres-wh/))
+   - Entry: ~$198–205 at open
+   - Stop: 8% trail (~$183–189)
+   - Target: $230–240 (+15–20%); take partial before May 20 close if at +10%
+   - Size: 15% (~$15K, ~75 shares at $200)
+   - R:R: ~2:1 to 2.5:1
+   - Checklist: ✓ Catalyst ✓ Sector not declining ✓ Stop identifiable ✓ R:R ≥1.5:1 — **4/4 PASS**
+   - Gate: only if equity slots ≤ 5 (requires UCO/XLE stop confirm); weekly trades 0/8 ✓; PDT 0/3 ✓
+
+2. **QCOM — TRUMP-XI TRADE DEAL PLAY (contingent)** — enter May 14–15 on summit outcome
+   - Catalyst: Trade deal = direct positive for QCOM (58% China revenue); semiconductor sector bid; tariff reduction on chips
+   - Entry: ~$235–240 post-deal confirmation
+   - Stop: 8% trail
+   - Target: $275+ (+15%)
+   - Size: 15% (~$15K)
+   - R:R: ~2:1
+   - Checklist: ✓ Catalyst (conditional) ✓ Sector ✓ Stop ✓ R:R — **4/4 IF deal confirmed**
+   - Do NOT enter today ahead of binary summit event
+
+3. **AAPL — PROFIT LADDER ACTION (existing position)**
+   - +5% rung hit at $290.86 (crossed; current $294.80)
+   - **ACTION REQUIRED:** Tighten trail 8% → 4% (cancel/replace GTC stop order)
+   - Next rung: +10% = $304.71 → take 25% off (13 of 53 shares)
+   - Not a new trade — position management
+
+### Risk Factors
+- **Hot CPI + PPI double-punch** — April CPI 3.8% (highest since May 2023); if PPI hot today → rate hike odds jump above 30%, yields spike, tech/growth positions under pressure (AAPL/AMZN/GOOGL/NVDA all at risk) ([CNBC](https://www.cnbc.com/2026/05/12/cpi-inflation-april-2026-.html))
+- **9-day log gap** — actual stop-outs unknown; UCO/XLE may have triggered; PLTR entry (planned May 5) unknown
+- **Trump-Xi summit failure** — if summit produces no progress or Taiwan confrontation, risk-off spike; semis sell-off
+- **NVDA pre-earnings risk** — any guidance leak or negative AI capex headline could reverse the pre-earnings run; earnings binary risk if holding through May 20
+- **BTC**: approaching $80K resistance; $82K+ was rejected per blockchain data; another failed test = possible pullback toward $75K
+- **Rate hike probability rising** (30%) — Fed more likely to hike if both CPI and PPI hot; inverted rate narrative = headwind for growth stocks
+
+### Decision
+**TRADE — conditional on PPI.**
+- VIX 18.11 (not >35 ✓), S&P not -2% (✓), qualified NVDA setup exists (✓)
+- **WAIT for PPI 8:30 AM ET.** If PPI ≤ +0.3% MoM (cooler): execute NVDA entry (15%, 8% trail) if UCO slot confirmed. If PPI ≥ +0.5% MoM (hot): HOLD new entries — inflation double punch + rate hike overhang is temporary hold condition.
+- **AAPL stop tighten: EXECUTE at open regardless of PPI** — 4% trail on 53 shares, cancel/replace GTC order (was 8% trail at $255.76; new target ~$283).
+
+---
+
 ## 2026-05-04 — Pre-Market Research (Day 9, Monday)
 
 ### Account
