@@ -463,6 +463,96 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 
 ---
 
+## 2026-05-14 — Pre-market Research (Day 15, Thursday)
+
+### ⚠️ Log Gap Notice
+- 10-day gap (May 5–13): Logging unavailable. Live account data unavailable — Alpaca API blocked by sandbox network policy ("Host not in allowlist").
+- Position status estimated from May 4 EOD state + today's market prices. Confirm live account before placing any orders.
+
+### Account (estimated — May 4 EOD base + price deltas)
+- Equity: ~$103,500 (est.) | Cash: ~$6,019 (est., may be higher if stops fired)
+- Last confirmed equity: $100,538.75 (May 4 EOD)
+- Daytrade count: 0/3 (est. weekly reset)
+- Weekly equity trades: 0/8 used this week (est.)
+- ⚠️ UCO 4% trail (HWM $51.06 → stop ~$49.02) may have triggered given ~$47 current price — **confirm**
+
+### Open Positions (estimated — May 4 state + live prices)
+| Symbol  | Qty     | Entry       | Current     | Est. Unrealized P&L    | Stop (last known)               |
+|---------|---------|-------------|-------------|------------------------|---------------------------------|
+| AAPL    | 53      | $277.01     | $298.87     | +$1,171 (+7.97%) ⚠️   | 8% trail ($255.76)              |
+| AMZN    | 94      | $264.71     | $270.10     | +$506 (+2.04%)         | 8% trail ($248.23)              |
+| BTC/USD | 0.12768 | $77,993.44  | $79,549     | +$199 (+1.99%)         | stop_limit $68,634/$68,225      |
+| GOOGL   | 39      | $371.51     | $399.18     | +$1,080 (+7.45%) ⚠️   | 10% trail ($348.64)             |
+| NVDA    | 73      | $202.85     | $227.80     | +$1,821 (+12.3%) 🔔    | 10% trail ($183.02)             |
+| UCO     | 84*     | $44.43      | ~$47 (est.) | ~+$216 (~+5.8%)* ⚠️  | 4% trail (HWM ~$51.06 → ~$49.02 trigger) |
+| XLE     | 175     | $56.82      | TBD         | TBD                    | 4% trail (~$57.20)              |
+
+*UCO/XLE live prices unconfirmed. UCO 4% trail from May 4 HWM $51.06 = trigger ~$49.02. Price ~$47 = stop likely fired. Confirm before orders.
+
+### ⚠️ Mandatory Profit-Ladder / Trail Actions at Open
+1. **NVDA — TAKE 25% OFF** (+12.3% ≥ +10% rung): Sell 18 of 73 shares at market. Keep 55 shares, new **5% trail GTC** from fill. NVDA Q2 earnings May 20 = catalyst intact; let remainder run.
+2. **GOOGL — TIGHTEN TRAIL** (+7.45% ≥ +5% rung): Cancel 10% trail; replace with **4% trail GTC** on 39 shares. Locks near $383 support.
+3. **AAPL — TIGHTEN TRAIL** (+7.97% ≥ +5% rung): Cancel 8% trail; replace with **4% trail GTC** on 53 shares. Locks near $287 area.
+
+### Market Context
+- **WTI:** $101.54 | **Brent:** $105.87 — Iran/Hormuz blockade ongoing; oil elevated; UCO YTD +130% ([OilPriceAPI](https://www.oilpriceapi.com/oil-prices-today), [CNBC](https://www.cnbc.com/2026/05/12/oil-prices-today-brent-wti-trump-iran-war-hormuz.html))
+- **S&P 500:** Near ATH; SPY hit record highs week of May 11 ([CNBC](https://www.cnbc.com/2026/05/08/stock-market-next-week-outlook-for-may-11-15-2026-.html))
+- **VIX:** 17.92 (-0.39%) — healthy, risk-on ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- **CPI April:** +3.8% YoY — HOT, above expectations; complicates rate-cut path ([Yahoo Finance](https://finance.yahoo.com/economy/policy/article/kevin-warsh-confirmed-new-fed-chair-as-inflation-kicks-higher-complicating-the-central-banks-path-164303609.html))
+- **PPI:** Soaring (recent print) — stagflation signals building ([Charles Schwab](https://www.schwab.com/learn/story/stock-market-update-open))
+- **30Y yield:** >5% — headwind for growth names and BTC
+- **Fed leadership:** Kevin Warsh confirmed Fed chair (54-45, May 13). **HAWKISH.** Powell exits May 15. Markets pricing ~33% chance rate HIKE by Dec 2026. First Warsh FOMC: June 16-17. ([CNBC](https://www.cnbc.com/2026/05/13/kevin-warsh-wins-senate-confirmation-as-the-next-federal-reserve-chair.html))
+- **Today's macro:** Retail Sales April at 8:30 AM ET (consumer demand after oil surge); Initial Claims 8:30 AM ET ([Catacal](https://www.catacal.com/catalyst/retail-sales-report-april-2026))
+- **US-India trade deal:** Tariffs cut 50% → 18%; positive for IT sector and broad risk-on ([LatestLY](https://www.latestly.com/business/stock-market-today-may-14-2026-sensex-hits-intraday-high-of-75071-nifty-gains-170-points-7429242.html))
+
+### Holdings News (May 5–14 gap)
+- **PLTR (AH May 4 beat):** EPS $0.33 vs $0.28 est; Rev $1.63B vs $1.54B est (+85% YoY); FY26 guidance $7.65B (+71%). Plan was to enter May 5 AM — confirm position status. ([Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/palantir-q1-2026-earnings-revenue-205048964.html))
+- **NVDA:** $227.80 (+12.3% from entry $202.85). ATH $217.80 hit May 8. AI capex cycle $650-725B in 2026; Q2 earnings May 20. ([FX Leaders](https://www.fxleaders.com/news/2026/05/12/nvidia-nvda-stock-forecast-2026-ai-capex-boom-hyperscaler-spending-strategic-partnerships-drive-nvda-price-surge/))
+- **GOOGL:** $399.18 (+7.45% from entry). Google/Alphabet + Microsoft in $3T club per Motley Fool.
+- **AAPL:** $298.87 (+7.97% from entry $277.01). Mega-cap AI/iPhone thesis intact.
+- **AMZN:** $270.10 (+2.04% from entry). AWS thesis intact.
+- **UCO/Energy:** UCO +130% YTD. Iran war ongoing, Hormuz closed, ~20M bbl/day disrupted. No peace deal. ([247 Wall St.](https://247wallst.com/investing/2026/05/12/up-130-ytd-this-etf-can-double-again-as-iran-war-has-no-end-in-sight/))
+- **BTC:** $79,549 (+1.99% from entry $77,993). Whale accumulation +16,622 BTC in May. $80K resistance. ([MEXC](https://www.mexc.com/news/1086003), [LatestLY](https://www.latestly.com/business/bitcoin-price-today-may-14-2026-btc-price-rises-to-usd-79549-as-bullish-momentum-targets-major-resistance-level-7429073.html))
+
+### Earnings Today
+- **AMAT (Applied Materials):** Reports AH — semiconductor equipment; AI capex beneficiary. Watch for tomorrow entry on beat. ([EarningsWhispers](https://www.earningswhispers.com/calendar/20260514/1))
+- 244 total reports today; no mega-cap BMO.
+
+### Sector Momentum
+- **Leading:** XLK (tech, AI infrastructure), Financials (Warsh bank-stock bid), Energy (XLE, Hormuz bid)
+- **Headwind:** Long-duration bonds, crypto (30Y >5%), consumer discretionary (CPI/PPI inflation)
+
+### Trade Ideas
+1. **NVDA partial exit** (mandatory — profit ladder +10% rung)
+   - Sell 18 shares @ market open; keep 55 shares, 5% trail GTC
+   - R:R for remainder: catalyst (Q2 May 20 earnings) intact; stop tightened
+   - Checklist: ✓ Catalyst ✓ Sector ✓ Stop ✓ R:R — act per rules
+
+2. **GOOGL trail tighten** (mandatory — +5% rung crossed)
+   - Cancel 10% trail → replace 4% trail GTC on 39 shares
+
+3. **AAPL trail tighten** (mandatory — +5% rung crossed)
+   - Cancel 8% trail → replace 4% trail GTC on 53 shares
+
+4. **AMAT** — watch for tomorrow entry if earnings beat confirmed tonight
+   - Catalyst: Q4/Q1 semiconductor equipment demand; AI capex cycle
+   - Entry: tomorrow AM pre-market on beat + positive guidance
+   - Stop: 8% trail below fill | Target: +15% | R:R: ~2:1
+   - Only execute if slot available (UCO/XLE confirmed stopped out)
+   - Checklist: ✓ Catalyst ✓ Sector (XLK leading) ✓ Stop identifiable ✓ R:R 2:1 — 4/4 if beat confirmed
+
+### Risk Factors
+- **Warsh hawkish** → rates higher-for-longer; 30Y >5% headwind for NVDA/GOOGL multiples and BTC
+- **CPI 3.8% + PPI soaring** → stagflation risk; rate hike 1-in-3 chance December
+- **Retail Sales 8:30 AM today** → hot print = inflation confirmation; cold print = demand destruction
+- **Log gap May 5–13** → unknown stop triggers, fills, or new entries; verify live account before trading
+- **NVDA Q2 earnings May 20** → holding 55 shares into binary event post-partial; plan to hold if thesis intact
+
+### Decision
+**TRADE** — 3 mandatory actions at open: NVDA 25% partial + GOOGL trail tighten + AAPL trail tighten. Rules-based, no discretion. VIX 17.92 (<<35 ✓), S&P near ATH (not down >2% ✓), setups qualified ✓. New equity entries: HOLD pending live account confirmation (log gap). AMAT queued as May 15 candidate if slot confirmed open.
+
+---
+
 ## 2026-05-04 — Pre-Market Research (Day 9, Monday)
 
 ### Account
