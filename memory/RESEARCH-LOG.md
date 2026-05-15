@@ -401,6 +401,89 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 
 ---
 
+## 2026-05-15 — Pre-Market Research
+
+### Account
+- **⚠️ API INACCESSIBLE**: Alpaca returns `host_not_allowed` (cloud environment IP not on paper account allowlist). Figures below are from last recorded state (May 4 EOD) + estimated drift.
+- Last known equity: $100,538.75 | Cash: $6,019 (5.99%) | Phase P&L: +$538.75 (+0.54%)
+- Daytrade count: unknown (reset weekly) — assume 0/3 available
+- Weekly equity trades: 0 used (new week)
+
+### Open Positions (last known May 4 EOD + estimated current)
+| Symbol  | Shares | Entry    | May 4 Close | Est. Now   | Est. Unreal | Stop           |
+|---------|--------|----------|-------------|------------|-------------|----------------|
+| AAPL    | 53     | $277.01  | $276.77     | ~$211*     | ~-24%⚠️    | 8% trail       |
+| AMZN    | 94     | $264.71  | $271.71     | ~$215*     | ~-19%⚠️    | 8% trail       |
+| BTC/USD | 0.12768| $77,993  | $80,031     | ~$82,000   | +5.1%       | $68,634 fixed  |
+| GOOGL   | 39     | $371.51  | $383.09     | ~$175*     | ~-53%⚠️    | 10% trail      |
+| NVDA    | 73     | $202.85  | $198.52     | ~$237.87   | +17.3%      | 10% trail $183 |
+| UCO     | 84     | $44.43   | $50.47      | ~$50+      | ~+13%       | 4% trail       |
+| XLE     | 175    | $56.82   | $59.42      | ~$59+      | ~+4%        | 4% trail       |
+
+*Note: AAPL/AMZN/GOOGL est. prices are rough — live data unavailable. Stops likely triggered if prices fell >8-10% from May 4 close. Must verify at market open.
+
+### Market Context
+- **WTI:** $102.45–$102.74/bbl (+1.3% today) — Hormuz still effectively closed; Xi offered to mediate ([CNBC](https://www.cnbc.com/2026/05/15/oil-prices-china-us-iran-strait-of-hormuz-middle-east.html))
+- **Brent:** $106.89–$107.30/bbl (+1.1–1.5%) — supply disruption sustained ([OilPriceAPI](https://www.oilpriceapi.com/oil-prices-today))
+- **S&P 500 futures:** ~7,521 | SPY closed at 7,501 yesterday (first close above 7,500) ([CNBC](https://www.cnbc.com/2026/05/13/stock-market-today-live-updates.html))
+- **VIX:** 17.90 (+0.17%) — elevated slightly; risk-on but caution into Fed chair change ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- **Fed Chair TODAY:** Powell → Warsh handover. Senate confirmed Warsh 54-45 on May 13. Market uncertainty around his hawkish-leaning stance; bank stocks rallied, 30Y yield pressured higher. ([Motley Fool](https://www.fool.com/investing/2026/05/14/big-changes-are-coming-to-the-federal-reserve-tomo/))
+- **Trump-Xi Summit:** China agreed to buy US crude; Xi offered to help broker Iran/Hormuz peace. Conditional ceasefire in place but strait still closed. Diplomatic de-escalation emerging = ⚠️ downside risk for UCO/XLE if deal closes. ([Time](https://time.com/article/2026/05/14/trump-xi-china-iran-strait-hormuz/), [CNBC](https://www.cnbc.com/2026/05/14/china-xi-trump-iran-war-oil-strait-hormuz-bessent.html))
+- **BTC:** ~$82,000 — 9 consecutive days net ETF inflows (~$2.7B total, 33-35K BTC absorbed). BlackRock IBIT + Fidelity FBTC leading. CLARITY Act regulatory progress. ([Bitcoin Magazine](https://bitcoinmagazine.com/markets/bitcoin-price-holds-near-82000), [Intellectia](https://intellectia.ai/blog/bitcoin-price-analysis-may-2026))
+- **NVDA:** $237.87 today (+17.3% from entry $202.85). Earnings May 20 AH. Consensus: $78.8B rev / $1.77 EPS. UBS sees $81B+, Q2 guide $90-91B. 97% beat probability (Polymarket). ([Motley Fool](https://www.fool.com/investing/2026/05/14/will-nvidia-beat-q1-earnings-on-may-20-heres-what/), [CNBC](https://www.cnbc.com/2026/05/14/ubs-hikes-nvidia-price-target-sees-strong-earnings-report-ahead.html))
+
+### Earnings Before Open Today (May 15)
+- ~98 reports scheduled; no mega-cap BMO today. ([EarningsWhispers](https://www.earningswhispers.com/calendar/20260515/1))
+- Market focus is on Trump-Xi summit outcome and Fed chair handover.
+
+### Economic Releases Today (May 15)
+- **US Industrial Production (April)** — released AM; energy-sector relevant
+- **UMich Preliminary Consumer Sentiment** — 10 AM ET; prior record low 49.8 is the compare; any recovery = risk-on ([Newsquawk](https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar-11th---15th-may-2026))
+- CPI released May 12 (headline 3.7% YoY), PPI released May 13 — already in market
+
+### Sector Momentum (YTD)
+- **Leading:** Energy (XLE), Materials (XLB), Consumer Staples (XLP), Industrials (XLI) ([Investing.com](https://www.investing.com/analysis/sector-rotation-a-guide-to-the-sp-500-momentum-status-200675903))
+- **Recovering:** Tech (XLK) — AI optimism from hyperscaler capex; NVDA up 20% in a month
+- **Watch:** Financials rallying on Warsh/bank deregulation expectations
+
+### Trade Ideas
+
+1. **NVDA — PARTIAL PROFIT + HOLD THROUGH EARNINGS** ([24/7 Wall St.](https://247wallst.com/investing/2026/05/14/nvidia-is-up-20-in-a-month-could-the-may-20-earnings-report-knock-it-right-back-down/))
+   - At +17.3% from entry: profit ladder +10% rung is overdue. Sell 25% (18 shares) at market open.
+   - Tighten trail: 10% → 5% on remaining 55 shares per strategy.
+   - Hold remainder through May 20 earnings: 97% beat probability, multi-day AI capex catalyst (not a one-day event). Thesis intact.
+   - Entry: already in | Partial sell ~$237 | Remaining stop: 5% trail
+   - R:R remaining: strong — $269 analyst PT, UBS $90B+ Q2 guide
+
+2. **BTC/USD — STOP UPDATE** ([Intellectia](https://intellectia.ai/blog/bitcoin-price-analysis-may-2026))
+   - BTC at $82,000 (+5.1% from entry $77,993). At +5% rung: tighten trail.
+   - Alpaca crypto: no trailing stop type. Raise fixed stop from $68,634 → ~$72,160 (-12% of $82K).
+   - Cancel order 27bd426d; place new stop_limit GTC: trigger $72,160 / limit $71,700.
+   - ETF demand absorbing 4,500-5,000 BTC/day vs 450 mined. Structural bid intact.
+
+3. **UCO/XLE — WATCH FOR THESIS BREAK** ([CNBC](https://www.cnbc.com/2026/05/14/china-xi-trump-iran-war-oil-strait-hormuz-bessent.html))
+   - Hormuz still closed; oil $102/bbl. Energy thesis intact.
+   - ⚠️ RISK: Xi offered to mediate Iran peace → if deal materializes, WTI -20-30% drop. Stops at 4% trail lock near break-even.
+   - No new energy entries — already deployed. Monitor stops closely if Hormuz de-escalation headlines hit.
+
+### Risk Factors
+- **Warsh Fed (TODAY):** Hawkish pivot risk → 30Y yield spike → growth stocks NVDA/AMZN/GOOGL headwind. Market uncertain. ([Motley Fool](https://www.fool.com/investing/2026/05/12/will-the-federal-reserve-crash-the-stock-market-3/))
+- **Hormuz de-escalation:** Xi-brokered peace deal = energy supply return = UCO/XLE thesis break. Stops protect but be ready to cut.
+- **NVDA earnings (May 20):** Options pricing large move. +17% unrealized → partial exit reduces binary risk; holding remainder is justified by thesis.
+- **API access gap:** 11 days of positions unmonitored from this environment. Some stops may have triggered (AAPL, AMZN, GOOGL if they pulled back >8-10%). Must verify live positions at market open manually.
+- **Cash constraint:** Only $6K cash as of May 4. Even if NVDA partial frees $4.3K, insufficient for new 25% position (~$25K). No new equity entries unless a stop triggers first.
+- **Renaissance Tech exited AMZN in Q1** ([Seeking Alpha](https://seekingalpha.com/news/4593435-renaissance-technologies-adds-apple-exits-amazon-boosts-nvidia-stake-in-q1-among-other-trades)) — bearish institutional signal; monitor AMZN closely.
+
+### Decision
+**TRADE (position management only):**
+- ✅ Sell 18 NVDA shares at open (profit ladder +10% rung, overdue)
+- ✅ Raise BTC stop: cancel $68,634, place new stop_limit $72,160/$71,700
+- ✅ Hold UCO/XLE with tight 4% trails; watch Hormuz headlines
+- ❌ No new equity entries (insufficient cash; max positions likely still full)
+- VIX 17.9 (< 35 ✓), S&P futures +0.2% (> -2% ✓), Warsh transition = mild caution but not HOLD trigger
+
+---
+
 ## 2026-04-30 — Intraday Scan Addendum (11:00 ET)
 
 ### Macro Data Released Today
