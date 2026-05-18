@@ -559,3 +559,108 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 - **Execute at open:** Sell 28 shares UCO (profit ladder +10%)
 - **Execute at open:** Buy AAPL (primary) or PANW (backup) — 15% position, 8% trailing stop
 - **Watch tonight:** PLTR earnings; plan entry for 2026-05-05 pre-market if beat
+
+---
+
+## 2026-05-18 — Pre-market Research
+
+> ⚠️ Alpaca API blocked (network policy — `host_not_allowed`). Account snapshot uses May 04 EOD as last known baseline; current P&L estimated from live market prices via WebSearch.
+
+### Account (last known: May 04 EOD + estimates)
+- Equity: ~$106,000–108,000 est. (baseline $100,539 May 04)
+- Cash: $6,019 (5.99% — last known; no trades logged since May 04)
+- Deployed: ~94% across 6 equity + 1 crypto
+- Daytrade count: 0/3 (fresh day)
+- Weekly equity trades: 0/8 (new week)
+
+### Open Positions (estimated current prices)
+| Symbol  | Shares | Entry    | Est. Current | Est. Unreal P&L | Stop              | Status |
+|---------|--------|----------|--------------|-----------------|-------------------|--------|
+| AAPL    | 53     | $277.01  | ~$300        | +8.4% ⚠️        | 8% trail          | ⚠️ TIGHTEN → 4% (+5% rung crossed) |
+| AMZN    | 94     | $264.71  | ~$278–283    | +5–7%           | 8% trail          | Hold — AWS thesis intact |
+| GOOGL   | 39     | $371.51  | ~$396–403    | +6.8–8.5% ⚠️   | 10% trail         | ⚠️ TIGHTEN → 4% (+5% rung $390.09 crossed) |
+| NVDA    | 73     | $202.85  | ~$238–243    | +17–20% ⚠️🔴   | 10% trail         | 🔴 LADDER: +10% rung hit; earnings May 20 AH binary risk |
+| UCO     | 84     | $44.43   | ~$51–53      | +15–19%         | 4% trail          | Hold — Hormuz thesis intact |
+| XLE     | 175    | $56.82   | ~$60–62      | +5–9%           | 4% trail          | Hold — oil elevated |
+| BTC/USD | 0.12768| $77,993  | $76,869      | -1.4%           | $68,634 fixed     | Monitor — below entry; rate fears |
+
+### Market Context
+- **WTI:** $105.42/bbl (range $101–106) — Hormuz still effectively closed ([OilPriceAPI](https://www.oilpriceapi.com/live/brent-crude-oil-price))
+- **Brent:** $111.15/bbl (range $110–112) — OPEC production cut 30% = 9.7M bpd offline ([CNBC](https://www.cnbc.com/2026/05/13/opec-oil-strait-hormuz-iran-war-saudi-arabia-uae.html))
+- **Hormuz:** Conditional ceasefire but only 5% of normal traffic. US Navy Project Freedom paused May 6 on "great progress" signals — oil thesis intact but de-escalation risk elevated ([Wikipedia/Hormuz Crisis](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis))
+- **S&P 500:** Last close May 15 = 7,408.50, -1.24% — yields + oil combo pressuring indices ([Trading Economics](https://tradingeconomics.com/united-states/stock-market))
+- **VIX:** 18.43 (May 15 close, +6.78%) — rising, still below 35 HOLD threshold ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- **10Y/30Y Yields:** Near 1-year highs — major headwind for growth stocks + BTC ([Schwab](https://www.schwab.com/learn/story/stock-market-update-open))
+- **DXY:** ~98.16, weak — modest tailwind for BTC/commodities
+- **BTC:** $76,869 (-1%) — below $80K; $527M liquidations; rate hike fears + whale selling ([LatestLY](https://www.latestly.com/business/bitcoin-price-today-may-18-2026-btc-price-down-to-usd-76869-amid-rate-hike-fears-and-whale-profit-taking-liquidate-long-positions-7434711.html))
+
+### Earnings Today (May 18)
+- ~50 companies reporting; **no mega-caps BMO** — light day
+- Key look-ahead: **NVDA reports Q1 FY27 May 20 AH** (biggest event of the week)
+- **Walmart** reports May 21 (retail bellwether)
+
+### Economic Calendar This Week
+| Date | Event | Notes |
+|------|-------|-------|
+| Mon May 18 | No major releases | Light day |
+| Wed May 20 | **FOMC Minutes** | 8-4 hawkish split — rate hike risk; Powell era over, Warsh in charge |
+| Wed May 20 | **NVDA Earnings AH** | Q1 FY27 rev est $78B, EPS $1.76; guide est $87B — 97% beat prob but bar VERY high |
+| Thu May 21 | Housing starts, Building permits | |
+| Thu May 21 | Initial jobless claims, Philly Fed | |
+| Thu May 21 | S&P Flash PMIs | |
+
+Sources: [IG Week Ahead](https://www.ig.com/en-ch/news-and-trade-ideas/week-ahead--18-may-2026-260515), [LiteFinance](https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-18052026-24052026/)
+
+### Sector Momentum (YTD 2026)
+- **Leading:** XLK (tech) +55% YTD; Energy holding on Hormuz; Communication Services
+- **Lagging/Pressured:** Growth/tech under yield headwind; Industrials dropped rank
+- **Note:** Tech led by AI names (NVDA +20% in a month, AAPL ATH, AMZN toward $3T, GOOGL ATH); but rising yields threatening to cap the rally
+
+Sources: [Schwab Sector Views](https://www.schwab.com/learn/story/stock-sector-outlook), [TradingKey May Winners](https://www.tradingkey.com/analysis/stocks/us-stocks/261902586-biggest-stock-winners-may-2026-breakout-plays-to-watch-next-week-tradingkey)
+
+### Ticker News (held positions)
+- **AAPL** $300.23 (May 15 close, ATH): Q2 rev $111.2B (+17% YoY), iPhone +22% — post-earnings rally sustained. WWDC 2026 next catalyst. CEO transition (Ternus → Sep 1). Strong Buy. ([Zacks](https://www.zacks.com/stock/news/2919208/what-makes-apple-aapl-a-new-buy-stock))
+- **AMZN** toward $3T market cap (36% rally from March lows): AWS +28% YoY ($37.6B Q1), 79/83 analysts Buy, avg PT $313. Capex $200B+ risk. ([Bloomberg](https://www.bloomberg.com/news/articles/2026-05-14/amazon-s-ai-success-sends-stock-racing-toward-3-trillion-club))
+- **GOOGL** $396.78 (ATH $402.62 May 13): Cloud +63%, $462B backlog, 22% revenue growth Q1. Re-rating in progress. PT ~$420. ([Motley Fool](https://www.fool.com/investing/2026/05/17/great-news-this-magnificent-7-stock-may-still-have/), [Trefis](https://www.trefis.com/stock/googl/articles/599414/why-the-market-is-re-rating-google-stock/2026-05-14))
+- **NVDA** up ~20% in a month (~$238–243 est.): Reports Q1 FY27 May 20 AH. Rev est $78B, EPS $1.76, Q2 guide est $87B. 97% beat prob already priced in — "buy rumor sell news" risk high after 20% run. Key metric: gross margin + China commentary. ([24/7 Wall St.](https://247wallst.com/investing/2026/05/14/nvidia-is-up-20-in-a-month-could-the-may-20-earnings-report-knock-it-right-back-down/), [HeyGoTrade](https://www.heygotrade.com/en/blog/nvidia-q1-fy27-earnings-preview-may-20-2026/))
+- **UCO/XLE:** Hormuz conditional ceasefire, 5% of normal shipping, OPEC -30% production. WTI $105, Brent $111. Thesis intact but Project Freedom pause = diplomatic off-ramp risk.
+- **BTC** $76,869: -1.4% from entry. Rate hike fears (FOMC hawkish 8-4 split) + whale profit-taking + $527M liquidations. Long-term holders absorbing. Stop $68,634 intact.
+
+### Trade Ideas
+
+1. **NVDA — TAKE 25% PARTIAL BEFORE EARNINGS** (not a new trade — profit ladder + binary risk)
+   - Entry $202.85 → current ~$238–243 = +17–20% — above +10% rung trigger ($223.14)
+   - Rule: sell 25% of 73 shares = **18 shares** at market open Mon. Keep 55 shares with 5% trail
+   - Rationale: NVDA up 20% in a month; 97% beat prob already priced in; FOMC minutes + earnings same day Wed = double binary risk; "buy the rumor sell the news" explicitly documented in research
+   - R:R on holding full position into Wed: asymmetric downside vs capped upside — mandatory partial
+   - **Checklist for partial:** ✓ profit ladder rule triggered (>+10%) ✓ binary earnings event ✓ FOMC same day ✓ documented "sell the news" risk pattern
+
+2. **AAPL — TIGHTEN TRAIL 8% → 4%** (position management)
+   - Entry $277.01, +5% rung = $290.86, current ~$300 (+8.4%) — rung crossed
+   - Action: cancel 8% trail GTC, replace with 4% trail. Locks gains more aggressively.
+
+3. **GOOGL — TIGHTEN TRAIL 10% → 4%** (position management)
+   - Entry $371.51, +5% rung = $390.09, current ~$396–403 (+6.8–8.5%) — rung crossed
+   - Action: cancel 10% trail GTC, replace with 4% trail.
+
+4. **No new equity entries** — 6/6 slots filled. Even with NVDA partial, no slot opens (still hold NVDA).
+
+5. **BTC/USD — HOLD** — at -1.4%, well above -12% cut level. Stop $68,634 intact. Rate hike fears are a headwind but long-term holder absorption + ETF structural bid intact. No action.
+
+### Risk Factors
+- **NVDA earnings binary** (Wed May 20 AH): After 20% monthly run + 97% beat prob priced, downside risk on "good but not great" — stock fell after last Q's beat; options pricing ±10%+ move
+- **FOMC minutes hawkish** (Wed May 20): 8-4 split vote on dovish language — explicit rate hike risk; spikes yields = sell growth/tech; pressure on AAPL, AMZN, GOOGL, BTC
+- **Rising 10Y/30Y near 1-year highs**: Sustained headwind for all growth names and BTC; S&P already -1.24% on May 15 from this
+- **Hormuz diplomatic off-ramp**: Project Freedom paused May 6 on "great progress" — sudden ceasefire = WTI -20%+ = UCO/XLE stops triggered
+- **BTC under $80K**: Rate fears + whale selling; if FOMC minutes signal rate hike, BTC could test $68K stop
+- **AAPL CEO transition**: Ternus takes over Sep 1 — Wall Street positive but risk of uncertainty discount
+
+### Decision
+**HOLD** — max equity positions (6/6). No new entries possible. Execute required position management:
+- 🔴 **NVDA: Sell 18 shares** (25% partial, profit ladder >+10% + pre-earnings de-risk). Tighten trail to 5% on 55 remaining shares.
+- ⚠️ **AAPL: Tighten trail 8% → 4%** (+5% rung crossed).
+- ⚠️ **GOOGL: Tighten trail 10% → 4%** (+5% rung crossed).
+- Hold AMZN, UCO, XLE with existing stops.
+- Hold BTC — above -12% cut level; stop $68,634 valid.
+- VIX 18.43 < 35 ✓ but rising; no open equity slot; no new entries warranted.
+- Watch NVDA earnings + FOMC minutes Wednesday as dual binary risk events.
