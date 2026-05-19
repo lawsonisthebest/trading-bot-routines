@@ -463,6 +463,94 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 
 ---
 
+## 2026-05-19 — Pre-Market Research (Day 19, Monday)
+
+### Account (ESTIMATED — Alpaca API blocked from remote env; IP not in allowlist)
+- Last confirmed snapshot: May 04 EOD — equity $100,538.75, cash $6,019.19 (5.99%)
+- Estimated equity (mark-to-market using web prices): ~$103,500–104,500
+- Estimated phase P&L: ~+$3,500–4,500 (+3.5–4.5%)
+- Daytrade count: 0/3 (weekly reset — Monday)
+- Weekly equity trades: 0/8 (reset)
+- ⚠️ Live account state unavailable — manual Alpaca check required before placing orders
+
+### Open Positions (estimated prices, web-sourced)
+| Symbol  | Qty     | Entry       | Est. Current | Est. Unreal P&L     | Stop (as-of May 04)         |
+|---------|---------|-------------|--------------|---------------------|-----------------------------|
+| AAPL    | 53      | $277.01     | ~$297.36     | +7.4%               | 8% trail, stop ~$273 (trail update needed) |
+| AMZN    | 94      | $264.71     | ~$266.81     | +0.8%               | 8% trail, stop ~$245–246    |
+| BTC/USD | 0.12768 | $77,993     | ~$80,500     | +3.2%               | stop_limit $68,634/$68,225  |
+| GOOGL   | 39      | $371.51     | ~$395–404    | +6.5–8.8%           | 10% trail, stop ~$355–364   |
+| NVDA    | 73      | $202.85     | ~$222.75     | **+9.8% ⚠️ LADDER** | 10% trail, stop ~$200        |
+| UCO     | 84      | $44.43      | ~$51.45      | **+15.8% ⚠️ LADDER**| 4% trail, stop ~$49.39       |
+| XLE     | 175     | $56.82      | ~$60.58      | +6.6%               | 4% trail, stop ~$58.16       |
+
+**Ladder flags:**
+- NVDA: +10% rung = $223.14 — at the cusp today. TAKE 25% (18 shares) when crossed. Earnings AH tomorrow (May 20) = binary risk. Reduce exposure per rules.
+- UCO: +10% partial already taken May 04. +20% rung = $53.32. Not yet hit. Iran deal risk active (see below).
+
+### Market Context
+- **WTI:** ~$107.35/bbl | **Brent:** ~$111/bbl — Hormuz crisis ongoing, but Trump halted "Project Freedom" ~May 6 citing Iran deal progress. Oil elevated but **deal risk is live**. ([Fortune](https://fortune.com/article/price-of-oil-05-15-2026/), [TradingEconomics](https://tradingeconomics.com/commodity/crude-oil))
+- **S&P 500 futures:** 7,383.25 (~flat) — SPX YTD +10% through May 14. ([Investing.com](https://www.investing.com/indices/us-spx-500-futures))
+- **VIX:** ~18.43 (May 15 close) — normal range; below 35 threshold. ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- **10Y Treasury:** 4.60% (+1bp) | **30Y:** >5.0% — yields rising, rate hike odds at 45%. Headwind for growth names. ([FRED](https://fred.stlouisfed.org/series/DGS10), [Investing.com](https://investing.com/analysis/sp-500-pullback-looks-more-like-a-rates-problem-than-panic-200680413))
+- **DXY:** ~98 — weak dollar, mild BTC/commodity tailwind.
+- **BTC:** ~$80K+ range, down 1.05% in last 24h. ([Fortune](https://fortune.com/article/price-of-bitcoin-05-15-2026/))
+- **Hormuz:** IRGC redefined Strait as "vast operational area"; US sank 6 Iranian boats in reopening attempt; Trump then halted the operation citing deal progress (~May 6). Traffic still ~trickle (191 vessels in April vs 3,000 normal). ([Wikipedia](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis), [Fox News](https://www.foxnews.com/live-news/iran-war-news-trump-strait-hormuz-oil-prices-project-freedom-may-6))
+- **Earnings BMO today:** 40 reports scheduled; no mega-cap names BMO. ([EarningsWhispers](https://www.earningswhispers.com/calendar/20260519/1))
+- **NVDA earnings AH tomorrow (May 20):** EPS est. $1.78 (+120% YoY), rev est. $79.2B (+79.5% YoY). Key: Q2 2027 guidance est. $87B. 97% beat probability priced in — bar is high; guidance matters most. ([Motley Fool](https://www.fool.com/investing/2026/05/18/nvidias-next-earnings-report-on-may-20-could-send/), [IndexBox](https://www.indexbox.io/blog/nvidia-q1-2026-earnings-preview-strong-ai-demand-points-to-upside/))
+- **Sector momentum YTD:** XLK (tech) leading. Healthcare second. Energy reversing off highs but Hormuz keeps UCO/XLE bid. Returns highly concentrated — top 10 names = 78% of SPX YTD return. ([Benzinga](https://www.benzinga.com/markets/equities/26/05/52631836/sp500-momentum-rally-historical-analysis-goldman-sachs-2026))
+
+### Ticker Updates
+- **AAPL:** $297.36 (May 18), Q2 revenue record $111.2B, WWDC June catalyst pending. Buy consensus 28 analysts, target $305–400. Approaching +10% rung ($304.71). ([FX Leaders](https://www.fxleaders.com/news/2026/05/12/apple-aapl-stock-forecast-iphone-momentum-and-services-strength-drive-optimism/))
+- **NVDA:** $222.75 intraday (May 19), +9.8% from entry. Up ~20% in past month. Earnings AH May 20 — high bar. ([24/7 Wall St.](https://247wallst.com/investing/2026/05/14/nvidia-is-up-20-in-a-month-could-the-may-20-earnings-report-knock-it-right-back-down/))
+- **UCO:** ~$51.45 (May 18–19), +15.8% from entry. Up 21–23% past month on Hormuz. +20% rung at $53.32 not yet hit. ([StockAnalysis](https://stockanalysis.com/etf/uco/))
+- **XLE:** $60.58 (May 18), +6.6% from entry. 4% trail intact. ([Investing.com](https://www.investing.com/etfs/spdr-energy-select-sector-fund))
+- **AMZN:** ~$266.81 (May 18), +0.8% from entry. Flat/range-bound. ([Yahoo Finance](https://finance.yahoo.com/quote/AMZN/))
+- **GOOGL:** ~$395–404 (May 18–19), +6.5–8.8% from entry. Approaching +10% rung at $408.66. ([Google Finance](https://google.com/finance/quote/GOOGL:NASDAQ))
+- **BTC/USD:** ~$80K+, +3.2% from entry. Stop $68,634/$68,225 intact. ([Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD/history/))
+
+### Trade Ideas
+
+1. **NVDA — TAKE 25% PARTIAL at +10% rung ($223.14)** [Motley Fool, 24/7 Wall St.]
+   - Action: SELL 18 of 73 shares at/above $223.14 (already at $222.75 — rung will be crossed at open)
+   - Reason: Profit ladder rule. Binary earnings AH tomorrow (May 20) — reducing position cuts binary risk
+   - After sale: 55 shares remain; tighten trail to 5% from 10%
+   - NOT a new trade; profit ladder execution
+
+2. **AAPL — watch +10% rung trigger ($304.71)** [FX Leaders, Zacks]
+   - AAPL at $297.36 — $7.35 (2.5%) from trigger
+   - If $304.71 crossed intraday: SELL 13 of 53 shares; tighten trail to 5%
+   - WWDC June catalyst intact; no cut warranted; just ladder compliance
+
+3. **GOOGL — watch +10% rung trigger ($408.66)** [Google Finance]
+   - GOOGL at ~$395–404 — $5–14 from trigger
+   - If $408.66 crossed: SELL 10 of 39 shares; tighten trail to 5%
+   - Cloud +63% thesis fully intact; no cut warranted
+
+4. **UCO — assess Iran deal risk, tighten trail** [Fox News, Wikipedia]
+   - UCO at +15.8%, +20% rung at $53.32 not yet hit
+   - Trump halted Project Freedom citing Iran deal progress — if deal signed, WTI -20–30%
+   - ACTION: If any Iran deal headline breaks, manually verify stop is in place and consider moving trail to 3%
+   - Do NOT add to position given deal risk
+
+### Risk Factors
+- **NVDA earnings binary (May 20 AH):** High bar ($79.2B rev est, $87B Q2 guidance est). Miss on guidance = AI-complex selloff. Entire portfolio exposed (AMZN, GOOGL AI theses affected).
+- **Iran deal / oil collapse:** Trump halted Project Freedom. If deal materializes → WTI -20–30% → UCO/XLE stops triggered near break-even. Sudden event risk.
+- **Rising rates:** 10Y at 4.60%, 30Y >5.0%, Fed rate hike odds 45%. Headwind for all growth longs (AMZN, GOOGL, NVDA, AAPL).
+- **SPX momentum overextension:** Goldman Sachs noted record momentum rally — historical reversal signal. ([Benzinga](https://www.benzinga.com/markets/equities/26/05/52631836/sp500-momentum-rally-historical-analysis-goldman-sachs-2026))
+- **Alpaca API blocked:** Cannot place/manage orders programmatically from this environment. All order management requires manual execution via Alpaca dashboard or CLI from an allowed IP.
+
+### Decision
+**TRADE (profit ladder only) — no new positions.**
+- VIX 18.43 (<35 ✓), futures flat (not -2% ✓), but: max equity positions (6/6) + insufficient cash (~$6K) blocks new entries
+- Required actions at open:
+  1. SELL 18 NVDA @ market (execute +10% ladder, pre-earnings binary risk reduction)
+  2. WATCH AAPL $304.71 and GOOGL $408.66 for ladder triggers intraday
+  3. WATCH UCO for Iran deal headlines — tighten trail to 3% if deal progress accelerates
+- Bias: Patience on exits. Ladder rules > opinions.
+
+---
+
 ## 2026-05-04 — Pre-Market Research (Day 9, Monday)
 
 ### Account
