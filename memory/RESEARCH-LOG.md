@@ -153,6 +153,92 @@ HOLD all. No changes. Crypto stop $68,634 remains valid at -12% below entry.
 
 ---
 
+## 2026-05-20 — Pre-market Research
+
+### ⚠️ API Status
+- Alpaca and ClickUp APIs: **BLOCKED** — cloud container IP not in allowlist (`host_not_allowed`).
+- Live account data unavailable. Using May 04 EOD snapshot as baseline.
+- **ACTION REQUIRED:** Add cloud container IP to Alpaca (and ClickUp) allowlist to restore live data.
+
+### Account (last known — May 04 EOD baseline)
+- Equity: ~$100,539 | Cash: ~$6,019 (6%) | Deployed: ~94%
+- Daytrade count: unknown (assume reset — 0/3)
+- Weekly equity trades: 0/8 (weekly reset Mon May 18)
+- **All figures estimated; stop levels may have trailed since May 04**
+
+### Open Positions (estimated current state)
+
+| Symbol  | Shares | Entry     | ~May 19 Close | ~Unreal P&L | Est. Stop (trail) | Note |
+|---------|--------|-----------|---------------|-------------|-------------------|------|
+| AAPL    | 53     | $277.01   | $298.97       | +$1,165 (+7.9%) | 8% trail ~$275 | ATH $300.23 May 15 |
+| AMZN    | 94     | $264.71   | $259.34       | -$505 (-2.0%)   | 8% trail ~$256  | ⚠️ Stop close — 52wk high $278.56 → 8% trail ≈ $256.28 |
+| BTC/USD | 0.12768| $77,993   | $76,985       | -$129 (-1.3%)   | stop_limit $68,634/$68,225 | Far above stop |
+| GOOGL   | 39     | $371.51   | $384.27       | +$498 (+3.4%)   | 10% trail ~$346-358 | Cloud thesis intact |
+| NVDA    | 73     | $202.85   | $220.61       | +$1,297 (+8.7%) | past +5% rung — tighten to 4% trail | **EARNINGS TODAY AH** |
+| UCO     | 84     | $44.43    | ~$52.01       | +$637 (+17.1%)  | 4% trail ~$49-50 | ⚠️ Approaching +20% rung ($53.32) |
+| XLE     | 175    | $56.82    | ~$74-76 est.  | ~+30% est.      | 4% trail ~$71-73 | YTD +34% |
+
+### Market Context
+- **WTI:** ~$103/bbl (slipped) | **Brent open:** $111.06/bbl — Hormuz still partially closed; IEA: depleting global inventories at record pace ([OilPrice.com](https://oilprice.com/), [24/7 Wall St.](https://247wallst.com/investing/2026/05/12/up-130-ytd-this-etf-can-double-again-as-iran-war-has-no-end-in-sight/))
+- **S&P 500 futures:** -0.38% (ESM26) — modest selloff; S&P 500 closed 7,352 May 19, -0.69% ([CNBC Pre-Markets](https://www.cnbc.com/pre-markets/), [Trading Economics](https://tradingeconomics.com/united-states/stock-market))
+- **VIX:** 18.06 (+1.35%) — elevated but below danger zone ([Yahoo Finance](https://finance.yahoo.com/quote/%5EVIX/))
+- **30Y Treasury yield:** 5.19% — **18-year high** (+0.01 today); bond vigilantes active on inflation fears ([Fortune](https://fortune.com/2026/05/19/bond-yields-30-year-vigilantes-inflation-kevin-warsh/), [Trading Economics](https://tradingeconomics.com/united-states/30-year-bond-yield))
+- **10Y Treasury:** ~4.5% est. (in line with 30Y trend)
+- **DXY:** weak — tailwind for BTC and risk assets
+- **BTC:** $76,985–$77,137 — flat, range-bound near $77K ([OKX](https://www.okx.com/en-us/price/bitcoin-btc))
+- **Sector momentum (YTD):** Industrials, Energy, Materials, Consumer Staples **Leading**; Tech (XLK), Comms, Discretionary **Lagging**; Semis/AI names driving 85% of S&P 500 return from only 10 names ([Benzinga/Goldman Sachs](https://www.benzinga.com/markets/equities/26/05/52631836/sp500-momentum-rally-historical-analysis-goldman-sachs-2026), [Investing.com](https://www.investing.com/analysis/sector-rotation-a-guide-to-the-sp-500-momentum-status-200675903))
+
+### Earnings Today (May 20)
+- **BMO (before open):** 39 companies — no mega-cap names identified ([EarningsWhispers](https://www.earningswhispers.com/calendar/20260520/3))
+- **AH (after close):** **NVDA** — Q1 FY2027 results. EPS est: $1.76 (+120% YoY), Rev est: $78.75B (+80% YoY). "Strong Buy" consensus, 12-mo target $275.83. THIS IS THE MARKET EVENT OF THE WEEK. ([Kiplinger](https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-may-2026), [Intellectia AI](https://intellectia.ai/blog/nvidia-earnings-preview-may-20-2026))
+
+### Economic Calendar
+- **FOMC Minutes** — released today; final Powell-era minutes before Warsh takes over ([TheStreet](https://www.thestreet.com/stock-market-today/stock-market-today-may-19-2026-updates))
+- No CPI/PPI/Jobs data today — clean macro except minutes
+- Consumer inflation rose to 3-year high in April; PPI soared above expectations ([Trading Economics](https://tradingeconomics.com/united-states/calendar))
+
+### Portfolio Management Actions Required (open signals)
+
+| Action | Ticker | Trigger | Details |
+|--------|--------|---------|---------|
+| TIGHTEN TRAIL | NVDA | NOW (past +5% rung) | Tighten 10% → 4% trail from current HWM. +5% rung = $212.99, passed. |
+| TAKE 25% PARTIAL | UCO | $53.32 (+20% rung) | Sell 21 shares (25% of 84). Current ~$52.01 — close. |
+| MONITOR STOP | AMZN | ~$256.28 est. | 8% trail from 52wk high $278.56. $259.34 close is only $3 above likely stop. One down day stops this out. |
+| HOLD | NVDA | AH tonight | Do NOT cut before earnings print. -6% cut level = $190.68; well above that at $220. |
+| HOLD | AAPL | — | +7.9% unrealized; past +5% rung → should verify 4% trail is active |
+| HOLD | BTC | — | -1.3% from entry; far above $68,634 stop |
+
+### Trade Ideas
+
+1. **NVDA reaction trade (tomorrow AM)** — If NVDA beats tonight (EPS >$1.90, Rev >$80B, strong Q2 guidance), thesis massively reconfirmed. Current position 73 shares (+8.7%). No new entry today — hold what we have and monitor stop tighten. Post-beat: evaluate tightening to 4% trail at new HWM tomorrow open.
+   - Checklist: ✓ Catalyst (earnings beat expected) ✓ Sector (semis leading YTD) ✓ Stop identifiable ✓ R:R — **4/4 if beat confirmed**
+   - Constraint: 6/6 equity slots filled — no add without exiting another position
+
+2. **UCO partial profit at $53.32** — +20% rung per strategy. Sell 21 shares (25% of 84 remaining). Tighten trail to 4% on remaining 63 shares. Hormuz thesis intact — WTI still elevated.
+   - Not a new trade; mandatory profit-ladder execution
+
+3. **Inverse ETF hedge (contingent)** — If 30Y yield spikes above 5.3% or S&P 500 breaks below 7,200, consider 10% position in SPXS or SQQQ as portfolio hedge. 30Y at 5.19% is already near inflection; FOMC minutes could accelerate.
+   - Entry: only if 30Y ≥ 5.3% AND SPY breaks below 7,200 (confirms rate-shock repricing)
+   - Stop: 5% trail | Target: hedge partial offset on tech drawdown | Size: 10% ($10K est.)
+   - Constraint: no cash or equity slot currently available; requires exiting a position first
+
+### Risk Factors
+- **30Y yield at 5.19% (18-yr high)** — single biggest macro risk; bond vigilantes targeting Warsh-era inflation overshoot; major headwind for AMZN, GOOGL, NVDA, BTC ([Fortune](https://fortune.com/2026/05/19/bond-yields-30-year-vigilantes-inflation-kevin-warsh/))
+- **NVDA binary risk tonight** — miss or weak Q2 guidance would gap stock -10%+; existing 73-share position directly exposed; no hedge possible at max slots
+- **AMZN stop very close** (~$256.28 est.) — a -1.2% down day stops it out; AMZN -2% from avg entry; worth manual review at open
+- **BTC below entry** (-1.3%) — 30Y at 5.19% is a structural headwind for crypto; stop at $68,634 still far away but thesis pressure building
+- **S&P momentum concentration** — 78% of YTD return from 10 names; any AI-sentiment shock cascades into broad selloff
+- **API down** — cannot confirm live stops or position state; priority fix before next market-open routine
+
+### Decision
+**HOLD** on new entries. No cash available (~$6K), 6/6 equity slots filled.
+- **Immediate actions:** Tighten NVDA trail (10% → 4%), monitor UCO for $53.32 partial trigger, watch AMZN stop closely at open.
+- **Tonight:** NVDA earnings are the event. Stay in position — thesis (AI GPU dominance, hyperscaler dependency) intact; +8.7% buffer above entry provides cushion.
+- **Tomorrow AM:** If NVDA beats, hold and tighten trail. If NVDA misses badly (guidance cut, AI capex reversal), evaluate cutting at open if thesis broken.
+- HOLD criteria check: VIX 18.06 < 35 ✓, SPY futures -0.38% (not -2%) ✓ → default = TRADE, but max positions + no cash → structural constraint forces HOLD.
+
+---
+
 ## 2026-04-22 — Pre-market Research
 
 ### Account
